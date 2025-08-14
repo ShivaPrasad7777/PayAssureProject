@@ -74,14 +74,14 @@ public class InsurerController {
             String razorpayPaymentId = paymentEntity.getString("id");
             String razorpayOrderId = paymentEntity.getString("order_id");
             String status = "success";
-
+            System.out.println("hi");
             billingService.verifyPayment(razorpayPaymentId, razorpayOrderId, status);
             return new ResponseEntity<>("Payment verified and processed", HttpStatus.OK);
         }
 
         return new ResponseEntity<>("Webhook event received but not processed", HttpStatus.OK);
     }
-
+  
     // NEW: Fetch unpaid customers
     @GetMapping("/customers/unpaid")
     public ResponseEntity<List<CustomerSummary>> getUnpaidCustomers() {

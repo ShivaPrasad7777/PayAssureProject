@@ -55,7 +55,8 @@ public class NotificationController {
         String policyId = body.get("policyId");
         String policyName = body.get("policyName");
         String expiryDate = body.get("expiryDate");
-
+        System.out.println("hi");
+        System.out.println("hi");
         if (toEmail == null || policyId == null || expiryDate == null || policyName == null) {
             return ResponseEntity.badRequest().body("Missing required fields");
         }
