@@ -58,6 +58,7 @@ public class LoginController {
                     customer.getCreatedAt()
                 );
                 // Add customer-specific fields if needed
+                System.out.println("what is this");
             } else {
                 return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
             }
@@ -109,7 +110,7 @@ public class LoginController {
 //
 //import training.iqgateway.dto.LoginRequest;
 //import training.iqgateway.dto.LoginResponse;
-//import training.iqgateway.service.LoginService;
+
 //
 //@RestController
 //@RequestMapping("/api/login")
