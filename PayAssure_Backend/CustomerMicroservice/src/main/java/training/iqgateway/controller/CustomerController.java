@@ -86,7 +86,7 @@ public class CustomerController {
                         policyIds.add(policyIdsJson.getString(i));
                     }
                 }
-
+                System.out.println("hi");
                 List<String> policyNames = new ArrayList<>();
                 if (policyNamesJson != null) {
                     for (int i = 0; i < policyNamesJson.length(); i++) {

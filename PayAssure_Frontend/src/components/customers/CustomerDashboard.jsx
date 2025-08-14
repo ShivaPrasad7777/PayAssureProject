@@ -59,7 +59,7 @@ function getPolicyIconAndImage(policyName = "") {
   if (lower.includes("life")) return { icon: <PeopleIcon />, image: IMAGE_URLS.life };
   return { icon: <PolicyIcon />, image: IMAGE_URLS.default };
 }
-
+console.log("Hii")
 // Helper to find validUpto date for each policy from paymentHistory
 function getNextPaymentValidUpto(policyId, paymentHistory) {
   if (!paymentHistory || !Array.isArray(paymentHistory)) return null;
