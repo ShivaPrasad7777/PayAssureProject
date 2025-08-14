@@ -58,7 +58,7 @@ public class LoginController {
                     customer.getCreatedAt()
                 );
                 // Add customer-specific fields if needed
-                System.out.println("what is this");
+                System.out.println("Testing the git");
             } else {
                 return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
             }
