@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_5M5BsHevEfCrKuVL4Yb6uQ">
+  <modelElement href="NotificationMicroservice.uml#_5c2wUHevEfCrKuVL4Yb6uQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5oexgHevEfCrKuVL4Yb6uQ" sourceAnchor="284.0,0.0" targetAnchor="362.0,293.0" target="_5omtUHevEfCrKuVL4Yb6uQ" source="_5oexiXevEfCrKuVL4Yb6uQ">
+    <modelElement href="NotificationMicroservice.uml#_5gZzkHevEfCrKuVL4Yb6uQ"/>
+    <stereotypes xmi:id="_5oexgXevEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="NotificationMicroservice.uml#_5gbBsHevEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_5oexgnevEfCrKuVL4Yb6uQ" text="">
+      <visualProperties xmi:id="_6YIFwnevEfCrKuVL4Yb6uQ" position="2.0,-42.57142857142857"/>
+    </nameVisual>
+    <sourceRole xmi:id="_5oexg3evEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="">
+      <modelElement href="NotificationMicroservice.uml#_5gZzkXevEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6YIFwXevEfCrKuVL4Yb6uQ" position="2.0,-71.33333333333331"/>
+      <visibility xmi:id="_5oexhHevEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5oexhXevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5oexhnevEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="notificationService" navigable="true">
+      <modelElement href="NotificationMicroservice.uml#_5gNmUHevEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6YIs0HevEfCrKuVL4Yb6uQ" position="-113.0,22.333333333333343"/>
+      <visibility xmi:id="_5oexh3evEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5oexiHevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5ok4IHevEfCrKuVL4Yb6uQ" source="_5omtUHevEfCrKuVL4Yb6uQ">
+    <modelElement href="NotificationMicroservice.uml#_5gbBsXevEfCrKuVL4Yb6uQ"/>
+    <stereotypes xmi:id="_5ok4IXevEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="NotificationMicroservice.uml#_5gbowHevEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_5ok4InevEfCrKuVL4Yb6uQ" text=""/>
+    <sourceRole xmi:id="_5ok4I3evEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="">
+      <modelElement href="NotificationMicroservice.uml#_5gbBsnevEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_5ok4JHevEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5ok4JXevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5ok4JnevEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="log" navigable="true">
+      <modelElement href="NotificationMicroservice.uml#_5gO0cHevEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_5ok4J3evEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5ok4KHevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5omGQHevEfCrKuVL4Yb6uQ" source="_5omtUHevEfCrKuVL4Yb6uQ">
+    <modelElement href="NotificationMicroservice.uml#_5gcP0HevEfCrKuVL4Yb6uQ"/>
+    <stereotypes xmi:id="_5omGQXevEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="NotificationMicroservice.uml#_5gc24HevEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_5omGQnevEfCrKuVL4Yb6uQ" text=""/>
+    <sourceRole xmi:id="_5omGQ3evEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="">
+      <modelElement href="NotificationMicroservice.uml#_5gcP0XevEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_5omGRHevEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5omGRXevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5omGRnevEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="mailSender" navigable="true">
+      <modelElement href="NotificationMicroservice.uml#_5gPbgHevEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_5omGR3evEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5omGSHevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5otbAHevEfCrKuVL4Yb6uQ" sourceAnchor="202.0,0.0" targetAnchor="703.0,293.0" target="_5omtUHevEfCrKuVL4Yb6uQ" source="_5oweWXevEfCrKuVL4Yb6uQ">
+    <modelElement href="NotificationMicroservice.uml#_5geFAXevEfCrKuVL4Yb6uQ"/>
+    <stereotypes xmi:id="_5ouCE3evEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="NotificationMicroservice.uml#_5gesEHevEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_5ouCEHevEfCrKuVL4Yb6uQ" text="">
+      <visualProperties xmi:id="_6YJT4HevEfCrKuVL4Yb6uQ" position="-82.0,4.999999999999986"/>
+    </nameVisual>
+    <sourceRole xmi:id="_5ouCEXevEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="">
+      <modelElement href="NotificationMicroservice.uml#_5geFAnevEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6YIs0XevEfCrKuVL4Yb6uQ" position="-17.0,-49.5"/>
+      <visibility xmi:id="_5ovQMXevEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5ovQMHevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5ouCEnevEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="notificationService" navigable="true">
+      <modelElement href="NotificationMicroservice.uml#_5gQpoXevEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6YJT4XevEfCrKuVL4Yb6uQ" position="2.0,0.5"/>
+      <visibility xmi:id="_5ovQM3evEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5ovQMnevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5ov3QHevEfCrKuVL4Yb6uQ" source="_5oweWXevEfCrKuVL4Yb6uQ">
+    <modelElement href="NotificationMicroservice.uml#_5gc24XevEfCrKuVL4Yb6uQ"/>
+    <stereotypes xmi:id="_5ov3QXevEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="NotificationMicroservice.uml#_5geFAHevEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_5ov3QnevEfCrKuVL4Yb6uQ" text=""/>
+    <sourceRole xmi:id="_5ov3Q3evEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="">
+      <modelElement href="NotificationMicroservice.uml#_5gc24nevEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_5ov3RHevEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5ov3RXevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5ov3RnevEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="mockMvc" navigable="true">
+      <modelElement href="NotificationMicroservice.uml#_5gQCkHevEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_5ov3R3evEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5ov3SHevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5oweUHevEfCrKuVL4Yb6uQ" source="_5oweWXevEfCrKuVL4Yb6uQ">
+    <modelElement href="NotificationMicroservice.uml#_5gesEXevEfCrKuVL4Yb6uQ"/>
+    <stereotypes xmi:id="_5oweUXevEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="NotificationMicroservice.uml#_5gfTIHevEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_5oweUnevEfCrKuVL4Yb6uQ" text=""/>
+    <sourceRole xmi:id="_5oweU3evEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="">
+      <modelElement href="NotificationMicroservice.uml#_5gesEnevEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_5oweVHevEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5oweVXevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5oweVnevEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="objectMapper" navigable="true">
+      <modelElement href="NotificationMicroservice.uml#_5gQppHevEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_5oweV3evEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5oweWHevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5oexiXevEfCrKuVL4Yb6uQ" name="NotificationController" associationsOut="_5oexgHevEfCrKuVL4Yb6uQ">
+    <modelElement href="NotificationMicroservice.uml#_5dZi4HevEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_5oexinevEfCrKuVL4Yb6uQ" position="567.0,174.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_5oexi3evEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="NotificationMicroservice.uml#_5daJ8HevEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_5oexjHevEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="NotificationMicroservice.uml#_5db_IHevEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_5oexjXevEfCrKuVL4Yb6uQ" label="+"/>
+    <attributes xmi:id="_5oexjnevEfCrKuVL4Yb6uQ" name="notificationService">
+      <modelElement href="NotificationMicroservice.uml#_5gNmUHevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5oexj3evEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="NotificationMicroservice.uml#_5gONYHevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5oexkHevEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5oexkXevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5oexknevEfCrKuVL4Yb6uQ" name="NotificationService">
+        <modelElement href="NotificationMicroservice.uml#_5dg3oHevEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_5oexk3evEfCrKuVL4Yb6uQ" name="sendEmail">
+      <modelElement href="NotificationMicroservice.uml#_5gAyAHevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5oexlHevEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="NotificationMicroservice.uml#_5gBZEHevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5oexlXevEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="NotificationMicroservice.uml#_5gCnMnevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5oexlnevEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5oexl3evEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5oexmHevEfCrKuVL4Yb6uQ">
+        <modelElement href="NotificationMicroservice.uml#_5gCAIHevEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5oexmXevEfCrKuVL4Yb6uQ" name="ResponseEntity">
+          <modelElement href="NotificationMicroservice.uml#_5ftQAXevEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5oexmnevEfCrKuVL4Yb6uQ" name="body">
+        <modelElement href="NotificationMicroservice.uml#_5gAyAXevEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5oexm3evEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5oexnHevEfCrKuVL4Yb6uQ" name="Map">
+          <modelElement href="NotificationMicroservice.uml#_5fvFMXevEfCrKuVL4Yb6uQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5oexnXevEfCrKuVL4Yb6uQ" name="sendAutoPayStatus">
+      <modelElement href="NotificationMicroservice.uml#_5gDOQHevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5oexnnevEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="NotificationMicroservice.uml#_5gDOQnevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5oexn3evEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="NotificationMicroservice.uml#_5gEcYnevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5oexoHevEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5oexoXevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5oexonevEfCrKuVL4Yb6uQ">
+        <modelElement href="NotificationMicroservice.uml#_5gD1UHevEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5oexo3evEfCrKuVL4Yb6uQ" name="ResponseEntity">
+          <modelElement href="NotificationMicroservice.uml#_5ftQAXevEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5oexpHevEfCrKuVL4Yb6uQ" name="body">
+        <modelElement href="NotificationMicroservice.uml#_5gDOQXevEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5oexpXevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5oexpnevEfCrKuVL4Yb6uQ" name="Map">
+          <modelElement href="NotificationMicroservice.uml#_5fvFMXevEfCrKuVL4Yb6uQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5oexp3evEfCrKuVL4Yb6uQ" name="sendPaymentStatus">
+      <modelElement href="NotificationMicroservice.uml#_5gEcZXevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5oexqHevEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="NotificationMicroservice.uml#_5gFDcXevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5oexqXevEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="NotificationMicroservice.uml#_5gGRknevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5oexqnevEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5oexq3evEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5oexrHevEfCrKuVL4Yb6uQ">
+        <modelElement href="NotificationMicroservice.uml#_5gFDcnevEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5oexrXevEfCrKuVL4Yb6uQ" name="ResponseEntity">
+          <modelElement href="NotificationMicroservice.uml#_5ftQAXevEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5oexrnevEfCrKuVL4Yb6uQ" name="body">
+        <modelElement href="NotificationMicroservice.uml#_5gFDcHevEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5oexr3evEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5oexsHevEfCrKuVL4Yb6uQ" name="Map">
+          <modelElement href="NotificationMicroservice.uml#_5fvFMXevEfCrKuVL4Yb6uQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5oexsXevEfCrKuVL4Yb6uQ" name="sendPolicyExpiryNotification">
+      <modelElement href="NotificationMicroservice.uml#_5gGRlXevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5oexsnevEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="NotificationMicroservice.uml#_5gG4oHevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5oexs3evEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="NotificationMicroservice.uml#_5gIGw3evEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5oextHevEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5oextXevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5oextnevEfCrKuVL4Yb6uQ">
+        <modelElement href="NotificationMicroservice.uml#_5gHfsHevEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5oext3evEfCrKuVL4Yb6uQ" name="ResponseEntity">
+          <modelElement href="NotificationMicroservice.uml#_5ftQAXevEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5oexuHevEfCrKuVL4Yb6uQ" name="body">
+        <modelElement href="NotificationMicroservice.uml#_5gGRlnevEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5oexuXevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5oexunevEfCrKuVL4Yb6uQ" name="Map">
+          <modelElement href="NotificationMicroservice.uml#_5fvFMXevEfCrKuVL4Yb6uQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5oweWXevEfCrKuVL4Yb6uQ" name="NotificationControllerTest" associationsOut="_5otbAHevEfCrKuVL4Yb6uQ _5ov3QHevEfCrKuVL4Yb6uQ _5oweUHevEfCrKuVL4Yb6uQ">
+    <modelElement href="NotificationMicroservice.uml#_5dtr8nevEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_5oweWnevEfCrKuVL4Yb6uQ" position="990.0,109.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_5oweW3evEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="NotificationMicroservice.uml#_5du6EHevEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_5oweXHevEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="NotificationMicroservice.uml#_5d4EAHevEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_5oweXXevEfCrKuVL4Yb6uQ" label="+"/>
+    <attributes xmi:id="_5oweXnevEfCrKuVL4Yb6uQ" name="mockMvc">
+      <modelElement href="NotificationMicroservice.uml#_5gQCkHevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5oweX3evEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="NotificationMicroservice.uml#_5gQCkXevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5oweYHevEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5oweYXevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5oweYnevEfCrKuVL4Yb6uQ" name="MockMvc">
+        <modelElement href="NotificationMicroservice.uml#_5f7ScXevEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5oweY3evEfCrKuVL4Yb6uQ" name="notificationService">
+      <modelElement href="NotificationMicroservice.uml#_5gQpoXevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5oweZHevEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="NotificationMicroservice.uml#_5gQponevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5oweZXevEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5oweZnevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5oweZ3evEfCrKuVL4Yb6uQ" name="NotificationService">
+        <modelElement href="NotificationMicroservice.uml#_5dg3oHevEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5oweaHevEfCrKuVL4Yb6uQ" name="objectMapper">
+      <modelElement href="NotificationMicroservice.uml#_5gQppHevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5oweaXevEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="NotificationMicroservice.uml#_5gRQsHevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5oweanevEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5owea3evEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5owebHevEfCrKuVL4Yb6uQ" name="ObjectMapper">
+        <modelElement href="NotificationMicroservice.uml#_5f4PIHevEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_5owebXevEfCrKuVL4Yb6uQ" name="testSendEmail_Success">
+      <modelElement href="NotificationMicroservice.uml#_5dwIMHevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5owebnevEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="NotificationMicroservice.uml#_5dwvQHevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5oweb3evEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5owecHevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5owecXevEfCrKuVL4Yb6uQ" name="testSendAutoPayStatus_Success">
+      <modelElement href="NotificationMicroservice.uml#_5dx9YHevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5owecnevEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="NotificationMicroservice.uml#_5dykcHevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5owec3evEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5owedHevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5owedXevEfCrKuVL4Yb6uQ" name="testSendPaymentStatus_Success">
+      <modelElement href="NotificationMicroservice.uml#_5dzLgHevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5owednevEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="NotificationMicroservice.uml#_5dzykHevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5owed3evEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5oweeHevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5oweeXevEfCrKuVL4Yb6uQ" name="testSendPaymentStatus_AmountNull_Success">
+      <modelElement href="NotificationMicroservice.uml#_5d0ZoHevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5oweenevEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="NotificationMicroservice.uml#_5d1AsHevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5owee3evEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5owefHevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5owefXevEfCrKuVL4Yb6uQ" name="testSendPolicyExpiryNotification_Success">
+      <modelElement href="NotificationMicroservice.uml#_5d1nwHevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5owefnevEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="NotificationMicroservice.uml#_5d2O0HevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5owef3evEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5owegHevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5owegXevEfCrKuVL4Yb6uQ" name="testSendPolicyExpiryNotification_MissingFields_BadRequest">
+      <modelElement href="NotificationMicroservice.uml#_5d214HevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5owegnevEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="NotificationMicroservice.uml#_5d3c8HevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5oweg3evEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5owehHevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5omtUHevEfCrKuVL4Yb6uQ" name="NotificationService" associationsIn="_5oexgHevEfCrKuVL4Yb6uQ _5otbAHevEfCrKuVL4Yb6uQ" associationsOut="_5ok4IHevEfCrKuVL4Yb6uQ _5omGQHevEfCrKuVL4Yb6uQ">
+    <modelElement href="NotificationMicroservice.uml#_5dg3oHevEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_5omtUXevEfCrKuVL4Yb6uQ" position="489.0,-234.0" size="724.0,293.0"/>
+    <stereotypes xmi:id="_5omtUnevEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="NotificationMicroservice.uml#_5diFwHevEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_5omtU3evEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="NotificationMicroservice.uml#_5dnlUHevEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_5omtVHevEfCrKuVL4Yb6uQ" label="+"/>
+    <attributes xmi:id="_5omtVXevEfCrKuVL4Yb6uQ" defaultValue="LoggerFactory.getLogger(NotificationService.class)" name="log" staticAttribute="true">
+      <modelElement href="NotificationMicroservice.uml#_5gO0cHevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5omtVnevEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="NotificationMicroservice.uml#_5gO0cnevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5omtV3evEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5omtWHevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5omtWXevEfCrKuVL4Yb6uQ" name="Logger">
+        <modelElement href="NotificationMicroservice.uml#_5fw6YHevEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5omtWnevEfCrKuVL4Yb6uQ" name="mailSender">
+      <modelElement href="NotificationMicroservice.uml#_5gPbgHevEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_5omtW3evEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5omtXHevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5omtXXevEfCrKuVL4Yb6uQ" name="JavaMailSender">
+        <modelElement href="NotificationMicroservice.uml#_5fyvknevEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5omtXnevEfCrKuVL4Yb6uQ" name="fromEmail">
+      <modelElement href="NotificationMicroservice.uml#_5gPbgXevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5omtX3evEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="NotificationMicroservice.uml#_5gPbgnevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5omtYHevEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5omtYXevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5omtYnevEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_5omtY3evEfCrKuVL4Yb6uQ" name="sendEmail">
+      <modelElement href="NotificationMicroservice.uml#_5dis0HevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5omtZHevEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="NotificationMicroservice.uml#_5djT43evEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5omtZXevEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5omtZnevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5omtZ3evEfCrKuVL4Yb6uQ" name="toEmail">
+        <modelElement href="NotificationMicroservice.uml#_5djT4HevEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5omtaHevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5omtaXevEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5omtanevEfCrKuVL4Yb6uQ" name="subject">
+        <modelElement href="NotificationMicroservice.uml#_5djT4XevEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5omta3evEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5omtbHevEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5omtbXevEfCrKuVL4Yb6uQ" name="body">
+        <modelElement href="NotificationMicroservice.uml#_5djT4nevEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5omtbnevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5omtb3evEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5omtcHevEfCrKuVL4Yb6uQ" name="sendAutoPayStatusEmail">
+      <modelElement href="NotificationMicroservice.uml#_5dj68HevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5omtcXevEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="NotificationMicroservice.uml#_5dlJEHevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5omtcnevEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5omtc3evEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5omtdHevEfCrKuVL4Yb6uQ" name="toEmail">
+        <modelElement href="NotificationMicroservice.uml#_5dj68XevEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5omtdXevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5omtdnevEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5omtd3evEfCrKuVL4Yb6uQ" name="policyId">
+        <modelElement href="NotificationMicroservice.uml#_5dkiAHevEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5omteHevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5omteXevEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5omtenevEfCrKuVL4Yb6uQ" name="policyName">
+        <modelElement href="NotificationMicroservice.uml#_5dkiAXevEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5omte3evEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5omtfHevEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5omtfXevEfCrKuVL4Yb6uQ" name="enabled">
+        <modelElement href="NotificationMicroservice.uml#_5dkiAnevEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5omtfnevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5omtf3evEfCrKuVL4Yb6uQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5omtgHevEfCrKuVL4Yb6uQ" name="sendPolicyExpiryEmail">
+      <modelElement href="NotificationMicroservice.uml#_5dmXMHevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5omtgXevEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="NotificationMicroservice.uml#_5dm-QHevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5omtgnevEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5omtg3evEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5omthHevEfCrKuVL4Yb6uQ" name="toEmail">
+        <modelElement href="NotificationMicroservice.uml#_5dmXMXevEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5omthXevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5omthnevEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5omth3evEfCrKuVL4Yb6uQ" name="policyId">
+        <modelElement href="NotificationMicroservice.uml#_5dmXMnevEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5omtiHevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5omtiXevEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5omtinevEfCrKuVL4Yb6uQ" name="policyName">
+        <modelElement href="NotificationMicroservice.uml#_5dmXM3evEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5omti3evEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5omtjHevEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5omtjXevEfCrKuVL4Yb6uQ" name="expiryDate">
+        <modelElement href="NotificationMicroservice.uml#_5dmXNHevEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5omtjnevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5omtj3evEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5omtkHevEfCrKuVL4Yb6uQ" name="NotificationService">
+      <modelElement href="NotificationMicroservice.uml#_5gJU4HevEfCrKuVL4Yb6uQ"/>
+      <keywords xmi:id="_5omtkXevEfCrKuVL4Yb6uQ" keyword="create"/>
+      <stereotypes xmi:id="_5omtknevEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="NotificationMicroservice.uml#_5gJU5XevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5omtk3evEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5omtlHevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5omtlXevEfCrKuVL4Yb6uQ">
+        <modelElement href="NotificationMicroservice.uml#_5gJU5HevEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5omtlnevEfCrKuVL4Yb6uQ" name="NotificationService">
+          <modelElement href="NotificationMicroservice.uml#_5dg3oHevEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5omtl3evEfCrKuVL4Yb6uQ" name="mailSender">
+        <modelElement href="NotificationMicroservice.uml#_5gJU4XevEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5omtmHevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5omtmXevEfCrKuVL4Yb6uQ" name="JavaMailSender">
+          <modelElement href="NotificationMicroservice.uml#_5fyvknevEfCrKuVL4Yb6uQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5omtmnevEfCrKuVL4Yb6uQ" name="sendPaymentStatusEmail">
+      <modelElement href="NotificationMicroservice.uml#_5gKjAHevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5omtm3evEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="NotificationMicroservice.uml#_5gKjBnevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5omtnHevEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5omtnXevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5omtnnevEfCrKuVL4Yb6uQ" name="toEmail">
+        <modelElement href="NotificationMicroservice.uml#_5gKjAXevEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5omtn3evEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5omtoHevEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5omtoXevEfCrKuVL4Yb6uQ" name="customerName">
+        <modelElement href="NotificationMicroservice.uml#_5gKjAnevEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5omtonevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5omto3evEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5omtpHevEfCrKuVL4Yb6uQ" name="invoiceId">
+        <modelElement href="NotificationMicroservice.uml#_5gKjA3evEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5omtpXevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5omtpnevEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5omtp3evEfCrKuVL4Yb6uQ" name="status">
+        <modelElement href="NotificationMicroservice.uml#_5gKjBHevEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5omtqHevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5omtqXevEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5omtqnevEfCrKuVL4Yb6uQ" name="amount">
+        <modelElement href="NotificationMicroservice.uml#_5gKjBXevEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5omtq3evEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5omtrHevEfCrKuVL4Yb6uQ" name="Double">
+          <modelElement href="NotificationMicroservice.uml#_5gJ78XevEfCrKuVL4Yb6uQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5oYq4HevEfCrKuVL4Yb6uQ" name="NotificationMicroserviceApplication">
+    <modelElement href="NotificationMicroservice.uml#_5dTcQHevEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_5oYq4XevEfCrKuVL4Yb6uQ" position="304.0,200.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_5oYq4nevEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="NotificationMicroservice.uml#_5dVRcHevEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_5oYq43evEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="NotificationMicroservice.uml#_5dY70HevEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_5oYq5HevEfCrKuVL4Yb6uQ" label="+"/>
+    <operations xmi:id="_5oYq5XevEfCrKuVL4Yb6uQ" name="main" staticOperation="true">
+      <modelElement href="NotificationMicroservice.uml#_5dXGoXevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5oYq5nevEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="NotificationMicroservice.uml#_5dYUwHevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5oYq53evEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5oYq6HevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5oYq6XevEfCrKuVL4Yb6uQ" name="args">
+        <modelElement href="NotificationMicroservice.uml#_5dXtsHevEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5oYq6nevEfCrKuVL4Yb6uQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_5oYq63evEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5osM4HevEfCrKuVL4Yb6uQ" name="NotificationMicroserviceApplicationTests">
+    <modelElement href="NotificationMicroservice.uml#_5dqooHevEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_5osM4XevEfCrKuVL4Yb6uQ" position="659.0,355.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_5osM4nevEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="NotificationMicroservice.uml#_5dr2wHevEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_5osM43evEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="NotificationMicroservice.uml#_5dtr8HevEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_5osM5HevEfCrKuVL4Yb6uQ" label="~"/>
+    <operations xmi:id="_5osM5XevEfCrKuVL4Yb6uQ" name="contextLoads">
+      <modelElement href="NotificationMicroservice.uml#_5dsd0HevEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5osM5nevEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="NotificationMicroservice.uml#_5dtE4HevEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5osM53evEfCrKuVL4Yb6uQ" label="~"/>
+      <cardinality xmi:id="_5osM6HevEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5o3zEHevEfCrKuVL4Yb6uQ" name="Exception">
+    <modelElement href="NotificationMicroservice.uml#_5gLxIHevEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_5o3zEXevEfCrKuVL4Yb6uQ" position="425.0,101.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_5o3zEnevEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="NotificationMicroservice.uml#_5gMYMHevEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_5o3zE3evEfCrKuVL4Yb6uQ" label="+"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

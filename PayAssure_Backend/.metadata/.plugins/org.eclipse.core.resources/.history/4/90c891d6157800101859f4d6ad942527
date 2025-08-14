@@ -1,0 +1,15 @@
+package training.iqgateway;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+@SpringBootApplication
+@EnableJpaRepositories(basePackages = "training.iqgateway.repository")
+public class LoginMicroserviceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(LoginMicroserviceApplication.class, args);
+	}
+
+}

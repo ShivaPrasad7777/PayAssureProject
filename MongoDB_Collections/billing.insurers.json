@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "687f29c778ea00b1e56602d8"
+  },
+  "companyName": "iQG Insurance Ltd.",
+  "name": "Surya",
+  "email": "surya@insurer.com",
+  "password": "Welcome@1401",
+  "phone": "022-12345678",
+  "address": "45 Andheri East, Mumbai",
+  "role": "insurer",
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-21T09:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "687f29c778ea00b1e56602d9"
+  },
+  "companyName": "iQG Insurance Ltd.",
+  "name": "Delhi Underwriter",
+  "email": "delhi.underwriter@insurer.com",
+  "password": "123",
+  "phone": "011-98765432",
+  "address": "12 Connaught Place, Delhi",
+  "role": "insurer",
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-21T10:00:00.000Z"
+  }
+}]

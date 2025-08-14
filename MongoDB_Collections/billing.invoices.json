@@ -1,0 +1,793 @@
+[{
+  "_id": {
+    "$oid": "688f95d4ca5217a33895c41e"
+  },
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 7080,
+  "status": "paid",
+  "validUpto": {
+    "$date": "2026-02-03T17:01:07.272Z"
+  },
+  "razorpayOrderId": "order_R0w6bRc18Ya71b",
+  "taxDetailsList": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "gstRate": 0.18,
+      "taxAmount": 1080,
+      "totalAmount": 7080
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-03T17:01:08.831Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "paymentLink": "https://rzp.io/rzp/J1TwJkBl",
+  "months": 6,
+  "razorpaySubscriptionId": "",
+  "_class": "training.iqgateway.entity.Invoice"
+},
+{
+  "_id": {
+    "$oid": "688f9655ca5217a33895c41f"
+  },
+  "customerId": "687f2a440ad9a21eee3bb481",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1180,
+  "status": "paidByCash",
+  "validUpto": {
+    "$date": "2025-09-03T17:03:16.185Z"
+  },
+  "razorpayOrderId": "order_R0w8rFc9plyc6i",
+  "taxDetailsList": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "gstRate": 0.18,
+      "taxAmount": 180,
+      "totalAmount": 1180
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-03T17:03:17.150Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "paymentLink": "https://rzp.io/rzp/ouDQAqrX",
+  "months": 1,
+  "_class": "com.example.model.Invoice"
+},
+{
+  "_id": {
+    "$oid": "688fab803d3c0e0236ca7779"
+  },
+  "customerId": "687f2a440ad9a21eee3bb481",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1180,
+  "status": "paid",
+  "validUpto": {
+    "$date": "2025-09-03T18:33:34.462Z"
+  },
+  "razorpayOrderId": "order_R0xgG6X8kvMmUl",
+  "taxDetailsList": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "gstRate": 0.18,
+      "taxAmount": 180,
+      "totalAmount": 1180
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-03T18:33:36.751Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "paymentLink": "https://rzp.io/rzp/JhpnrDUl",
+  "months": 1,
+  "razorpaySubscriptionId": "",
+  "_class": "training.iqgateway.entity.Invoice"
+},
+{
+  "_id": {
+    "$oid": "689039b79336a51bda16ff45"
+  },
+  "customerId": "6883722345891cef31ce69ca",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1062,
+  "status": "paid",
+  "validUpto": {
+    "$date": "2025-09-04T04:40:22.367Z"
+  },
+  "razorpayOrderId": "order_R181DTQmxOrOIE",
+  "taxDetailsList": [
+    {
+      "policyId": "688211ddf8685eb14f5e7d20",
+      "gstRate": 0.18,
+      "taxAmount": 162,
+      "totalAmount": 1062
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-04T04:40:23.219Z"
+  },
+  "policyIds": [
+    "688211ddf8685eb14f5e7d20"
+  ],
+  "paymentLink": "https://rzp.io/rzp/1JGTP9ci",
+  "months": 1,
+  "razorpaySubscriptionId": "",
+  "_class": "training.iqgateway.entity.Invoice"
+},
+{
+  "_id": {
+    "$oid": "689044b19336a51bda16ff46"
+  },
+  "customerId": "6883722345891cef31ce69ca",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1180,
+  "status": "paid",
+  "validUpto": {
+    "$date": "2025-09-04T05:27:12.972Z"
+  },
+  "razorpayOrderId": "order_R18ohThVRcqbvS",
+  "taxDetailsList": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb483",
+      "gstRate": 0.18,
+      "taxAmount": 180,
+      "totalAmount": 1180
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-04T05:27:13.818Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb483"
+  ],
+  "paymentLink": "https://rzp.io/rzp/aevtwPhL",
+  "months": 1,
+  "razorpaySubscriptionId": "",
+  "_class": "training.iqgateway.entity.Invoice"
+},
+{
+  "_id": {
+    "$oid": "68904a1f9336a51bda16ff47"
+  },
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1180,
+  "status": "paid",
+  "validUpto": {
+    "$date": "2025-09-04T05:50:21.574Z"
+  },
+  "razorpayOrderId": "order_R19DA5NYrrfqnZ",
+  "taxDetailsList": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb483",
+      "gstRate": 0.18,
+      "taxAmount": 180,
+      "totalAmount": 1180
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-04T05:50:23.909Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb483"
+  ],
+  "paymentLink": "https://rzp.io/rzp/E3U3Wahc",
+  "months": 1,
+  "razorpaySubscriptionId": "",
+  "_class": "training.iqgateway.entity.Invoice"
+},
+{
+  "_id": {
+    "$oid": "689055be9336a51bda16ff48"
+  },
+  "customerId": "6883722345891cef31ce69cb",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 7080,
+  "status": "paid",
+  "validUpto": {
+    "$date": "2026-02-04T06:39:57.978Z"
+  },
+  "razorpayOrderId": "order_R1A3Y9Vw7EWpr5",
+  "taxDetailsList": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "gstRate": 0.18,
+      "taxAmount": 1080,
+      "totalAmount": 7080
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-04T06:39:58.962Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "paymentLink": "https://rzp.io/rzp/O7sSDkCt",
+  "months": 6,
+  "razorpaySubscriptionId": "",
+  "_class": "training.iqgateway.entity.Invoice"
+},
+{
+  "_id": {
+    "$oid": "68905ced9336a51bda16ff4a"
+  },
+  "customerId": "6883722345891cef31ce69cd",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1062,
+  "status": "paidByCash",
+  "validUpto": {
+    "$date": "2025-09-04T07:10:35.526Z"
+  },
+  "razorpayOrderId": "order_R1AZukqCQZ1q7m",
+  "taxDetailsList": [
+    {
+      "policyId": "688211ddf8685eb14f5e7d20",
+      "gstRate": 0.18,
+      "taxAmount": 162,
+      "totalAmount": 1062
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-04T07:10:37.195Z"
+  },
+  "policyIds": [
+    "688211ddf8685eb14f5e7d20"
+  ],
+  "paymentLink": "https://rzp.io/rzp/8rGI1LI",
+  "months": 1,
+  "_class": "com.example.model.Invoice"
+},
+{
+  "_id": {
+    "$oid": "68905d2b9336a51bda16ff4c"
+  },
+  "customerId": "6883722345891cef31ce69cc",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 2360,
+  "status": "paid",
+  "validUpto": {
+    "$date": "2025-09-04T07:11:38.739Z"
+  },
+  "razorpayOrderId": "order_R1Ab0ntRsYBzDl",
+  "taxDetailsList": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "gstRate": 0.18,
+      "taxAmount": 180,
+      "totalAmount": 1180
+    },
+    {
+      "policyId": "687f2a890ad9a21eee3bb483",
+      "gstRate": 0.18,
+      "taxAmount": 180,
+      "totalAmount": 1180
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-04T07:11:39.821Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482",
+    "687f2a890ad9a21eee3bb483"
+  ],
+  "paymentLink": "https://rzp.io/rzp/0p05Txp6",
+  "months": 1,
+  "razorpaySubscriptionId": "",
+  "_class": "training.iqgateway.entity.Invoice"
+},
+{
+  "_id": {
+    "$oid": "68905da49336a51bda16ff4d"
+  },
+  "customerId": "6883722345891cef31ce69cc",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1062,
+  "status": "paidByCash",
+  "validUpto": {
+    "$date": "2025-09-04T07:13:39.039Z"
+  },
+  "razorpayOrderId": "order_R1Ad87L5Wm3Wvu",
+  "taxDetailsList": [
+    {
+      "policyId": "688211ddf8685eb14f5e7d20",
+      "gstRate": 0.18,
+      "taxAmount": 162,
+      "totalAmount": 1062
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-04T07:13:40.651Z"
+  },
+  "policyIds": [
+    "688211ddf8685eb14f5e7d20"
+  ],
+  "paymentLink": "https://rzp.io/rzp/4Rk704qF",
+  "months": 1,
+  "_class": "com.example.model.Invoice"
+},
+{
+  "_id": {
+    "$oid": "689060169336a51bda16ff50"
+  },
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1180,
+  "status": "paid",
+  "validUpto": {
+    "$date": "2025-09-04T07:24:05.456Z"
+  },
+  "razorpayOrderId": "order_R1AoA0fKh4aR66",
+  "taxDetailsList": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb483",
+      "gstRate": 0.18,
+      "taxAmount": 180,
+      "totalAmount": 1180
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-04T07:24:06.629Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb483"
+  ],
+  "paymentLink": "https://rzp.io/rzp/lcgyfD8",
+  "months": 1,
+  "razorpaySubscriptionId": "",
+  "_class": "training.iqgateway.entity.Invoice"
+},
+{
+  "_id": {
+    "$oid": "689063b29336a51bda16ff52"
+  },
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1180,
+  "status": "paid",
+  "validUpto": {
+    "$date": "2025-09-04T07:39:28.483Z"
+  },
+  "razorpayOrderId": "order_R1B4QROVXNulkV",
+  "taxDetailsList": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "gstRate": 0.18,
+      "taxAmount": 180,
+      "totalAmount": 1180
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-04T07:39:30.372Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "paymentLink": "https://rzp.io/rzp/KARD43w",
+  "months": 1,
+  "razorpaySubscriptionId": "",
+  "_class": "training.iqgateway.entity.Invoice"
+},
+{
+  "_id": {
+    "$oid": "6890670c9336a51bda16ff55"
+  },
+  "customerId": "687f2a440ad9a21eee3bb481",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1180,
+  "status": "paid",
+  "validUpto": {
+    "$date": "2025-09-04T07:53:47.881Z"
+  },
+  "razorpayOrderId": "order_R1BJXXPXkCzXe5",
+  "taxDetailsList": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "gstRate": 0.18,
+      "taxAmount": 180,
+      "totalAmount": 1180
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-04T07:53:48.758Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "paymentLink": "https://rzp.io/rzp/5bszVoM",
+  "months": 1,
+  "razorpaySubscriptionId": "",
+  "_class": "training.iqgateway.entity.Invoice"
+},
+{
+  "_id": {
+    "$oid": "68907a989336a51bda16ff56"
+  },
+  "customerId": "6883722345891cef31ce69ca",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 14160,
+  "status": "paidByCash",
+  "validUpto": {
+    "$date": "2026-08-04T09:17:11.932Z"
+  },
+  "razorpayOrderId": "order_R1CjdpPgDmCqWa",
+  "taxDetailsList": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb483",
+      "gstRate": 0.18,
+      "taxAmount": 2160,
+      "totalAmount": 14160
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-04T09:17:12.966Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb483"
+  ],
+  "paymentLink": "https://rzp.io/rzp/70J3YkMB",
+  "months": 12,
+  "_class": "com.example.model.Invoice"
+},
+{
+  "_id": {
+    "$oid": "6891a8297b339f8a7aac6fe3"
+  },
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1180,
+  "status": "paid",
+  "validUpto": {
+    "$date": "2025-09-05T06:43:52.835Z"
+  },
+  "razorpayOrderId": "order_R1YepRr3G3wTfG",
+  "taxDetailsList": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb483",
+      "gstRate": 0.18,
+      "taxAmount": 180,
+      "totalAmount": 1180
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-05T06:43:53.841Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb483"
+  ],
+  "paymentLink": "https://rzp.io/rzp/iz67cQNI",
+  "months": 1,
+  "razorpaySubscriptionId": "",
+  "_class": "training.iqgateway.entity.Invoice"
+},
+{
+  "_id": {
+    "$oid": "6891cb3d7b339f8a7aac6fe4"
+  },
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1180,
+  "status": "paid",
+  "validUpto": {
+    "$date": "2025-09-05T09:13:32.029Z"
+  },
+  "razorpayOrderId": "order_R1bCvQXI0upO0S",
+  "taxDetailsList": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "gstRate": 0.18,
+      "taxAmount": 180,
+      "totalAmount": 1180
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-05T09:13:33.579Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "paymentLink": "https://rzp.io/rzp/k9CPtzuo",
+  "months": 1,
+  "razorpaySubscriptionId": "",
+  "_class": "training.iqgateway.entity.Invoice"
+},
+{
+  "_id": {
+    "$oid": "6891d95b7b339f8a7aac6fe5"
+  },
+  "customerId": "687f2a440ad9a21eee3bb481",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 7080,
+  "status": "paidByCash",
+  "validUpto": {
+    "$date": "2026-02-05T10:13:45.851Z"
+  },
+  "razorpayOrderId": "order_R1cEYHDhfVGjIF",
+  "taxDetailsList": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "gstRate": 0.18,
+      "taxAmount": 1080,
+      "totalAmount": 7080
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-05T10:13:47.577Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "paymentLink": "https://rzp.io/rzp/EwCPume",
+  "months": 6,
+  "_class": "com.example.model.Invoice"
+},
+{
+  "_id": {
+    "$oid": "6892f1492565182f9758e337"
+  },
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 3540,
+  "status": "paid",
+  "validUpto": {
+    "$date": "2025-11-06T06:08:07.425Z"
+  },
+  "razorpayOrderId": "order_R1waClRxYD86Ma",
+  "taxDetailsList": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb483",
+      "gstRate": 0.18,
+      "taxAmount": 540,
+      "totalAmount": 3540
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-06T06:08:09.888Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb483"
+  ],
+  "paymentLink": "https://rzp.io/rzp/CYqyDtS",
+  "months": 3,
+  "razorpaySubscriptionId": "",
+  "_class": "training.iqgateway.entity.Invoice"
+},
+{
+  "_id": {
+    "$oid": "6892f76e2565182f9758e338"
+  },
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 3540,
+  "status": "paidByCash",
+  "validUpto": {
+    "$date": "2025-11-06T06:34:21.088Z"
+  },
+  "razorpayOrderId": "order_R1x1u4dJCMCvHi",
+  "taxDetailsList": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "gstRate": 0.18,
+      "taxAmount": 540,
+      "totalAmount": 3540
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-06T06:34:22.655Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "paymentLink": "https://rzp.io/rzp/f9iiHdf9",
+  "months": 3,
+  "_class": "com.example.model.Invoice"
+},
+{
+  "_id": {
+    "$oid": "6895a11c55771b0bdbcf8120"
+  },
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 3540,
+  "status": "paid",
+  "validUpto": {
+    "$date": "2025-11-08T07:02:41.734Z"
+  },
+  "razorpayOrderId": "order_R2kaB08hDqlaBv",
+  "taxDetailsList": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "gstRate": 0.18,
+      "taxAmount": 540,
+      "totalAmount": 3540
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-08T07:02:52.268Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "paymentLink": "https://rzp.io/rzp/T1oB0h0",
+  "months": 3,
+  "razorpaySubscriptionId": "",
+  "_class": "training.iqgateway.entity.Invoice"
+},
+{
+  "_id": {
+    "$oid": "6895ab8855771b0bdbcf8121"
+  },
+  "customerId": "687f2a440ad9a21eee3bb481",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1180,
+  "status": "paid",
+  "validUpto": {
+    "$date": "2025-09-08T07:47:17.835Z"
+  },
+  "razorpayOrderId": "order_R2lLDpza02oR9l",
+  "taxDetailsList": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "gstRate": 0.18,
+      "taxAmount": 180,
+      "totalAmount": 1180
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-08T07:47:20.095Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "paymentLink": "https://rzp.io/rzp/X4X1Y52m",
+  "months": 1,
+  "razorpaySubscriptionId": "",
+  "_class": "training.iqgateway.entity.Invoice"
+},
+{
+  "_id": {
+    "$oid": "68963db3bc425c0f98e6eeb8"
+  },
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 6372,
+  "status": "paid",
+  "validUpto": {
+    "$date": "2025-09-30T00:00:00.000Z"
+  },
+  "razorpayOrderId": "order_R2vxzaZxeVb21m",
+  "taxDetailsList": [
+    {
+      "policyId": "688211ddf8685eb14f5e7d20",
+      "gstRate": 0.18,
+      "taxAmount": 972,
+      "totalAmount": 6372
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-08T18:10:59.058Z"
+  },
+  "policyIds": [
+    "688211ddf8685eb14f5e7d20"
+  ],
+  "paymentLink": "https://rzp.io/rzp/EVJfZFwD",
+  "months": 6,
+  "_class": "com.example.model.Invoice"
+},
+{
+  "_id": {
+    "$oid": "6896b317b44900b6fecc3e32"
+  },
+  "customerId": "687f2a440ad9a21eee3bb481",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 13452,
+  "status": "paid",
+  "validUpto": {
+    "$date": "2025-09-30T00:00:00.000Z"
+  },
+  "razorpayOrderId": "order_R34V4IGvE7Fnk0",
+  "taxDetailsList": [
+    {
+      "policyId": "688211ddf8685eb14f5e7d20",
+      "gstRate": 0.18,
+      "taxAmount": 972,
+      "totalAmount": 6372
+    },
+    {
+      "policyId": "687f2a890ad9a21eee3bb483",
+      "gstRate": 0.18,
+      "taxAmount": 1080,
+      "totalAmount": 7080
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-09T02:31:50.984Z"
+  },
+  "policyIds": [
+    "688211ddf8685eb14f5e7d20",
+    "687f2a890ad9a21eee3bb483"
+  ],
+  "paymentLink": "https://rzp.io/rzp/jcgWVjR",
+  "months": 6,
+  "_class": "com.example.model.Invoice"
+},
+{
+  "_id": {
+    "$oid": "6896bf10b44900b6fecc3e37"
+  },
+  "customerId": "6883722345891cef31ce69cc",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 2360,
+  "status": "paidByCash",
+  "validUpto": {
+    "$date": "2025-09-09T03:22:54.569Z"
+  },
+  "razorpayOrderId": "order_R35N3Yqnm1zvLB",
+  "taxDetailsList": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "gstRate": 0.18,
+      "taxAmount": 180,
+      "totalAmount": 1180
+    },
+    {
+      "policyId": "687f2a890ad9a21eee3bb483",
+      "gstRate": 0.18,
+      "taxAmount": 180,
+      "totalAmount": 1180
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-09T03:22:56.982Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482",
+    "687f2a890ad9a21eee3bb483"
+  ],
+  "paymentLink": "https://rzp.io/rzp/5zejOJah",
+  "months": 1,
+  "_class": "com.example.model.Invoice"
+},
+{
+  "_id": {
+    "$oid": "6896bf1bb44900b6fecc3e38"
+  },
+  "customerId": "6883722345891cef31ce69ce",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 2360,
+  "status": "paidByCash",
+  "validUpto": {
+    "$date": "2025-09-09T03:23:06.144Z"
+  },
+  "razorpayOrderId": "order_R35NElIOceYBAK",
+  "taxDetailsList": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "gstRate": 0.18,
+      "taxAmount": 180,
+      "totalAmount": 1180
+    },
+    {
+      "policyId": "687f2a890ad9a21eee3bb483",
+      "gstRate": 0.18,
+      "taxAmount": 180,
+      "totalAmount": 1180
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-09T03:23:07.071Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482",
+    "687f2a890ad9a21eee3bb483"
+  ],
+  "paymentLink": "https://rzp.io/rzp/pAb0HJv",
+  "months": 1,
+  "_class": "com.example.model.Invoice"
+}]

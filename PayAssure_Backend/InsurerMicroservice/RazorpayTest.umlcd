@@ -1,0 +1,2504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_QhUwQHN4EfCMALJnZIqq0A">
+  <modelElement href="RazorpayTest.uml#_RGpD0XN4EfCMALJnZIqq0A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RkHC8HN4EfCMALJnZIqq0A" sourceAnchor="241.0,0.0" targetAnchor="0.0,197.0" target="_Rlb4qXN4EfCMALJnZIqq0A" source="_RkHC-XN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RUaaEXN4EfCMALJnZIqq0A"/>
+    <bendpoints xmi:id="_SnRwIHN4EfCMALJnZIqq0A" sourceY="-207" targetX="-1183"/>
+    <stereotypes xmi:id="_RkHC8XN4EfCMALJnZIqq0A" name="Reference">
+      <modelElement href="RazorpayTest.uml#_RUaaE3N4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RkHC8nN4EfCMALJnZIqq0A" text="">
+      <visualProperties xmi:id="_SnSXM3N4EfCMALJnZIqq0A" position="-10.171553326975925,145.61027202460355"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RkHC83N4EfCMALJnZIqq0A" aggregationKind="NONE" name="">
+      <modelElement href="RazorpayTest.uml#_RUaaEnN4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnSXMnN4EfCMALJnZIqq0A" position="3.4395012198016275,-70.34230376281018"/>
+      <visibility xmi:id="_RkHC9HN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkHC9XN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RkHC9nN4EfCMALJnZIqq0A" aggregationKind="NONE" name="billingService" navigable="true">
+      <modelElement href="RazorpayTest.uml#_RUB_kHN4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnSXNHN4EfCMALJnZIqq0A" position="-1214.1769553675108,116.50238830445728"/>
+      <visibility xmi:id="_RkHC93N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkHC-HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RkbMAHN4EfCMALJnZIqq0A" sourceAnchor="0.0,232.0" targetAnchor="77.0,155.0" target="_RkigwHN4EfCMALJnZIqq0A" source="_RkbzEHN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RUUTcHN4EfCMALJnZIqq0A"/>
+    <bendpoints xmi:id="_SnRwIXN4EfCMALJnZIqq0A" sourceX="-408" targetY="287"/>
+    <stereotypes xmi:id="_RkbMAXN4EfCMALJnZIqq0A" name="Reference">
+      <modelElement href="RazorpayTest.uml#_RUUTcnN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RkbMAnN4EfCMALJnZIqq0A" text="">
+      <visualProperties xmi:id="_SnS-QXN4EfCMALJnZIqq0A" position="303.976292025323,0.4081615997872632"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RkbMA3N4EfCMALJnZIqq0A" aggregationKind="NONE" name="">
+      <modelElement href="RazorpayTest.uml#_RUUTcXN4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnS-QHN4EfCMALJnZIqq0A" position="-61.427649397690914,-14.286840330253881"/>
+      <visibility xmi:id="_RkbMBHN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkbMBXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RkbMBnN4EfCMALJnZIqq0A" aggregationKind="NONE" name="paymentHistory" navigable="true">
+      <modelElement href="RazorpayTest.uml#_RT6q1XN4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnS-QnN4EfCMALJnZIqq0A" position="228.8717984372961,272.3568535132521"/>
+      <visibility xmi:id="_RkbMB3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkbMCHN4EfCMALJnZIqq0A" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RkmyMHN4EfCMALJnZIqq0A" sourceAnchor="0.0,125.0" targetAnchor="84.0,155.0" target="_RkpOcHN4EfCMALJnZIqq0A" source="_RkmyOXN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RUSeQHN4EfCMALJnZIqq0A"/>
+    <bendpoints xmi:id="_SnRwInN4EfCMALJnZIqq0A" sourceX="-946" targetY="180"/>
+    <stereotypes xmi:id="_RkmyMXN4EfCMALJnZIqq0A" name="Reference">
+      <modelElement href="RazorpayTest.uml#_RUTFUHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RkmyMnN4EfCMALJnZIqq0A" text="">
+      <visualProperties xmi:id="_SnTlUHN4EfCMALJnZIqq0A" position="842.5944592957568,-20.385222841614564"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RkmyM3N4EfCMALJnZIqq0A" aggregationKind="NONE" name="">
+      <modelElement href="RazorpayTest.uml#_RUSeQXN4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnS-Q3N4EfCMALJnZIqq0A" position="-60.80808873538004,-35.325413924902364"/>
+      <visibility xmi:id="_RkmyNHN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkmyNXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RkmyNnN4EfCMALJnZIqq0A" aggregationKind="NONE" name="taxDetails" navigable="true">
+      <modelElement href="RazorpayTest.uml#_RT2ZYnN4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnTlUXN4EfCMALJnZIqq0A" position="784.4921666518546,144.17617843582957"/>
+      <visibility xmi:id="_RkmyN3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkmyOHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Rk2CwHN4EfCMALJnZIqq0A" sourceAnchor="0.0,138.0" targetAnchor="84.0,155.0" target="_Rk6UMHN4EfCMALJnZIqq0A" source="_Rk2p0HN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RUTsYHN4EfCMALJnZIqq0A"/>
+    <bendpoints xmi:id="_SnRwI3N4EfCMALJnZIqq0A" sourceX="-930" targetY="193"/>
+    <stereotypes xmi:id="_Rk2CwXN4EfCMALJnZIqq0A" name="Reference">
+      <modelElement href="RazorpayTest.uml#_RUTsYnN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Rk2CwnN4EfCMALJnZIqq0A" text="">
+      <visualProperties xmi:id="_SnTlU3N4EfCMALJnZIqq0A" position="821.5,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Rk2Cw3N4EfCMALJnZIqq0A" aggregationKind="NONE" name="">
+      <modelElement href="RazorpayTest.uml#_RUTsYXN4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnTlUnN4EfCMALJnZIqq0A" position="-63.5,-14.0"/>
+      <visibility xmi:id="_Rk2CxHN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_Rk2CxXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Rk2CxnN4EfCMALJnZIqq0A" aggregationKind="NONE" name="taxDetailsList" navigable="true">
+      <modelElement href="RazorpayTest.uml#_RT4OlXN4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnUMYHN4EfCMALJnZIqq0A" position="757.5,179.0"/>
+      <visibility xmi:id="_Rk2Cx3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rk2CyHN4EfCMALJnZIqq0A" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Rk8JYHN4EfCMALJnZIqq0A" sourceAnchor="314.0,0.0" targetAnchor="336.0,38.0" target="_Rk8wdXN4EfCMALJnZIqq0A" source="_Rlb4qXN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RUXWwXN4EfCMALJnZIqq0A"/>
+    <bendpoints xmi:id="_SnSXMXN4EfCMALJnZIqq0A" sourceY="-93" targetX="407"/>
+    <stereotypes xmi:id="_Rk8JZHN4EfCMALJnZIqq0A" name="Reference">
+      <modelElement href="RazorpayTest.uml#_RUX90HN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Rk8JYXN4EfCMALJnZIqq0A" text="">
+      <visualProperties xmi:id="_SnWooHN4EfCMALJnZIqq0A" position="-25.85810186994513,48.38031701265487"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Rk8JYnN4EfCMALJnZIqq0A" aggregationKind="NONE" name="">
+      <modelElement href="RazorpayTest.uml#_RUXWwnN4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnWBk3N4EfCMALJnZIqq0A" position="-17.967290799168495,-77.4926271525245"/>
+      <visibility xmi:id="_Rk8wcXN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_Rk8wcHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Rk8JY3N4EfCMALJnZIqq0A" aggregationKind="NONE" name="taxRateRepository" navigable="true">
+      <modelElement href="RazorpayTest.uml#_RT9uIXN4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnWooXN4EfCMALJnZIqq0A" position="341.3413686793551,58.46331991892117"/>
+      <stereotypes xmi:id="_Rk8wdHN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RT9uInN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_Rk8wc3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rk8wcnN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Rk-loHN4EfCMALJnZIqq0A" sourceAnchor="426.0,0.0" targetAnchor="53.0,67.0" target="_Rk_zwHN4EfCMALJnZIqq0A" source="_Rlb4qXN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RUU6g3N4EfCMALJnZIqq0A"/>
+    <stereotypes xmi:id="_Rk_MsXN4EfCMALJnZIqq0A" name="Reference">
+      <modelElement href="RazorpayTest.uml#_RUU6hXN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Rk-loXN4EfCMALJnZIqq0A" text="">
+      <visualProperties xmi:id="_SnUzcXN4EfCMALJnZIqq0A" position="-24.635202826495743,-14.50513415553354"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Rk-lonN4EfCMALJnZIqq0A" aggregationKind="NONE" name="">
+      <modelElement href="RazorpayTest.uml#_RUU6hHN4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnUzcHN4EfCMALJnZIqq0A" position="-17.423181426272777,-78.77575231127616"/>
+      <visibility xmi:id="_Rk_Ms3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_Rk_MsnN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Rk_MsHN4EfCMALJnZIqq0A" aggregationKind="NONE" name="policyRepository" navigable="true">
+      <modelElement href="RazorpayTest.uml#_RT8gAnN4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnUzcnN4EfCMALJnZIqq0A" position="-61.153200778783685,25.26430387190925"/>
+      <stereotypes xmi:id="_Rk_MtnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RT8gA3N4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_Rk_MtXN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rk_MtHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RlBo8HN4EfCMALJnZIqq0A" sourceAnchor="629.0,232.0" targetAnchor="70.0,67.0" target="_RlC3E3N4EfCMALJnZIqq0A" source="_Rlb4qXN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RUVhkXN4EfCMALJnZIqq0A"/>
+    <bendpoints xmi:id="_SnRwJnN4EfCMALJnZIqq0A" sourceX="144" targetY="287"/>
+    <stereotypes xmi:id="_RlCQA3N4EfCMALJnZIqq0A" name="Reference">
+      <modelElement href="RazorpayTest.uml#_RUWIoHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RlCQAHN4EfCMALJnZIqq0A" text="">
+      <visualProperties xmi:id="_SnVag3N4EfCMALJnZIqq0A" position="-145.5511676312749,-16.97752919775931"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RlCQAXN4EfCMALJnZIqq0A" aggregationKind="NONE" name="">
+      <modelElement href="RazorpayTest.uml#_RUVhknN4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnVagnN4EfCMALJnZIqq0A" position="46.405821239006855,-35.32775079812751"/>
+      <visibility xmi:id="_RlCQBXN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlCQBHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RlCQAnN4EfCMALJnZIqq0A" aggregationKind="NONE" name="notificationRepository" navigable="true">
+      <modelElement href="RazorpayTest.uml#_RT9HEnN4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnVahHN4EfCMALJnZIqq0A" position="-236.40253134731756,251.57149065750053"/>
+      <stereotypes xmi:id="_RlC3EnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RT9HE3N4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlC3EXN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RlC3EHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RlFTUHN4EfCMALJnZIqq0A" sourceAnchor="629.0,262.0" targetAnchor="120.0,95.0" target="_RlGhcXN4EfCMALJnZIqq0A" source="_Rlb4qXN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RUU6hnN4EfCMALJnZIqq0A"/>
+    <bendpoints xmi:id="_SnRwJXN4EfCMALJnZIqq0A" sourceX="411" targetY="317"/>
+    <stereotypes xmi:id="_RlF6Y3N4EfCMALJnZIqq0A" name="Reference">
+      <modelElement href="RazorpayTest.uml#_RUVhkHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RlF6YHN4EfCMALJnZIqq0A" text="">
+      <visualProperties xmi:id="_SnVagHN4EfCMALJnZIqq0A" position="-411.78216368569247,-2.3321376737901147"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RlF6YXN4EfCMALJnZIqq0A" aggregationKind="NONE" name="">
+      <modelElement href="RazorpayTest.uml#_RUU6h3N4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnUzc3N4EfCMALJnZIqq0A" position="38.31796696479432,-14.454199735771084"/>
+      <visibility xmi:id="_RlF6ZXN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlF6ZHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RlF6YnN4EfCMALJnZIqq0A" aggregationKind="NONE" name="paymentRepository" navigable="true">
+      <modelElement href="RazorpayTest.uml#_RT8gBXN4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnVagXN4EfCMALJnZIqq0A" position="-473.33601802503927,302.91425598639745"/>
+      <stereotypes xmi:id="_RlGhcHN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RT9HEHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlF6Z3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RlF6ZnN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RlI9sHN4EfCMALJnZIqq0A" sourceAnchor="0.0,167.0" targetAnchor="204.0,76.0" target="_RlKL0XN4EfCMALJnZIqq0A" source="_Rlb4qXN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RUWIoXN4EfCMALJnZIqq0A"/>
+    <bendpoints xmi:id="_SnSXMHN4EfCMALJnZIqq0A" sourceX="-711" targetY="222"/>
+    <stereotypes xmi:id="_RlJkw3N4EfCMALJnZIqq0A" name="Reference">
+      <modelElement href="RazorpayTest.uml#_RUXWwHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RlJkwHN4EfCMALJnZIqq0A" text="">
+      <visualProperties xmi:id="_SnWBkXN4EfCMALJnZIqq0A" position="677.7144261761853,-18.079116089476372"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RlJkwXN4EfCMALJnZIqq0A" aggregationKind="NONE" name="">
+      <modelElement href="RazorpayTest.uml#_RUWvsHN4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnWBkHN4EfCMALJnZIqq0A" position="-56.411495413262855,-36.16900237545423"/>
+      <visibility xmi:id="_RlJkxXN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlJkxHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RlJkwnN4EfCMALJnZIqq0A" aggregationKind="NONE" name="customerRepository" navigable="true">
+      <modelElement href="RazorpayTest.uml#_RT9HFXN4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnWBknN4EfCMALJnZIqq0A" position="659.5706889077001,186.08848814837728"/>
+      <stereotypes xmi:id="_RlKL0HN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RT9HFnN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlJkx3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RlJkxnN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RlMoEHN4EfCMALJnZIqq0A" sourceAnchor="629.0,292.0" targetAnchor="242.0,115.0" target="_RlPEUHN4EfCMALJnZIqq0A" source="_Rlb4qXN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RUU6gHN4EfCMALJnZIqq0A"/>
+    <bendpoints xmi:id="_SnRwJHN4EfCMALJnZIqq0A" sourceX="845" targetY="347"/>
+    <stereotypes xmi:id="_RlNPIXN4EfCMALJnZIqq0A" name="Reference">
+      <modelElement href="RazorpayTest.uml#_RUU6gnN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RlMoEXN4EfCMALJnZIqq0A" text="">
+      <visualProperties xmi:id="_SnUMYnN4EfCMALJnZIqq0A" position="-815.8391543545818,-0.9388390363568817"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RlMoEnN4EfCMALJnZIqq0A" aggregationKind="NONE" name="">
+      <modelElement href="RazorpayTest.uml#_RUU6gXN4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnUMYXN4EfCMALJnZIqq0A" position="43.06175382862284,-13.774624737953943"/>
+      <visibility xmi:id="_RlN2MXN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlN2MHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RlNPIHN4EfCMALJnZIqq0A" aggregationKind="NONE" name="invoiceRepository" navigable="true">
+      <modelElement href="RazorpayTest.uml#_RT7483N4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnUMY3N4EfCMALJnZIqq0A" position="-844.1811652986944,333.58211388266193"/>
+      <stereotypes xmi:id="_RlOdQXN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RT8gAHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlOdQHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RlN2MnN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RlaqgHN4EfCMALJnZIqq0A" source="_Rlb4qXN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RUUTc3N4EfCMALJnZIqq0A"/>
+    <stereotypes xmi:id="_RlaqgXN4EfCMALJnZIqq0A" name="Reference">
+      <modelElement href="RazorpayTest.uml#_RUUTdXN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RlaqgnN4EfCMALJnZIqq0A" text=""/>
+    <sourceRole xmi:id="_Rlaqg3N4EfCMALJnZIqq0A" aggregationKind="NONE" name="">
+      <modelElement href="RazorpayTest.uml#_RUUTdHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RlaqhHN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlaqhXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RlaqhnN4EfCMALJnZIqq0A" aggregationKind="NONE" name="log" navigable="true">
+      <modelElement href="RazorpayTest.uml#_RT748HN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rlaqh3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RlaqiHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Rlb4oHN4EfCMALJnZIqq0A" source="_Rlb4qXN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RUX90XN4EfCMALJnZIqq0A"/>
+    <stereotypes xmi:id="_Rlb4oXN4EfCMALJnZIqq0A" name="Reference">
+      <modelElement href="RazorpayTest.uml#_RUYk4HN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Rlb4onN4EfCMALJnZIqq0A" text=""/>
+    <sourceRole xmi:id="_Rlb4o3N4EfCMALJnZIqq0A" aggregationKind="NONE" name="">
+      <modelElement href="RazorpayTest.uml#_RUX90nN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rlb4pHN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_Rlb4pXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Rlb4pnN4EfCMALJnZIqq0A" aggregationKind="NONE" name="razorpayClient" navigable="true">
+      <modelElement href="RazorpayTest.uml#_RT-VMXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rlb4p3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rlb4qHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RlsXUHN4EfCMALJnZIqq0A" sourceAnchor="352.0,15.0" targetAnchor="0.0,410.0" target="_Rlb4qXN4EfCMALJnZIqq0A" source="_RlxP2XN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RUZL8XN4EfCMALJnZIqq0A"/>
+    <stereotypes xmi:id="_Rltlc3N4EfCMALJnZIqq0A" name="Reference">
+      <modelElement href="RazorpayTest.uml#_RUZzAHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RltlcHN4EfCMALJnZIqq0A" text="">
+      <visualProperties xmi:id="_SnWoo3N4EfCMALJnZIqq0A" position="127.64723702233891,-16.289278152516232"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RltlcXN4EfCMALJnZIqq0A" aggregationKind="NONE" name="">
+      <modelElement href="RazorpayTest.uml#_RUZL8nN4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnWoonN4EfCMALJnZIqq0A" position="39.76982007390575,-34.65302566994081"/>
+      <visibility xmi:id="_RluzkXN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RluzkHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RltlcnN4EfCMALJnZIqq0A" aggregationKind="NONE" name="billingService" navigable="true">
+      <modelElement href="RazorpayTest.uml#_RUAKYnN4EfCMALJnZIqq0A"/>
+      <visualProperties xmi:id="_SnWopHN4EfCMALJnZIqq0A" position="209.22807903877697,-35.27085684661071"/>
+      <visibility xmi:id="_Rluzk3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RluzknN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RlwowHN4EfCMALJnZIqq0A" source="_RlxP2XN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RUYk4XN4EfCMALJnZIqq0A"/>
+    <stereotypes xmi:id="_RlwowXN4EfCMALJnZIqq0A" name="Reference">
+      <modelElement href="RazorpayTest.uml#_RUZL8HN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RlwownN4EfCMALJnZIqq0A" text=""/>
+    <sourceRole xmi:id="_Rlwow3N4EfCMALJnZIqq0A" aggregationKind="NONE" name="">
+      <modelElement href="RazorpayTest.uml#_RUYk4nN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RlwoxHN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlwoxXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RlwoxnN4EfCMALJnZIqq0A" aggregationKind="NONE" name="mockMvc" navigable="true">
+      <modelElement href="RazorpayTest.uml#_RT_jUHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rlwox3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RlwoyHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RlxP0HN4EfCMALJnZIqq0A" source="_RlxP2XN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RUZzAXN4EfCMALJnZIqq0A"/>
+    <stereotypes xmi:id="_RlxP0XN4EfCMALJnZIqq0A" name="Reference">
+      <modelElement href="RazorpayTest.uml#_RUaaEHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RlxP0nN4EfCMALJnZIqq0A" text=""/>
+    <sourceRole xmi:id="_RlxP03N4EfCMALJnZIqq0A" aggregationKind="NONE" name="">
+      <modelElement href="RazorpayTest.uml#_RUZzAnN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RlxP1HN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxP1XN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RlxP1nN4EfCMALJnZIqq0A" aggregationKind="NONE" name="objectMapper" navigable="true">
+      <modelElement href="RazorpayTest.uml#_RUAxcXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RlxP13N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RlxP2HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RkHC-XN4EfCMALJnZIqq0A" name="BillingController" associationsOut="_RkHC8HN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RIuHcHN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_RkHC-nN4EfCMALJnZIqq0A" position="30.0,30.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RkHC-3N4EfCMALJnZIqq0A" name="LegacyStyledElement">
+      <modelElement href="RazorpayTest.uml#_RIuugHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RkHC_HN4EfCMALJnZIqq0A" name="Annotations">
+      <modelElement href="RazorpayTest.uml#_RI3RYHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_RkHC_XN4EfCMALJnZIqq0A" label="+"/>
+    <attributes xmi:id="_RkHC_nN4EfCMALJnZIqq0A" name="billingService">
+      <modelElement href="RazorpayTest.uml#_RUB_kHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RkHC_3N4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RUB_kXN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RkHDAHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkHDAXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkHDAnN4EfCMALJnZIqq0A" name="BillingService">
+        <modelElement href="RazorpayTest.uml#_RIMjAHN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_RkHDA3N4EfCMALJnZIqq0A" name="handleWebhook">
+      <modelElement href="RazorpayTest.uml#_RIvVkHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RkHDBHN4EfCMALJnZIqq0A" name="Generics">
+        <modelElement href="RazorpayTest.uml#_RIvVk3N4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RkHDBXN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIv8pXN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RkHDBnN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkHDB3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RkHDCHN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RTksknN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RkHDCXN4EfCMALJnZIqq0A" name="ResponseEntity">
+          <modelElement href="RazorpayTest.uml#_RTHZkXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RkHDCnN4EfCMALJnZIqq0A" name="payload">
+        <modelElement href="RazorpayTest.uml#_RIvVkXN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RkHDC3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RkHDDHN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RkHDDXN4EfCMALJnZIqq0A" name="signature">
+        <modelElement href="RazorpayTest.uml#_RIvVknN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RkHDDnN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RkHDD3N4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RkHDEHN4EfCMALJnZIqq0A" name="getUnpaidCustomers">
+      <modelElement href="RazorpayTest.uml#_RIv8qHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RkHDEXN4EfCMALJnZIqq0A" name="Generics">
+        <modelElement href="RazorpayTest.uml#_RIwjsHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RkHDEnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIwjsXN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RkHDE3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkHDFHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RkHDFXN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RTksk3N4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RkHDFnN4EfCMALJnZIqq0A" name="ResponseEntity">
+          <modelElement href="RazorpayTest.uml#_RTHZkXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RkHDF3N4EfCMALJnZIqq0A" name="getUnpaidFailedInvoicesForCustomer">
+      <modelElement href="RazorpayTest.uml#_RIwjtHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RkHDGHN4EfCMALJnZIqq0A" name="Generics">
+        <modelElement href="RazorpayTest.uml#_RIxKwXN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RkHDGXN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIxKxHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RkHDGnN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkHDG3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RkHDHHN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RTkslHN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RkHDHXN4EfCMALJnZIqq0A" name="ResponseEntity">
+          <modelElement href="RazorpayTest.uml#_RTHZkXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RkHDHnN4EfCMALJnZIqq0A" name="customerId">
+        <modelElement href="RazorpayTest.uml#_RIxKwHN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RkHDH3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RkHDIHN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RkHDIXN4EfCMALJnZIqq0A" name="getUnpaidPoliciesForCustomer">
+      <modelElement href="RazorpayTest.uml#_RIxx0XN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RkHDInN4EfCMALJnZIqq0A" name="Generics">
+        <modelElement href="RazorpayTest.uml#_RIxx03N4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RkHDI3N4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIyY4nN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RkHDJHN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkHDJXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RkHDJnN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RTlToHN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RkHDJ3N4EfCMALJnZIqq0A" name="ResponseEntity">
+          <modelElement href="RazorpayTest.uml#_RTHZkXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RkHDKHN4EfCMALJnZIqq0A" name="customerId">
+        <modelElement href="RazorpayTest.uml#_RIxx0nN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RkHDKXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RkHDKnN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RkHDK3N4EfCMALJnZIqq0A" name="payByCash">
+      <modelElement href="RazorpayTest.uml#_RIyY5XN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RkHDLHN4EfCMALJnZIqq0A" name="Generics">
+        <modelElement href="RazorpayTest.uml#_RIy_8HN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RkHDLXN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIy_83N4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RkHDLnN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkHDL3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RkHDMHN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RTlToXN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RkHDMXN4EfCMALJnZIqq0A" name="ResponseEntity">
+          <modelElement href="RazorpayTest.uml#_RTHZkXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RkHDMnN4EfCMALJnZIqq0A" name="invoiceId">
+        <modelElement href="RazorpayTest.uml#_RIyY5nN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RkHDM3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RkHDNHN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RkHDNXN4EfCMALJnZIqq0A" name="getAllPaymentHistory">
+      <modelElement href="RazorpayTest.uml#_RIy_9nN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RkHDNnN4EfCMALJnZIqq0A" name="Generics">
+        <modelElement href="RazorpayTest.uml#_RIznAHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RkHDN3N4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIznAXN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RkHDOHN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkHDOXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RkHDOnN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RTlTonN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RkHDO3N4EfCMALJnZIqq0A" name="ResponseEntity">
+          <modelElement href="RazorpayTest.uml#_RTHZkXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RkHDPHN4EfCMALJnZIqq0A" name="getCustomerById">
+      <modelElement href="RazorpayTest.uml#_RIznBHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RkHDPXN4EfCMALJnZIqq0A" name="Generics">
+        <modelElement href="RazorpayTest.uml#_RI0OEHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RkHDPnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RI0OE3N4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RkHDP3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkHDQHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RkHDQXN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RTlTo3N4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RkHDQnN4EfCMALJnZIqq0A" name="ResponseEntity">
+          <modelElement href="RazorpayTest.uml#_RTHZkXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RkHDQ3N4EfCMALJnZIqq0A" name="customerId">
+        <modelElement href="RazorpayTest.uml#_RIznBXN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RkHDRHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RkHDRXN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RkHDRnN4EfCMALJnZIqq0A" name="getInvoiceById">
+      <modelElement href="RazorpayTest.uml#_RI01IHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RkHDR3N4EfCMALJnZIqq0A" name="Generics">
+        <modelElement href="RazorpayTest.uml#_RI01InN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RkHDSHN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RI1cMXN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RkHDSXN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkHDSnN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RkHDS3N4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RTl6sHN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RkHDTHN4EfCMALJnZIqq0A" name="ResponseEntity">
+          <modelElement href="RazorpayTest.uml#_RTHZkXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RkHDTXN4EfCMALJnZIqq0A" name="invoiceId">
+        <modelElement href="RazorpayTest.uml#_RI01IXN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RkHDTnN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RkHDT3N4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RkHDUHN4EfCMALJnZIqq0A" name="getAllInvoiceHistory">
+      <modelElement href="RazorpayTest.uml#_RI1cNHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RkHDUXN4EfCMALJnZIqq0A" name="Generics">
+        <modelElement href="RazorpayTest.uml#_RI1cNXN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RkHDUnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RI2DQHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RkHDU3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkHDVHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RkHDVXN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RTnv4HN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RkHDVnN4EfCMALJnZIqq0A" name="ResponseEntity">
+          <modelElement href="RazorpayTest.uml#_RTHZkXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RkHDV3N4EfCMALJnZIqq0A" name="searchCustomersByName">
+      <modelElement href="RazorpayTest.uml#_RI2DQ3N4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RkHDWHN4EfCMALJnZIqq0A" name="Generics">
+        <modelElement href="RazorpayTest.uml#_RI2qUHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RkHDWXN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RI2qU3N4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RkHDWnN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkHDW3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RkHDXHN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RTnv4XN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RkHDXXN4EfCMALJnZIqq0A" name="ResponseEntity">
+          <modelElement href="RazorpayTest.uml#_RTHZkXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RkHDXnN4EfCMALJnZIqq0A" name="name">
+        <modelElement href="RazorpayTest.uml#_RI2DRHN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RkHDX3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RkHDYHN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RkHDYXN4EfCMALJnZIqq0A" name="createInvoice">
+      <modelElement href="RazorpayTest.uml#_RTIAoXN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RkHDYnN4EfCMALJnZIqq0A" name="Generics">
+        <modelElement href="RazorpayTest.uml#_RTJOwHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RkHDY3N4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RTJOw3N4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RkHDZHN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkHDZXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RkHDZnN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RTkskHN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RkHDZ3N4EfCMALJnZIqq0A" name="ResponseEntity">
+          <modelElement href="RazorpayTest.uml#_RTHZkXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RkHDaHN4EfCMALJnZIqq0A" name="request">
+        <modelElement href="RazorpayTest.uml#_RTInsHN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RkHDaXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RkHDanN4EfCMALJnZIqq0A" name="InvoiceRequest">
+          <modelElement href="RazorpayTest.uml#_RHuo8HN4EfCMALJnZIqq0A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RkHDa3N4EfCMALJnZIqq0A" name="initiatePayment">
+      <modelElement href="RazorpayTest.uml#_RTJ10XN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RkHDbHN4EfCMALJnZIqq0A" name="Generics">
+        <modelElement href="RazorpayTest.uml#_RTJ103N4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RkHDbXN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RTKc4nN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RkHDbnN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkHDb3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RkHDcHN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RTkskXN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RkHDcXN4EfCMALJnZIqq0A" name="ResponseEntity">
+          <modelElement href="RazorpayTest.uml#_RTHZkXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RkHDcnN4EfCMALJnZIqq0A" name="request">
+        <modelElement href="RazorpayTest.uml#_RTJ10nN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RkHDc3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RkHDdHN4EfCMALJnZIqq0A" name="PaymentInitiateRequest">
+          <modelElement href="RazorpayTest.uml#_RH0IgXN4EfCMALJnZIqq0A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RkHDdXN4EfCMALJnZIqq0A" name="getPoliciesByIds">
+      <modelElement href="RazorpayTest.uml#_RTl6sXN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RkHDdnN4EfCMALJnZIqq0A" name="Generics">
+        <modelElement href="RazorpayTest.uml#_RTmhwHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RkHDd3N4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RTnI03N4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RkHDeHN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkHDeXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RkHDenN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RTmhwXN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RkHDe3N4EfCMALJnZIqq0A" name="ResponseEntity">
+          <modelElement href="RazorpayTest.uml#_RTHZkXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RkHDfHN4EfCMALJnZIqq0A" name="policyIds">
+        <modelElement href="RazorpayTest.uml#_RTl6snN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RkHDfXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RkHDfnN4EfCMALJnZIqq0A" name="List">
+          <modelElement href="RazorpayTest.uml#_RSu_EXN4EfCMALJnZIqq0A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RkHDf3N4EfCMALJnZIqq0A" name="payByCashMultiple">
+      <modelElement href="RazorpayTest.uml#_RTnv4nN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RkHDgHN4EfCMALJnZIqq0A" name="Generics">
+        <modelElement href="RazorpayTest.uml#_RToW8HN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RkHDgXN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RToW9XN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RkHDgnN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkHDg3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RkHDhHN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RToW8XN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RkHDhXN4EfCMALJnZIqq0A" name="ResponseEntity">
+          <modelElement href="RazorpayTest.uml#_RTHZkXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RkHDhnN4EfCMALJnZIqq0A" name="body">
+        <modelElement href="RazorpayTest.uml#_RTnv43N4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RkHDh3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RkHDiHN4EfCMALJnZIqq0A" name="Map">
+          <modelElement href="RazorpayTest.uml#_RTHZk3N4EfCMALJnZIqq0A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RkQM4HN4EfCMALJnZIqq0A" name="RazorpayTestApplication">
+    <modelElement href="RazorpayTest.uml#_RHmGEnN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_RkQM4XN4EfCMALJnZIqq0A" position="177.0,501.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RkQM4nN4EfCMALJnZIqq0A" name="LegacyStyledElement">
+      <modelElement href="RazorpayTest.uml#_RHmtIHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RkQM43N4EfCMALJnZIqq0A" name="Annotations">
+      <modelElement href="RazorpayTest.uml#_RHn7RnN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_RkQM5HN4EfCMALJnZIqq0A" label="+"/>
+    <operations xmi:id="_RkQM5XN4EfCMALJnZIqq0A" name="main" staticOperation="true">
+      <modelElement href="RazorpayTest.uml#_RHn7QnN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RkQM5nN4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RHn7RHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RkQM53N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkQM6HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_RkQM6XN4EfCMALJnZIqq0A" name="args">
+        <modelElement href="RazorpayTest.uml#_RHn7Q3N4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RkQM6nN4EfCMALJnZIqq0A" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_RkQM63N4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RkTQMHN4EfCMALJnZIqq0A" name="PolicySummary">
+    <modelElement href="RazorpayTest.uml#_RHqXgHN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_RkTQMXN4EfCMALJnZIqq0A" position="84.0,662.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_RkTQMnN4EfCMALJnZIqq0A" label="+"/>
+    <attributes xmi:id="_RkTQM3N4EfCMALJnZIqq0A" name="id">
+      <modelElement href="RazorpayTest.uml#_RTsBUHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkTQNHN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkTQNXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkTQNnN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkTQN3N4EfCMALJnZIqq0A" name="name">
+      <modelElement href="RazorpayTest.uml#_RTsoYHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkTQOHN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkTQOXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkTQOnN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_RkTQO3N4EfCMALJnZIqq0A" name="PolicySummary">
+      <modelElement href="RazorpayTest.uml#_RHq-kHN4EfCMALJnZIqq0A"/>
+      <keywords xmi:id="_RkTQPHN4EfCMALJnZIqq0A" keyword="create"/>
+      <visibility xmi:id="_RkTQPXN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkTQPnN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RkTQP3N4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RHq-lXN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RkTQQHN4EfCMALJnZIqq0A" name="PolicySummary">
+          <modelElement href="RazorpayTest.uml#_RHqXgHN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RkTQQXN4EfCMALJnZIqq0A" name="id">
+        <modelElement href="RazorpayTest.uml#_RHq-kXN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RkTQQnN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RkTQQ3N4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RkTQRHN4EfCMALJnZIqq0A" name="name">
+        <modelElement href="RazorpayTest.uml#_RHq-knN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RkTQRXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RkTQRnN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RkVFYHN4EfCMALJnZIqq0A" name="CustomerSummary">
+    <modelElement href="RazorpayTest.uml#_RHoiVXN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_RkVFYXN4EfCMALJnZIqq0A" position="-314.0,454.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_RkVFYnN4EfCMALJnZIqq0A" label="+"/>
+    <attributes xmi:id="_RkVFY3N4EfCMALJnZIqq0A" name="id">
+      <modelElement href="RazorpayTest.uml#_RTraQHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkVFZHN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkVFZXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkVFZnN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkVFZ3N4EfCMALJnZIqq0A" name="name">
+      <modelElement href="RazorpayTest.uml#_RTraQXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkVFaHN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkVFaXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkVFanN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_RkVFa3N4EfCMALJnZIqq0A" name="CustomerSummary">
+      <modelElement href="RazorpayTest.uml#_RHpJYHN4EfCMALJnZIqq0A"/>
+      <keywords xmi:id="_RkVFbHN4EfCMALJnZIqq0A" keyword="create"/>
+      <visibility xmi:id="_RkVFbXN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RkVFbnN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RkVFb3N4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RHpwcnN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RkVFcHN4EfCMALJnZIqq0A" name="CustomerSummary">
+          <modelElement href="RazorpayTest.uml#_RHoiVXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RkVFcXN4EfCMALJnZIqq0A" name="id">
+        <modelElement href="RazorpayTest.uml#_RHpJYXN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RkVFcnN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RkVFc3N4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RkVFdHN4EfCMALJnZIqq0A" name="name">
+        <modelElement href="RazorpayTest.uml#_RHpJYnN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RkVFdXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RkVFdnN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RkWTgHN4EfCMALJnZIqq0A" name="InvoiceRequest">
+    <modelElement href="RazorpayTest.uml#_RHuo8HN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_RkWTgXN4EfCMALJnZIqq0A" position="452.0,424.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RkWTgnN4EfCMALJnZIqq0A" name="LegacyStyledElement">
+      <modelElement href="RazorpayTest.uml#_RHvQAHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RkWTg3N4EfCMALJnZIqq0A" name="Annotations">
+      <modelElement href="RazorpayTest.uml#_RHv3EHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_RkWThHN4EfCMALJnZIqq0A" label="+"/>
+    <attributes xmi:id="_RkWThXN4EfCMALJnZIqq0A" name="customerId">
+      <modelElement href="RazorpayTest.uml#_RTsoYXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkWThnN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkWTh3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkWTiHN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkWTiXN4EfCMALJnZIqq0A" name="policyIds">
+      <modelElement href="RazorpayTest.uml#_RTsoYnN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkWTinN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkWTi3N4EfCMALJnZIqq0A" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_RkWTjHN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkWTjXN4EfCMALJnZIqq0A" name="insurerId">
+      <modelElement href="RazorpayTest.uml#_RTtPcXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkWTjnN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkWTj3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkWTkHN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkWTkXN4EfCMALJnZIqq0A" name="validUpto">
+      <modelElement href="RazorpayTest.uml#_RTtPcnN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkWTknN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkWTk3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkWTlHN4EfCMALJnZIqq0A" name="Date">
+        <modelElement href="RazorpayTest.uml#_RSuYAXN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkWTlXN4EfCMALJnZIqq0A" name="months">
+      <modelElement href="RazorpayTest.uml#_RTtPc3N4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkWTlnN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkWTl3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkWTmHN4EfCMALJnZIqq0A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RkbzEHN4EfCMALJnZIqq0A" name="Customer" associationsOut="_RkbMAHN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RIJfsHN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_RkbzEXN4EfCMALJnZIqq0A" position="-175.0,653.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RkbzEnN4EfCMALJnZIqq0A" name="LegacyStyledElement">
+      <modelElement href="RazorpayTest.uml#_RIJfsXN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RkbzE3N4EfCMALJnZIqq0A" name="Annotations">
+      <modelElement href="RazorpayTest.uml#_RILU4HN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_RkbzFHN4EfCMALJnZIqq0A" label="+"/>
+    <attributes xmi:id="_RkbzFXN4EfCMALJnZIqq0A" name="id">
+      <modelElement href="RazorpayTest.uml#_RT5csnN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RkbzFnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RT6DwHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RkbzF3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkbzGHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkbzGXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkbzGnN4EfCMALJnZIqq0A" name="name">
+      <modelElement href="RazorpayTest.uml#_RT6DwnN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkbzG3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkbzHHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkbzHXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkbzHnN4EfCMALJnZIqq0A" name="email">
+      <modelElement href="RazorpayTest.uml#_RT6Dw3N4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkbzH3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkbzIHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkbzIXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkbzInN4EfCMALJnZIqq0A" name="phone">
+      <modelElement href="RazorpayTest.uml#_RT6DxHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkbzI3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkbzJHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkbzJXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkbzJnN4EfCMALJnZIqq0A" name="address">
+      <modelElement href="RazorpayTest.uml#_RT6DxXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkbzJ3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkbzKHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkbzKXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkbzKnN4EfCMALJnZIqq0A" name="password">
+      <modelElement href="RazorpayTest.uml#_RT6q0HN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkbzK3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkbzLHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkbzLXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkbzLnN4EfCMALJnZIqq0A" name="aadhaarNumber">
+      <modelElement href="RazorpayTest.uml#_RT6q0XN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkbzL3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkbzMHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkbzMXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkbzMnN4EfCMALJnZIqq0A" name="autoPayEnabled">
+      <modelElement href="RazorpayTest.uml#_RT6q0nN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkbzM3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkbzNHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkbzNXN4EfCMALJnZIqq0A" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkbzNnN4EfCMALJnZIqq0A" name="policyIds">
+      <modelElement href="RazorpayTest.uml#_RT6q03N4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkbzN3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkbzOHN4EfCMALJnZIqq0A" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_RkbzOXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkbzOnN4EfCMALJnZIqq0A" name="paymentHistory">
+      <modelElement href="RazorpayTest.uml#_RT6q1XN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkbzO3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkbzPHN4EfCMALJnZIqq0A" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_RkbzPXN4EfCMALJnZIqq0A" name="PaymentHistoryEntry">
+        <modelElement href="RazorpayTest.uml#_RIKGwHN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkbzPnN4EfCMALJnZIqq0A" name="createdAt">
+      <modelElement href="RazorpayTest.uml#_RT7R4HN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkbzP3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkbzQHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkbzQXN4EfCMALJnZIqq0A" name="Date">
+        <modelElement href="RazorpayTest.uml#_RSuYAXN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RkigwHN4EfCMALJnZIqq0A" name="PaymentHistoryEntry" associationsIn="_RkbMAHN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RIKGwHN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_RkigwXN4EfCMALJnZIqq0A" position="-660.0,443.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_RkigwnN4EfCMALJnZIqq0A" keyword="static"/>
+    <stereotypes xmi:id="_Rkigw3N4EfCMALJnZIqq0A" name="Annotations">
+      <modelElement href="RazorpayTest.uml#_RIKt0HN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_RkigxHN4EfCMALJnZIqq0A" label="+"/>
+    <attributes xmi:id="_RkigxXN4EfCMALJnZIqq0A" name="policyId">
+      <modelElement href="RazorpayTest.uml#_RT7R4XN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkigxnN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rkigx3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkigyHN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkigyXN4EfCMALJnZIqq0A" name="status">
+      <modelElement href="RazorpayTest.uml#_RT7R4nN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkigynN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rkigy3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkigzHN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkigzXN4EfCMALJnZIqq0A" name="lastPaidDate">
+      <modelElement href="RazorpayTest.uml#_RT7R43N4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkigznN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rkigz3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rkig0HN4EfCMALJnZIqq0A" name="Date">
+        <modelElement href="RazorpayTest.uml#_RSuYAXN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rkig0XN4EfCMALJnZIqq0A" name="validUpto">
+      <modelElement href="RazorpayTest.uml#_RT7R5HN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rkig0nN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rkig03N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rkig1HN4EfCMALJnZIqq0A" name="Date">
+        <modelElement href="RazorpayTest.uml#_RSuYAXN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RkkV8HN4EfCMALJnZIqq0A" name="Policy">
+    <modelElement href="RazorpayTest.uml#_RH0vk3N4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_RkkV8XN4EfCMALJnZIqq0A" position="559.0,638.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RkkV8nN4EfCMALJnZIqq0A" name="LegacyStyledElement">
+      <modelElement href="RazorpayTest.uml#_RH1WoHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RkkV83N4EfCMALJnZIqq0A" name="Annotations">
+      <modelElement href="RazorpayTest.uml#_RH19sHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_RkkV9HN4EfCMALJnZIqq0A" label="+"/>
+    <attributes xmi:id="_RkkV9XN4EfCMALJnZIqq0A" name="id">
+      <modelElement href="RazorpayTest.uml#_RTwSwXN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RkkV9nN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RTw50HN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RkkV93N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkkV-HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkkV-XN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkkV-nN4EfCMALJnZIqq0A" name="insurerId">
+      <modelElement href="RazorpayTest.uml#_RTw50nN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkkV-3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkkV_HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkkV_XN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkkV_nN4EfCMALJnZIqq0A" name="type">
+      <modelElement href="RazorpayTest.uml#_RTw503N4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkkV_3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkkWAHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkkWAXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkkWAnN4EfCMALJnZIqq0A" name="coverageAmount">
+      <modelElement href="RazorpayTest.uml#_RTw51HN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkkWA3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkkWBHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkkWBXN4EfCMALJnZIqq0A" name="Double">
+        <modelElement href="RazorpayTest.uml#_RTXRMXN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkkWBnN4EfCMALJnZIqq0A" name="monthlyPremium">
+      <modelElement href="RazorpayTest.uml#_RTw51XN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkkWB3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkkWCHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkkWCXN4EfCMALJnZIqq0A" name="Double">
+        <modelElement href="RazorpayTest.uml#_RTXRMXN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkkWCnN4EfCMALJnZIqq0A" name="durationMonths">
+      <modelElement href="RazorpayTest.uml#_RTw51nN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkkWC3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkkWDHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkkWDXN4EfCMALJnZIqq0A" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkkWDnN4EfCMALJnZIqq0A" defaultValue="true" name="active">
+      <modelElement href="RazorpayTest.uml#_RTyH8HN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkkWD3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkkWEHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkkWEXN4EfCMALJnZIqq0A" name="Boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkkWEnN4EfCMALJnZIqq0A" defaultValue="new Date()" name="createdAt">
+      <modelElement href="RazorpayTest.uml#_RTyvAHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkkWE3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkkWFHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkkWFXN4EfCMALJnZIqq0A" name="Date">
+        <modelElement href="RazorpayTest.uml#_RSuYAXN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkkWFnN4EfCMALJnZIqq0A" name="policyType">
+      <modelElement href="RazorpayTest.uml#_RTyvAnN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkkWF3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkkWGHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkkWGXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkkWGnN4EfCMALJnZIqq0A" name="name">
+      <modelElement href="RazorpayTest.uml#_RTyvA3N4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkkWG3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkkWHHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkkWHXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RkmyOXN4EfCMALJnZIqq0A" name="Payment" associationsOut="_RkmyMHN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RH_HoHN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_RkmyOnN4EfCMALJnZIqq0A" position="132.0,842.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RkmyO3N4EfCMALJnZIqq0A" name="LegacyStyledElement">
+      <modelElement href="RazorpayTest.uml#_RH_usHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RkmyPHN4EfCMALJnZIqq0A" name="Annotations">
+      <modelElement href="RazorpayTest.uml#_RIBj4nN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_RkmyPXN4EfCMALJnZIqq0A" label="+"/>
+    <attributes xmi:id="_RkmyPnN4EfCMALJnZIqq0A" name="id">
+      <modelElement href="RazorpayTest.uml#_RT0kMXN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RkmyP3N4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RT1LQHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RkmyQHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkmyQXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkmyQnN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkmyQ3N4EfCMALJnZIqq0A" name="invoiceId">
+      <modelElement href="RazorpayTest.uml#_RT1LQnN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkmyRHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkmyRXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkmyRnN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkmyR3N4EfCMALJnZIqq0A" name="customerId">
+      <modelElement href="RazorpayTest.uml#_RT1LQ3N4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkmySHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkmySXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkmySnN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkmyS3N4EfCMALJnZIqq0A" name="insurerId">
+      <modelElement href="RazorpayTest.uml#_RT1LRHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkmyTHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkmyTXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkmyTnN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkmyT3N4EfCMALJnZIqq0A" name="amount">
+      <modelElement href="RazorpayTest.uml#_RT1yUHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkmyUHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkmyUXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkmyUnN4EfCMALJnZIqq0A" name="Double">
+        <modelElement href="RazorpayTest.uml#_RTXRMXN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkmyU3N4EfCMALJnZIqq0A" name="status">
+      <modelElement href="RazorpayTest.uml#_RT1yUXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkmyVHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkmyVXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkmyVnN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkmyV3N4EfCMALJnZIqq0A" name="razorpayPaymentId">
+      <modelElement href="RazorpayTest.uml#_RT1yUnN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkmyWHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkmyWXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkmyWnN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkmyW3N4EfCMALJnZIqq0A" name="razorpaySubscriptionId">
+      <modelElement href="RazorpayTest.uml#_RT1yU3N4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkmyXHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkmyXXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkmyXnN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkmyX3N4EfCMALJnZIqq0A" name="method">
+      <modelElement href="RazorpayTest.uml#_RT1yVHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkmyYHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkmyYXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkmyYnN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkmyY3N4EfCMALJnZIqq0A" defaultValue="false" name="isAutoPay">
+      <modelElement href="RazorpayTest.uml#_RT1yVXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkmyZHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkmyZXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkmyZnN4EfCMALJnZIqq0A" name="Boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkmyZ3N4EfCMALJnZIqq0A" defaultValue="new Date()" name="paidAt">
+      <modelElement href="RazorpayTest.uml#_RT2ZYHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkmyaHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkmyaXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkmyanN4EfCMALJnZIqq0A" name="Date">
+        <modelElement href="RazorpayTest.uml#_RSuYAXN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rkmya3N4EfCMALJnZIqq0A" name="taxDetails">
+      <modelElement href="RazorpayTest.uml#_RT2ZYnN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkmybHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkmybXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkmybnN4EfCMALJnZIqq0A" name="TaxDetails">
+        <modelElement href="RazorpayTest.uml#_RIAVwHN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rkmyb3N4EfCMALJnZIqq0A" name="policyIds">
+      <modelElement href="RazorpayTest.uml#_RT2ZY3N4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkmycHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkmycXN4EfCMALJnZIqq0A" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_RkmycnN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rkmyc3N4EfCMALJnZIqq0A" name="policyNames">
+      <modelElement href="RazorpayTest.uml#_RT2ZZXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkmydHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkmydXN4EfCMALJnZIqq0A" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_RkmydnN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RkpOcHN4EfCMALJnZIqq0A" name="TaxDetails" associationsIn="_RkmyMHN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RIAVwHN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_RkpOcXN4EfCMALJnZIqq0A" position="-898.0,632.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_RkpOcnN4EfCMALJnZIqq0A" keyword="static"/>
+    <stereotypes xmi:id="_RkpOc3N4EfCMALJnZIqq0A" name="Annotations">
+      <modelElement href="RazorpayTest.uml#_RIBj4HN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_RkpOdHN4EfCMALJnZIqq0A" label="+"/>
+    <attributes xmi:id="_RkpOdXN4EfCMALJnZIqq0A" name="taxType">
+      <modelElement href="RazorpayTest.uml#_RT2ZZ3N4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkpOdnN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkpOd3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkpOeHN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkpOeXN4EfCMALJnZIqq0A" name="taxRate">
+      <modelElement href="RazorpayTest.uml#_RT3AcHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkpOenN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkpOe3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkpOfHN4EfCMALJnZIqq0A" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkpOfXN4EfCMALJnZIqq0A" name="taxAmount">
+      <modelElement href="RazorpayTest.uml#_RT3AcXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkpOfnN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkpOf3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkpOgHN4EfCMALJnZIqq0A" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkpOgXN4EfCMALJnZIqq0A" name="totalAmount">
+      <modelElement href="RazorpayTest.uml#_RT3AcnN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkpOgnN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkpOg3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkpOhHN4EfCMALJnZIqq0A" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RkrqsHN4EfCMALJnZIqq0A" name="TaxRate">
+    <modelElement href="RazorpayTest.uml#_RH3L0HN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_RkrqsXN4EfCMALJnZIqq0A" position="696.0,423.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RkrqsnN4EfCMALJnZIqq0A" name="LegacyStyledElement">
+      <modelElement href="RazorpayTest.uml#_RH3y4HN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Rkrqs3N4EfCMALJnZIqq0A" name="Annotations">
+      <modelElement href="RazorpayTest.uml#_RH4Z8HN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_RkrqtHN4EfCMALJnZIqq0A" label="+"/>
+    <attributes xmi:id="_RkrqtXN4EfCMALJnZIqq0A" name="id">
+      <modelElement href="RazorpayTest.uml#_RTzWEHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RkrqtnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RTzWEXN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_Rkrqt3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkrquHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkrquXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkrqunN4EfCMALJnZIqq0A" name="policyType">
+      <modelElement href="RazorpayTest.uml#_RTz9IXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rkrqu3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkrqvHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkrqvXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkrqvnN4EfCMALJnZIqq0A" name="gstRate">
+      <modelElement href="RazorpayTest.uml#_RTz9InN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rkrqv3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkrqwHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkrqwXN4EfCMALJnZIqq0A" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkrqwnN4EfCMALJnZIqq0A" name="applicability">
+      <modelElement href="RazorpayTest.uml#_RTz9I3N4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rkrqw3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkrqxHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkrqxXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkrqxnN4EfCMALJnZIqq0A" name="updatedAt">
+      <modelElement href="RazorpayTest.uml#_RT0kMHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rkrqx3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkrqyHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkrqyXN4EfCMALJnZIqq0A" name="Date">
+        <modelElement href="RazorpayTest.uml#_RSuYAXN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RkvVEHN4EfCMALJnZIqq0A" name="Notification">
+    <modelElement href="RazorpayTest.uml#_RHweIHN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_RkvVEXN4EfCMALJnZIqq0A" position="-448.0,634.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RkvVEnN4EfCMALJnZIqq0A" name="LegacyStyledElement">
+      <modelElement href="RazorpayTest.uml#_RHxFMHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RkvVE3N4EfCMALJnZIqq0A" name="Annotations">
+      <modelElement href="RazorpayTest.uml#_RHxsQHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_RkvVFHN4EfCMALJnZIqq0A" label="+"/>
+    <attributes xmi:id="_RkvVFXN4EfCMALJnZIqq0A" name="id">
+      <modelElement href="RazorpayTest.uml#_RTt2gHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RkvVFnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RTt2gXN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RkvVF3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkvVGHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkvVGXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkvVGnN4EfCMALJnZIqq0A" name="customerId">
+      <modelElement href="RazorpayTest.uml#_RTt2g3N4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkvVG3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkvVHHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkvVHXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkvVHnN4EfCMALJnZIqq0A" name="invoiceId">
+      <modelElement href="RazorpayTest.uml#_RTudkHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkvVH3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkvVIHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkvVIXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkvVInN4EfCMALJnZIqq0A" name="insurerId">
+      <modelElement href="RazorpayTest.uml#_RTudkXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkvVI3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkvVJHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkvVJXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkvVJnN4EfCMALJnZIqq0A" name="type">
+      <modelElement href="RazorpayTest.uml#_RTudknN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkvVJ3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkvVKHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkvVKXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkvVKnN4EfCMALJnZIqq0A" name="message">
+      <modelElement href="RazorpayTest.uml#_RTvEoHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkvVK3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkvVLHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkvVLXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkvVLnN4EfCMALJnZIqq0A" defaultValue="new Date()" name="sentAt">
+      <modelElement href="RazorpayTest.uml#_RTvEoXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkvVL3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkvVMHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkvVMXN4EfCMALJnZIqq0A" name="Date">
+        <modelElement href="RazorpayTest.uml#_RSuYAXN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkvVMnN4EfCMALJnZIqq0A" defaultValue="&quot;sent&quot;" name="status">
+      <modelElement href="RazorpayTest.uml#_RTvEo3N4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkvVM3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkvVNHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkvVNXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkvVNnN4EfCMALJnZIqq0A" defaultValue="0" name="retryCount">
+      <modelElement href="RazorpayTest.uml#_RTvrsHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkvVN3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RkvVOHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkvVOXN4EfCMALJnZIqq0A" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RkzmgHN4EfCMALJnZIqq0A" name="PaymentInitiateRequest">
+    <modelElement href="RazorpayTest.uml#_RH0IgXN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_RkzmgXN4EfCMALJnZIqq0A" position="422.0,956.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RkzmgnN4EfCMALJnZIqq0A" name="LegacyStyledElement">
+      <modelElement href="RazorpayTest.uml#_RH0vkHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Rkzmg3N4EfCMALJnZIqq0A" name="Annotations">
+      <modelElement href="RazorpayTest.uml#_RH0vkXN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_RkzmhHN4EfCMALJnZIqq0A" label="+"/>
+    <attributes xmi:id="_RkzmhXN4EfCMALJnZIqq0A" name="invoiceId">
+      <modelElement href="RazorpayTest.uml#_RTvrsnN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkzmhnN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rkzmh3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkzmiHN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RkzmiXN4EfCMALJnZIqq0A" name="customerId">
+      <modelElement href="RazorpayTest.uml#_RTwSwHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RkzminN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rkzmi3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RkzmjHN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Rk2p0HN4EfCMALJnZIqq0A" name="Invoice" associationsOut="_Rk2CwHN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RIFOQHN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_Rk2p0XN4EfCMALJnZIqq0A" position="-140.0,982.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Rk2p0nN4EfCMALJnZIqq0A" name="LegacyStyledElement">
+      <modelElement href="RazorpayTest.uml#_RIFOQXN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Rk2p03N4EfCMALJnZIqq0A" name="Annotations">
+      <modelElement href="RazorpayTest.uml#_RIHqgHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_Rk2p1HN4EfCMALJnZIqq0A" label="+"/>
+    <attributes xmi:id="_Rk2p1XN4EfCMALJnZIqq0A" name="id">
+      <modelElement href="RazorpayTest.uml#_RT3ngHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_Rk2p1nN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RT3ngXN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_Rk2p13N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rk2p2HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rk2p2XN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rk2p2nN4EfCMALJnZIqq0A" name="customerId">
+      <modelElement href="RazorpayTest.uml#_RT3ng3N4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rk2p23N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rk2p3HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rk2p3XN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rk2p3nN4EfCMALJnZIqq0A" name="insurerId">
+      <modelElement href="RazorpayTest.uml#_RT3nhHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rk2p33N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rk2p4HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rk2p4XN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rk2p4nN4EfCMALJnZIqq0A" name="amount">
+      <modelElement href="RazorpayTest.uml#_RT4OkHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rk2p43N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rk2p5HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rk2p5XN4EfCMALJnZIqq0A" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rk2p5nN4EfCMALJnZIqq0A" defaultValue="&quot;unpaid&quot;" name="status">
+      <modelElement href="RazorpayTest.uml#_RT4OkXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rk2p53N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rk2p6HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rk2p6XN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rk2p6nN4EfCMALJnZIqq0A" name="validUpto">
+      <modelElement href="RazorpayTest.uml#_RT4Ok3N4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rk2p63N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rk2p7HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rk2p7XN4EfCMALJnZIqq0A" name="Date">
+        <modelElement href="RazorpayTest.uml#_RSuYAXN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rk2p7nN4EfCMALJnZIqq0A" name="razorpayOrderId">
+      <modelElement href="RazorpayTest.uml#_RT4OlHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rk2p73N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rk2p8HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rk2p8XN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rk2p8nN4EfCMALJnZIqq0A" defaultValue="new ArrayList&lt;>()" name="taxDetailsList">
+      <modelElement href="RazorpayTest.uml#_RT4OlXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rk2p83N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rk2p9HN4EfCMALJnZIqq0A" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_Rk2p9XN4EfCMALJnZIqq0A" name="TaxDetails">
+        <modelElement href="RazorpayTest.uml#_RIGcYHN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rk2p9nN4EfCMALJnZIqq0A" defaultValue="new Date()" name="createdAt">
+      <modelElement href="RazorpayTest.uml#_RT4OmHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rk2p93N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rk2p-HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rk2p-XN4EfCMALJnZIqq0A" name="Date">
+        <modelElement href="RazorpayTest.uml#_RSuYAXN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rk2p-nN4EfCMALJnZIqq0A" name="policyIds">
+      <modelElement href="RazorpayTest.uml#_RT41oXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rk2p-3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rk2p_HN4EfCMALJnZIqq0A" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_Rk2p_XN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rk2p_nN4EfCMALJnZIqq0A" name="paymentLink">
+      <modelElement href="RazorpayTest.uml#_RT41o3N4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rk2p_3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rk2qAHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rk2qAXN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rk2qAnN4EfCMALJnZIqq0A" name="months">
+      <modelElement href="RazorpayTest.uml#_RT41pHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rk2qA3N4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rk2qBHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rk2qBXN4EfCMALJnZIqq0A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Rk6UMHN4EfCMALJnZIqq0A" name="TaxDetails" associationsIn="_Rk2CwHN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RIGcYHN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_Rk6UMXN4EfCMALJnZIqq0A" position="-1154.0,772.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_Rk6UMnN4EfCMALJnZIqq0A" keyword="static"/>
+    <stereotypes xmi:id="_Rk6UM3N4EfCMALJnZIqq0A" name="Annotations">
+      <modelElement href="RazorpayTest.uml#_RIHDcHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_Rk6UNHN4EfCMALJnZIqq0A" label="+"/>
+    <attributes xmi:id="_Rk6UNXN4EfCMALJnZIqq0A" name="policyId">
+      <modelElement href="RazorpayTest.uml#_RT41pXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rk6UNnN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rk6UN3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rk6UOHN4EfCMALJnZIqq0A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rk6UOXN4EfCMALJnZIqq0A" name="gstRate">
+      <modelElement href="RazorpayTest.uml#_RT41pnN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rk6UOnN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rk6UO3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rk6UPHN4EfCMALJnZIqq0A" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rk6UPXN4EfCMALJnZIqq0A" name="taxAmount">
+      <modelElement href="RazorpayTest.uml#_RT5csHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rk6UPnN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rk6UP3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rk6UQHN4EfCMALJnZIqq0A" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rk6UQXN4EfCMALJnZIqq0A" name="totalAmount">
+      <modelElement href="RazorpayTest.uml#_RT5csXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rk6UQnN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rk6UQ3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rk6URHN4EfCMALJnZIqq0A" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Rk8wdXN4EfCMALJnZIqq0A" name="TaxRateRepository" associationsIn="_Rk8JYHN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RHrloHN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_Rk8wdnN4EfCMALJnZIqq0A" position="1025.0,-505.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Rk8wd3N4EfCMALJnZIqq0A" label="+"/>
+    <operations xmi:id="_Rk8weHN4EfCMALJnZIqq0A" name="findByPolicyType">
+      <modelElement href="RazorpayTest.uml#_RHsMsHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_Rk8weXN4EfCMALJnZIqq0A" name="Generics">
+        <modelElement href="RazorpayTest.uml#_RHsMsnN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_Rk8wenN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_Rk8we3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rk8wfHN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RTU08HN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_Rk8wfXN4EfCMALJnZIqq0A" name="Optional">
+          <modelElement href="RazorpayTest.uml#_RSrUsXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Rk8wfnN4EfCMALJnZIqq0A" name="policyType">
+        <modelElement href="RazorpayTest.uml#_RHsMsXN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rk8wf3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rk8wgHN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Rk_zwHN4EfCMALJnZIqq0A" name="PolicyRepository" associationsIn="_Rk-loHN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RHszwHN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_Rk_zwXN4EfCMALJnZIqq0A" position="1827.0,-496.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Rk_zwnN4EfCMALJnZIqq0A" name="LegacyStyledElement">
+      <modelElement href="RazorpayTest.uml#_RHta0HN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Rk_zw3N4EfCMALJnZIqq0A" name="Annotations">
+      <modelElement href="RazorpayTest.uml#_RHuB4HN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_Rk_zxHN4EfCMALJnZIqq0A" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_RlC3E3N4EfCMALJnZIqq0A" name="NotificationRepository" associationsIn="_RlBo8HN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RH95gHN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_RlC3FHN4EfCMALJnZIqq0A" position="2157.0,-496.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RlC3FXN4EfCMALJnZIqq0A" name="LegacyStyledElement">
+      <modelElement href="RazorpayTest.uml#_RH-gkHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RlC3FnN4EfCMALJnZIqq0A" name="Annotations">
+      <modelElement href="RazorpayTest.uml#_RH-gkXN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_RlC3F3N4EfCMALJnZIqq0A" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_RlGhcXN4EfCMALJnZIqq0A" name="PaymentRepository" associationsIn="_RlFTUHN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RHyTUHN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_RlGhcnN4EfCMALJnZIqq0A" position="2374.0,-524.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RlGhc3N4EfCMALJnZIqq0A" name="LegacyStyledElement">
+      <modelElement href="RazorpayTest.uml#_RHy6YHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RlGhdHN4EfCMALJnZIqq0A" name="Annotations">
+      <modelElement href="RazorpayTest.uml#_RHy6YXN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_RlGhdXN4EfCMALJnZIqq0A" label="+"/>
+    <operations xmi:id="_RlGhdnN4EfCMALJnZIqq0A" name="findAll">
+      <modelElement href="RazorpayTest.uml#_RTWDEnN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlGhd3N4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RTWqI3N4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlGheHN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlGheXN4EfCMALJnZIqq0A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_RlGhenN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RTWqIXN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RlGhe3N4EfCMALJnZIqq0A" name="Payment">
+          <modelElement href="RazorpayTest.uml#_RH_HoHN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RlGhfHN4EfCMALJnZIqq0A" name="sort">
+        <modelElement href="RazorpayTest.uml#_RTWqIHN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RlGhfXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RlGhfnN4EfCMALJnZIqq0A" name="Sort">
+          <modelElement href="RazorpayTest.uml#_RSw0QHN4EfCMALJnZIqq0A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_RlKL0XN4EfCMALJnZIqq0A" name="CustomerRepository" associationsIn="_RlI9sHN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RH6PIHN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_RlKL0nN4EfCMALJnZIqq0A" position="539.0,-505.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_RlKL03N4EfCMALJnZIqq0A" label="+"/>
+    <operations xmi:id="_RlKL1HN4EfCMALJnZIqq0A" name="findByNameContainingIgnoreCase">
+      <modelElement href="RazorpayTest.uml#_RH62MHN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_RlKL1XN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlKL1nN4EfCMALJnZIqq0A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_RlKL13N4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RH62MnN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RlKL2HN4EfCMALJnZIqq0A" name="Customer">
+          <modelElement href="RazorpayTest.uml#_RIJfsHN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RlKL2XN4EfCMALJnZIqq0A" name="name">
+        <modelElement href="RazorpayTest.uml#_RH62MXN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RlKL2nN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RlKL23N4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_RlPEUHN4EfCMALJnZIqq0A" name="InvoiceRepository" associationsIn="_RlMoEHN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RH7dQHN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_RlPEUXN4EfCMALJnZIqq0A" position="2686.0,-544.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RlPEUnN4EfCMALJnZIqq0A" name="LegacyStyledElement">
+      <modelElement href="RazorpayTest.uml#_RH8EUHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RlPEU3N4EfCMALJnZIqq0A" name="Annotations">
+      <modelElement href="RazorpayTest.uml#_RH9ScXN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_RlPEVHN4EfCMALJnZIqq0A" label="+"/>
+    <operations xmi:id="_RlPEVXN4EfCMALJnZIqq0A" name="findByRazorpayOrderId">
+      <modelElement href="RazorpayTest.uml#_RH8EUXN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlPEVnN4EfCMALJnZIqq0A" name="Generics">
+        <modelElement href="RazorpayTest.uml#_RH8rYHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RlPEV3N4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RH9ScHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlPEWHN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlPEWXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RlPEWnN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RTZGYnN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RlPEW3N4EfCMALJnZIqq0A" name="Optional">
+          <modelElement href="RazorpayTest.uml#_RSrUsXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RlPEXHN4EfCMALJnZIqq0A" name="razorpayOrderId">
+        <modelElement href="RazorpayTest.uml#_RH8EUnN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RlPEXXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RlPEXnN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RlPEX3N4EfCMALJnZIqq0A" name="findByCustomerIdAndStatusIn">
+      <modelElement href="RazorpayTest.uml#_RTZtcHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlPEYHN4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RTZtdXN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlPEYXN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlPEYnN4EfCMALJnZIqq0A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_RlPEY3N4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RTZtc3N4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RlPEZHN4EfCMALJnZIqq0A" name="Invoice">
+          <modelElement href="RazorpayTest.uml#_RIFOQHN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RlPEZXN4EfCMALJnZIqq0A" name="customerId">
+        <modelElement href="RazorpayTest.uml#_RTZtcXN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RlPEZnN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RlPEZ3N4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RlPEaHN4EfCMALJnZIqq0A" name="statuses">
+        <modelElement href="RazorpayTest.uml#_RTZtcnN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RlPEaXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RlPEanN4EfCMALJnZIqq0A" name="List">
+          <modelElement href="RazorpayTest.uml#_RSu_EXN4EfCMALJnZIqq0A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Rlb4qXN4EfCMALJnZIqq0A" name="BillingService" associationsIn="_RkHC8HN4EfCMALJnZIqq0A _RlsXUHN4EfCMALJnZIqq0A" associationsOut="_RlMoEHN4EfCMALJnZIqq0A _Rk-loHN4EfCMALJnZIqq0A _RlFTUHN4EfCMALJnZIqq0A _RlBo8HN4EfCMALJnZIqq0A _RlI9sHN4EfCMALJnZIqq0A _Rk8JYHN4EfCMALJnZIqq0A _RlaqgHN4EfCMALJnZIqq0A _Rlb4oHN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RIMjAHN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_Rlb4qnN4EfCMALJnZIqq0A" position="1454.0,-374.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Rlb4q3N4EfCMALJnZIqq0A" name="LegacyStyledElement">
+      <modelElement href="RazorpayTest.uml#_RINxIHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Rlb4rHN4EfCMALJnZIqq0A" name="Annotations">
+      <modelElement href="RazorpayTest.uml#_RIYwQHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_Rlb4rXN4EfCMALJnZIqq0A" label="+"/>
+    <attributes xmi:id="_Rlb4rnN4EfCMALJnZIqq0A" defaultValue="LoggerFactory.getLogger(BillingService.class)" name="log" staticAttribute="true">
+      <modelElement href="RazorpayTest.uml#_RT748HN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_Rlb4r3N4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RT748nN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_Rlb4sHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rlb4sXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rlb4snN4EfCMALJnZIqq0A" name="Logger">
+        <modelElement href="RazorpayTest.uml#_RS5XIXN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rlb4s3N4EfCMALJnZIqq0A" name="invoiceRepository">
+      <modelElement href="RazorpayTest.uml#_RT7483N4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rlb4tHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rlb4tXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rlb4tnN4EfCMALJnZIqq0A" name="InvoiceRepository">
+        <modelElement href="RazorpayTest.uml#_RH7dQHN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rlb4t3N4EfCMALJnZIqq0A" name="policyRepository">
+      <modelElement href="RazorpayTest.uml#_RT8gAnN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rlb4uHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rlb4uXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rlb4unN4EfCMALJnZIqq0A" name="PolicyRepository">
+        <modelElement href="RazorpayTest.uml#_RHszwHN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rlb4u3N4EfCMALJnZIqq0A" name="paymentRepository">
+      <modelElement href="RazorpayTest.uml#_RT8gBXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rlb4vHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rlb4vXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rlb4vnN4EfCMALJnZIqq0A" name="PaymentRepository">
+        <modelElement href="RazorpayTest.uml#_RHyTUHN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rlb4v3N4EfCMALJnZIqq0A" name="notificationRepository">
+      <modelElement href="RazorpayTest.uml#_RT9HEnN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rlb4wHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rlb4wXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rlb4wnN4EfCMALJnZIqq0A" name="NotificationRepository">
+        <modelElement href="RazorpayTest.uml#_RH95gHN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rlb4w3N4EfCMALJnZIqq0A" name="customerRepository">
+      <modelElement href="RazorpayTest.uml#_RT9HFXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rlb4xHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rlb4xXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rlb4xnN4EfCMALJnZIqq0A" name="CustomerRepository">
+        <modelElement href="RazorpayTest.uml#_RH6PIHN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rlb4x3N4EfCMALJnZIqq0A" name="taxRateRepository">
+      <modelElement href="RazorpayTest.uml#_RT9uIXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rlb4yHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rlb4yXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rlb4ynN4EfCMALJnZIqq0A" name="TaxRateRepository">
+        <modelElement href="RazorpayTest.uml#_RHrloHN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rlb4y3N4EfCMALJnZIqq0A" name="razorpayClient">
+      <modelElement href="RazorpayTest.uml#_RT-VMXN4EfCMALJnZIqq0A"/>
+      <visibility xmi:id="_Rlb4zHN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rlb4zXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_Rlb4znN4EfCMALJnZIqq0A" name="RazorpayClient">
+        <modelElement href="RazorpayTest.uml#_RS4JAXN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Rlb4z3N4EfCMALJnZIqq0A" name="BillingService">
+      <modelElement href="RazorpayTest.uml#_RIPmUHN4EfCMALJnZIqq0A"/>
+      <keywords xmi:id="_Rlb40HN4EfCMALJnZIqq0A" keyword="create"/>
+      <visibility xmi:id="_Rlb40XN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_Rlb40nN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rlb403N4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RIPmVXN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_Rlb41HN4EfCMALJnZIqq0A" name="BillingService">
+          <modelElement href="RazorpayTest.uml#_RIMjAHN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Rlb41XN4EfCMALJnZIqq0A" name="keyId">
+        <modelElement href="RazorpayTest.uml#_RIPmUXN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlb41nN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlb413N4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Rlb42HN4EfCMALJnZIqq0A" name="keySecret">
+        <modelElement href="RazorpayTest.uml#_RIPmUnN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlb42XN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlb42nN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Rlb423N4EfCMALJnZIqq0A" name="initiatePayment">
+      <modelElement href="RazorpayTest.uml#_RIQ0cHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_Rlb43HN4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RIQ0dHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_Rlb43XN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_Rlb43nN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rlb433N4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RIQ0c3N4EfCMALJnZIqq0A"/>
+        <type xmi:id="_Rlb44HN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Rlb44XN4EfCMALJnZIqq0A" name="invoiceId">
+        <modelElement href="RazorpayTest.uml#_RIQ0cXN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlb44nN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlb443N4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Rlb45HN4EfCMALJnZIqq0A" name="customerId">
+        <modelElement href="RazorpayTest.uml#_RIQ0cnN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlb45XN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlb45nN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Rlb453N4EfCMALJnZIqq0A" name="verifyPayment">
+      <modelElement href="RazorpayTest.uml#_RIRbgHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_Rlb46HN4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RIRbhHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_Rlb46XN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_Rlb46nN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Rlb463N4EfCMALJnZIqq0A" name="razorpayPaymentId">
+        <modelElement href="RazorpayTest.uml#_RIRbgXN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlb47HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlb47XN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Rlb47nN4EfCMALJnZIqq0A" name="razorpayOrderId">
+        <modelElement href="RazorpayTest.uml#_RIRbgnN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlb473N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlb48HN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Rlb48XN4EfCMALJnZIqq0A" name="status">
+        <modelElement href="RazorpayTest.uml#_RIRbg3N4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlb48nN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlb483N4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Rlb49HN4EfCMALJnZIqq0A" name="sendNotification">
+      <modelElement href="RazorpayTest.uml#_RIRbhXN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_Rlb49XN4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RIRbiXN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_Rlb49nN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rlb493N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Rlb4-HN4EfCMALJnZIqq0A" name="invoiceId">
+        <modelElement href="RazorpayTest.uml#_RIRbhnN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlb4-XN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlb4-nN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Rlb4-3N4EfCMALJnZIqq0A" name="customerId">
+        <modelElement href="RazorpayTest.uml#_RIRbh3N4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlb4_HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlb4_XN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Rlb4_nN4EfCMALJnZIqq0A" name="insurerId">
+        <modelElement href="RazorpayTest.uml#_RIRbiHN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlb4_3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlb5AHN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Rlb5AXN4EfCMALJnZIqq0A" name="getUnpaidCustomers">
+      <modelElement href="RazorpayTest.uml#_RIRbinN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_Rlb5AnN4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RISCknN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_Rlb5A3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_Rlb5BHN4EfCMALJnZIqq0A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_Rlb5BXN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RISCkHN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_Rlb5BnN4EfCMALJnZIqq0A" name="CustomerSummary">
+          <modelElement href="RazorpayTest.uml#_RHoiVXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Rlb5B3N4EfCMALJnZIqq0A" name="getUnpaidPoliciesForCustomer">
+      <modelElement href="RazorpayTest.uml#_RISCk3N4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_Rlb5CHN4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RISponN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_Rlb5CXN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_Rlb5CnN4EfCMALJnZIqq0A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_Rlb5C3N4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RISpoHN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_Rlb5DHN4EfCMALJnZIqq0A" name="PolicySummary">
+          <modelElement href="RazorpayTest.uml#_RHqXgHN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Rlb5DXN4EfCMALJnZIqq0A" name="customerId">
+        <modelElement href="RazorpayTest.uml#_RISClHN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlb5DnN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlb5D3N4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Rlb5EHN4EfCMALJnZIqq0A" name="processCashPayment">
+      <modelElement href="RazorpayTest.uml#_RITQsHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_Rlb5EXN4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RITQsnN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_Rlb5EnN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_Rlb5E3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Rlb5FHN4EfCMALJnZIqq0A" name="invoiceId">
+        <modelElement href="RazorpayTest.uml#_RITQsXN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlb5FXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlb5FnN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Rlb5F3N4EfCMALJnZIqq0A" name="getAllPaymentHistory">
+      <modelElement href="RazorpayTest.uml#_RITQs3N4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_Rlb5GHN4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RIT3wnN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_Rlb5GXN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_Rlb5GnN4EfCMALJnZIqq0A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_Rlb5G3N4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RIT3wHN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_Rlb5HHN4EfCMALJnZIqq0A" name="Payment">
+          <modelElement href="RazorpayTest.uml#_RH_HoHN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Rlb5HXN4EfCMALJnZIqq0A" name="getCustomerById">
+      <modelElement href="RazorpayTest.uml#_RIUe0HN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_Rlb5HnN4EfCMALJnZIqq0A" name="Generics">
+        <modelElement href="RazorpayTest.uml#_RIVF4HN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Rlb5H3N4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RIVF4XN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_Rlb5IHN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_Rlb5IXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rlb5InN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RTgbIHN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_Rlb5I3N4EfCMALJnZIqq0A" name="Optional">
+          <modelElement href="RazorpayTest.uml#_RSrUsXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Rlb5JHN4EfCMALJnZIqq0A" name="customerId">
+        <modelElement href="RazorpayTest.uml#_RIUe0XN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlb5JXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RlcfsHN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RlcfsXN4EfCMALJnZIqq0A" name="getInvoiceById">
+      <modelElement href="RazorpayTest.uml#_RIVs8HN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlcfsnN4EfCMALJnZIqq0A" name="Generics">
+        <modelElement href="RazorpayTest.uml#_RIVs8nN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Rlcfs3N4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RIWUAHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlcftHN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlcftXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RlcftnN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RTgbIXN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_Rlcft3N4EfCMALJnZIqq0A" name="Optional">
+          <modelElement href="RazorpayTest.uml#_RSrUsXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RlcfuHN4EfCMALJnZIqq0A" name="invoiceId">
+        <modelElement href="RazorpayTest.uml#_RIVs8XN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RlcfuXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RlcfunN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Rlcfu3N4EfCMALJnZIqq0A" name="getAllInvoiceHistory">
+      <modelElement href="RazorpayTest.uml#_RIWUAXN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlcfvHN4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RIWUBHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlcfvXN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlcfvnN4EfCMALJnZIqq0A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_Rlcfv3N4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RIWUAnN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RlcfwHN4EfCMALJnZIqq0A" name="Invoice">
+          <modelElement href="RazorpayTest.uml#_RIFOQHN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RlcfwXN4EfCMALJnZIqq0A" name="searchCustomersByName">
+      <modelElement href="RazorpayTest.uml#_RIW7EHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlcfwnN4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RIXiIHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_Rlcfw3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlcfxHN4EfCMALJnZIqq0A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_RlcfxXN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RIW7EnN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RlcfxnN4EfCMALJnZIqq0A" name="CustomerSummary">
+          <modelElement href="RazorpayTest.uml#_RHoiVXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Rlcfx3N4EfCMALJnZIqq0A" name="name">
+        <modelElement href="RazorpayTest.uml#_RIW7EXN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RlcfyHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RlcfyXN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RlcfynN4EfCMALJnZIqq0A" name="getUnpaidFailedInvoicesForCustomer">
+      <modelElement href="RazorpayTest.uml#_RIXiIXN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_Rlcfy3N4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RIYJMXN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlcfzHN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlcfzXN4EfCMALJnZIqq0A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_RlcfznN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RIXiI3N4EfCMALJnZIqq0A"/>
+        <type xmi:id="_Rlcfz3N4EfCMALJnZIqq0A" name="Invoice">
+          <modelElement href="RazorpayTest.uml#_RIFOQHN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Rlcf0HN4EfCMALJnZIqq0A" name="customerId">
+        <modelElement href="RazorpayTest.uml#_RIXiInN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlcf0XN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlcf0nN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Rlcf03N4EfCMALJnZIqq0A" name="createInvoice">
+      <modelElement href="RazorpayTest.uml#_RTd-4HN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_Rlcf1HN4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RTel8XN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_Rlcf1XN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_Rlcf1nN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rlcf13N4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RTel8HN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_Rlcf2HN4EfCMALJnZIqq0A" name="Invoice">
+          <modelElement href="RazorpayTest.uml#_RIFOQHN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Rlcf2XN4EfCMALJnZIqq0A" name="customerId">
+        <modelElement href="RazorpayTest.uml#_RTd-4XN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlcf2nN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlcf23N4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Rlcf3HN4EfCMALJnZIqq0A" name="policyIds">
+        <modelElement href="RazorpayTest.uml#_RTd-4nN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlcf3XN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlcf3nN4EfCMALJnZIqq0A" name="List">
+          <modelElement href="RazorpayTest.uml#_RSu_EXN4EfCMALJnZIqq0A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Rlcf33N4EfCMALJnZIqq0A" name="insurerId">
+        <modelElement href="RazorpayTest.uml#_RTd-43N4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlcf4HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlcf4XN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Rlcf4nN4EfCMALJnZIqq0A" name="dueDate">
+        <modelElement href="RazorpayTest.uml#_RTd-5HN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlcf43N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlcf5HN4EfCMALJnZIqq0A" name="Date">
+          <modelElement href="RazorpayTest.uml#_RSuYAXN4EfCMALJnZIqq0A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Rlcf5XN4EfCMALJnZIqq0A" name="months">
+        <modelElement href="RazorpayTest.uml#_RTd-5XN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlcf5nN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlcf53N4EfCMALJnZIqq0A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Rlcf6HN4EfCMALJnZIqq0A" name="calculateDueDate">
+      <modelElement href="RazorpayTest.uml#_RTel83N4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_Rlcf6XN4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RTfNAXN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_Rlcf6nN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rlcf63N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rlcf7HN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RTfNAHN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_Rlcf7XN4EfCMALJnZIqq0A" name="Date">
+          <modelElement href="RazorpayTest.uml#_RSuYAXN4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Rlcf7nN4EfCMALJnZIqq0A" name="currentDate">
+        <modelElement href="RazorpayTest.uml#_RTel9HN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlcf73N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlcf8HN4EfCMALJnZIqq0A" name="Date">
+          <modelElement href="RazorpayTest.uml#_RSuYAXN4EfCMALJnZIqq0A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Rlcf8XN4EfCMALJnZIqq0A" name="months">
+        <modelElement href="RazorpayTest.uml#_RTel9XN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlcf8nN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlcf83N4EfCMALJnZIqq0A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Rlcf9HN4EfCMALJnZIqq0A" name="updatePaymentHistory">
+      <modelElement href="RazorpayTest.uml#_RTfNAnN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_Rlcf9XN4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RTf0EHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_Rlcf9nN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_Rlcf93N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Rlcf-HN4EfCMALJnZIqq0A" name="customer">
+        <modelElement href="RazorpayTest.uml#_RTfNA3N4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlcf-XN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlcf-nN4EfCMALJnZIqq0A" name="Customer">
+          <modelElement href="RazorpayTest.uml#_RIJfsHN4EfCMALJnZIqq0A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Rlcf-3N4EfCMALJnZIqq0A" name="policyId">
+        <modelElement href="RazorpayTest.uml#_RTfNBHN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlcf_HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_Rlcf_XN4EfCMALJnZIqq0A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Rlcf_nN4EfCMALJnZIqq0A" name="newValidUpto">
+        <modelElement href="RazorpayTest.uml#_RTfNBXN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_Rlcf_3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RlcgAHN4EfCMALJnZIqq0A" name="Date">
+          <modelElement href="RazorpayTest.uml#_RSuYAXN4EfCMALJnZIqq0A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RlcgAXN4EfCMALJnZIqq0A" name="getPoliciesByIds">
+      <modelElement href="RazorpayTest.uml#_RThCMHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlcgAnN4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RThCNHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlcgA3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlcgBHN4EfCMALJnZIqq0A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_RlcgBXN4EfCMALJnZIqq0A">
+        <modelElement href="RazorpayTest.uml#_RThCMnN4EfCMALJnZIqq0A"/>
+        <type xmi:id="_RlcgBnN4EfCMALJnZIqq0A" name="Policy">
+          <modelElement href="RazorpayTest.uml#_RH0vk3N4EfCMALJnZIqq0A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RlcgB3N4EfCMALJnZIqq0A" name="policyIds">
+        <modelElement href="RazorpayTest.uml#_RThCMXN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RlcgCHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RlcgCXN4EfCMALJnZIqq0A" name="List">
+          <modelElement href="RazorpayTest.uml#_RSu_EXN4EfCMALJnZIqq0A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RlcgCnN4EfCMALJnZIqq0A" name="processCashPaymentMultiple">
+      <modelElement href="RazorpayTest.uml#_RThpQXN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlcgC3N4EfCMALJnZIqq0A" name="StyledElement">
+        <modelElement href="RazorpayTest.uml#_RTiQUXN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlcgDHN4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlcgDXN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_RlcgDnN4EfCMALJnZIqq0A" name="invoiceIds">
+        <modelElement href="RazorpayTest.uml#_RTiQUHN4EfCMALJnZIqq0A"/>
+        <cardinality xmi:id="_RlcgD3N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+        <type xmi:id="_RlcgEHN4EfCMALJnZIqq0A" name="List">
+          <modelElement href="RazorpayTest.uml#_RSu_EXN4EfCMALJnZIqq0A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RlrJMHN4EfCMALJnZIqq0A" name="RazorpayException">
+    <modelElement href="RazorpayTest.uml#_RS4JA3N4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_RlrJMXN4EfCMALJnZIqq0A" position="646.0,960.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RlrJMnN4EfCMALJnZIqq0A" name="Reference">
+      <modelElement href="RazorpayTest.uml#_RS4wEHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_RlrJM3N4EfCMALJnZIqq0A" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RlxP2XN4EfCMALJnZIqq0A" name="BillingControllerTest" associationsOut="_RlsXUHN4EfCMALJnZIqq0A _RlwowHN4EfCMALJnZIqq0A _RlxP0HN4EfCMALJnZIqq0A">
+    <modelElement href="RazorpayTest.uml#_RIgFAHN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_RlxP2nN4EfCMALJnZIqq0A" position="969.0,21.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RlxP23N4EfCMALJnZIqq0A" name="LegacyStyledElement">
+      <modelElement href="RazorpayTest.uml#_RIhTIHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RlxP3HN4EfCMALJnZIqq0A" name="Annotations">
+      <modelElement href="RazorpayTest.uml#_RIqdFnN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_RlxP3XN4EfCMALJnZIqq0A" label="+"/>
+    <attributes xmi:id="_RlxP3nN4EfCMALJnZIqq0A" name="mockMvc">
+      <modelElement href="RazorpayTest.uml#_RT_jUHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxP33N4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RUAKYHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxP4HN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RlxP4XN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RlxP4nN4EfCMALJnZIqq0A" name="MockMvc">
+        <modelElement href="RazorpayTest.uml#_RTChE3N4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RlxP43N4EfCMALJnZIqq0A" name="billingService">
+      <modelElement href="RazorpayTest.uml#_RUAKYnN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxP5HN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RUAKY3N4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxP5XN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RlxP5nN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RlxP53N4EfCMALJnZIqq0A" name="BillingService">
+        <modelElement href="RazorpayTest.uml#_RIMjAHN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RlxP6HN4EfCMALJnZIqq0A" name="objectMapper">
+      <modelElement href="RazorpayTest.uml#_RUAxcXN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxP6XN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RUAxcnN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxP6nN4EfCMALJnZIqq0A" label="-"/>
+      <cardinality xmi:id="_RlxP63N4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+      <type xmi:id="_RlxP7HN4EfCMALJnZIqq0A" name="ObjectMapper">
+        <modelElement href="RazorpayTest.uml#_RTAE0HN4EfCMALJnZIqq0A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_RlxP7XN4EfCMALJnZIqq0A" name="testCreateInvoice_Success">
+      <modelElement href="RazorpayTest.uml#_RIh6MHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxP7nN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIihQHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxP73N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxP8HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxP8XN4EfCMALJnZIqq0A" name="testCreateInvoice_RazorpayException">
+      <modelElement href="RazorpayTest.uml#_RIihQnN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxP8nN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIjIUHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxP83N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxP9HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxP9XN4EfCMALJnZIqq0A" name="testCreateInvoice_RuntimeException">
+      <modelElement href="RazorpayTest.uml#_RIjIUnN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxP9nN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIjIU3N4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxP93N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxP-HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxP-XN4EfCMALJnZIqq0A" name="testInitiatePayment_Success">
+      <modelElement href="RazorpayTest.uml#_RIjvYXN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxP-nN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIjvYnN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxP-3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxP_HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxP_XN4EfCMALJnZIqq0A" name="testInitiatePayment_RazorpayException">
+      <modelElement href="RazorpayTest.uml#_RIkWcHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxP_nN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIkWcXN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxP_3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxQAHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxQAXN4EfCMALJnZIqq0A" name="testInitiatePayment_RuntimeException">
+      <modelElement href="RazorpayTest.uml#_RIk9gHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxQAnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIk9gXN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxQA3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxQBHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxQBXN4EfCMALJnZIqq0A" name="testHandleWebhook_PaymentCaptured_Success">
+      <modelElement href="RazorpayTest.uml#_RIk9g3N4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxQBnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIlkkHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxQB3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxQCHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxQCXN4EfCMALJnZIqq0A" name="testHandleWebhook_UnknownEvent">
+      <modelElement href="RazorpayTest.uml#_RIlkknN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxQCnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIlkk3N4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxQC3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxQDHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxQDXN4EfCMALJnZIqq0A" name="testGetUnpaidCustomers_Success">
+      <modelElement href="RazorpayTest.uml#_RImLoHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxQDnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RImLoXN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxQD3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxQEHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxQEXN4EfCMALJnZIqq0A" name="testGetUnpaidFailedInvoicesForCustomer">
+      <modelElement href="RazorpayTest.uml#_RImLo3N4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxQEnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RImysHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxQE3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxQFHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxQFXN4EfCMALJnZIqq0A" name="testGetUnpaidPoliciesForCustomer">
+      <modelElement href="RazorpayTest.uml#_RImysnN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxQFnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RImys3N4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxQF3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxQGHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxQGXN4EfCMALJnZIqq0A" name="testPayByCash_Success">
+      <modelElement href="RazorpayTest.uml#_RImytXN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxQGnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RInZwHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxQG3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxQHHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxQHXN4EfCMALJnZIqq0A" name="testPayByCash_RuntimeException">
+      <modelElement href="RazorpayTest.uml#_RInZwnN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxQHnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RInZw3N4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxQH3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxQIHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxQIXN4EfCMALJnZIqq0A" name="testGetAllPaymentHistory">
+      <modelElement href="RazorpayTest.uml#_RInZxXN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxQInN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RInZxnN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxQI3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxQJHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxQJXN4EfCMALJnZIqq0A" name="testGetCustomerById_Found">
+      <modelElement href="RazorpayTest.uml#_RIoA0HN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxQJnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIoA0XN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxQJ3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxQKHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxQKXN4EfCMALJnZIqq0A" name="testGetCustomerById_NotFound">
+      <modelElement href="RazorpayTest.uml#_RIoA03N4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxQKnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIoA1HN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxQK3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxQLHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxQLXN4EfCMALJnZIqq0A" name="testGetInvoiceById_Found">
+      <modelElement href="RazorpayTest.uml#_RIon4HN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxQLnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIon4XN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxQL3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxQMHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxQMXN4EfCMALJnZIqq0A" name="testGetInvoiceById_NotFound">
+      <modelElement href="RazorpayTest.uml#_RIon43N4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxQMnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIon5HN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxQM3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxQNHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxQNXN4EfCMALJnZIqq0A" name="testGetPoliciesByIds">
+      <modelElement href="RazorpayTest.uml#_RIpO8HN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxQNnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIpO8XN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxQN3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxQOHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxQOXN4EfCMALJnZIqq0A" name="testGetAllInvoiceHistory">
+      <modelElement href="RazorpayTest.uml#_RIpO83N4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxQOnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIpO9HN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxQO3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxQPHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxQPXN4EfCMALJnZIqq0A" name="testSearchCustomersByName">
+      <modelElement href="RazorpayTest.uml#_RIp2AHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxQPnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIp2AXN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxQP3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxQQHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxQQXN4EfCMALJnZIqq0A" name="testPayByCashMultiple_Success">
+      <modelElement href="RazorpayTest.uml#_RIp2A3N4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxQQnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIp2BHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxQQ3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxQRHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxQRXN4EfCMALJnZIqq0A" name="testPayByCashMultiple_BadRequest_NoInvoiceIds">
+      <modelElement href="RazorpayTest.uml#_RIqdEHN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxQRnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIqdEXN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxQR3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxQSHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RlxQSXN4EfCMALJnZIqq0A" name="testPayByCashMultiple_RuntimeException">
+      <modelElement href="RazorpayTest.uml#_RIqdE3N4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_RlxQSnN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RIqdFHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_RlxQS3N4EfCMALJnZIqq0A" label="+"/>
+      <cardinality xmi:id="_RlxQTHN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Rl5LoHN4EfCMALJnZIqq0A" name="Exception">
+    <modelElement href="RazorpayTest.uml#_RTi3YHN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_Rl5LoXN4EfCMALJnZIqq0A" position="419.0,826.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Rl5LonN4EfCMALJnZIqq0A" name="Reference">
+      <modelElement href="RazorpayTest.uml#_RTjecHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_Rl5Lo3N4EfCMALJnZIqq0A" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Rl7A0HN4EfCMALJnZIqq0A" name="RazorpayTestApplicationTests">
+    <modelElement href="RazorpayTest.uml#_RHjp0HN4EfCMALJnZIqq0A"/>
+    <visualProperties xmi:id="_Rl7A0XN4EfCMALJnZIqq0A" position="846.0,682.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Rl7A0nN4EfCMALJnZIqq0A" name="LegacyStyledElement">
+      <modelElement href="RazorpayTest.uml#_RHk38HN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Rl7A03N4EfCMALJnZIqq0A" name="Annotations">
+      <modelElement href="RazorpayTest.uml#_RHmGEHN4EfCMALJnZIqq0A"/>
+    </stereotypes>
+    <visibility xmi:id="_Rl7A1HN4EfCMALJnZIqq0A" label="~"/>
+    <operations xmi:id="_Rl7A1XN4EfCMALJnZIqq0A" name="contextLoads">
+      <modelElement href="RazorpayTest.uml#_RHk38XN4EfCMALJnZIqq0A"/>
+      <stereotypes xmi:id="_Rl7A1nN4EfCMALJnZIqq0A" name="Annotations">
+        <modelElement href="RazorpayTest.uml#_RHlfAHN4EfCMALJnZIqq0A"/>
+      </stereotypes>
+      <visibility xmi:id="_Rl7A13N4EfCMALJnZIqq0A" label="~"/>
+      <cardinality xmi:id="_Rl7A2HN4EfCMALJnZIqq0A" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

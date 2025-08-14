@@ -1,0 +1,962 @@
+[{
+  "_id": {
+    "$oid": "688f9602c7140afd5e6b2aee"
+  },
+  "invoiceId": "688f95d4ca5217a33895c41e",
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 7080,
+  "status": "paid",
+  "razorpayPaymentId": "pay_R0w7Of6rM7Gk9Z",
+  "razorpaySubscriptionId": "",
+  "method": "razorpay",
+  "autoPay": false,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 1080,
+    "totalAmount": 7080
+  },
+  "paidAt": {
+    "$date": "2025-08-03T17:01:54.935Z"
+  },
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "688f967cca5217a33895c420"
+  },
+  "invoiceId": "688f9655ca5217a33895c41f",
+  "customerId": "687f2a440ad9a21eee3bb481",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1180,
+  "status": "paidByCash",
+  "method": "cash",
+  "isAutoPay": false,
+  "paidAt": {
+    "$date": "2025-08-03T17:03:56.464Z"
+  },
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "_class": "com.example.model.Payment"
+},
+{
+  "_id": {
+    "$oid": "688f96dec7140afd5e6b2aef"
+  },
+  "customerId": "6883722345891cef31ce69cb",
+  "amount": 1000,
+  "status": "paidByAutopay",
+  "razorpayPaymentId": "pay_test12300",
+  "razorpaySubscriptionId": "sub_R0sNh4ROMJSXmh",
+  "method": "autopaid",
+  "autoPay": true,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-03T17:05:34.074Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "policyNames": [
+    "Business Insurance"
+  ],
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "688fabba7aedfc96667a4089"
+  },
+  "invoiceId": "688fab803d3c0e0236ca7779",
+  "customerId": "687f2a440ad9a21eee3bb481",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1180,
+  "status": "paid",
+  "razorpayPaymentId": "pay_R0xhDG6BJOWvL1",
+  "razorpaySubscriptionId": "",
+  "method": "razorpay",
+  "autoPay": false,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-03T18:34:34.453Z"
+  },
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "688fac2a7aedfc96667a408a"
+  },
+  "customerId": "687f2a440ad9a21eee3bb481",
+  "amount": 1000,
+  "status": "paidByAutopay",
+  "razorpayPaymentId": "pay_test12300",
+  "razorpaySubscriptionId": "sub_R0sNh4ROMJSXmh",
+  "method": "autopaid",
+  "autoPay": true,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-03T18:36:26.064Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "policyNames": [
+    "Business Insurance"
+  ],
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "68903a046bb69ed0ba69b625"
+  },
+  "invoiceId": "689039b79336a51bda16ff45",
+  "customerId": "6883722345891cef31ce69ca",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1062,
+  "status": "paid",
+  "razorpayPaymentId": "pay_R182YxhJjICRkW",
+  "razorpaySubscriptionId": "",
+  "method": "razorpay",
+  "autoPay": false,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 162,
+    "totalAmount": 1062
+  },
+  "paidAt": {
+    "$date": "2025-08-04T04:41:40.858Z"
+  },
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "68903b716bb69ed0ba69b626"
+  },
+  "customerId": "6883722345891cef31ce69ca",
+  "amount": 1000,
+  "status": "paidByAutopay",
+  "razorpayPaymentId": "pay_test12300",
+  "razorpaySubscriptionId": "sub_R186RxO12B10ux",
+  "method": "autopaid",
+  "autoPay": true,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-04T04:47:45.868Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "policyNames": [
+    "Travel Insurance"
+  ],
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "68903b856bb69ed0ba69b627"
+  },
+  "customerId": "6883722345891cef31ce69ca",
+  "amount": 1000,
+  "status": "paidByAutopay",
+  "razorpayPaymentId": "pay_test12300",
+  "razorpaySubscriptionId": "sub_R186RxO12B10x",
+  "method": "autopaid",
+  "autoPay": true,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-04T04:48:05.599Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "policyNames": [
+    "Travel Insurance"
+  ],
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "68903bcd6bb69ed0ba69b628"
+  },
+  "customerId": "6883722345891cef31ce69ca",
+  "amount": 1000,
+  "status": "paidByAutopay",
+  "razorpayPaymentId": "pay_test12300",
+  "razorpaySubscriptionId": "sub_R186RxO12B10x",
+  "method": "autopaid",
+  "autoPay": true,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-04T04:49:17.454Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "policyNames": [
+    "Travel Insuranc"
+  ],
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "689044c96bb69ed0ba69b62b"
+  },
+  "invoiceId": "689044b19336a51bda16ff46",
+  "customerId": "6883722345891cef31ce69ca",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1180,
+  "status": "paid",
+  "razorpayPaymentId": "pay_R18p6ZEK4aSe3p",
+  "razorpaySubscriptionId": "",
+  "method": "razorpay",
+  "autoPay": false,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-04T05:27:37.813Z"
+  },
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "68904a376bb69ed0ba69b62f"
+  },
+  "invoiceId": "68904a1f9336a51bda16ff47",
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1180,
+  "status": "paid",
+  "razorpayPaymentId": "pay_R19DZSKeZwSnFH",
+  "razorpaySubscriptionId": "",
+  "method": "razorpay",
+  "autoPay": false,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-04T05:50:47.493Z"
+  },
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "68904c356bb69ed0ba69b630"
+  },
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "amount": 1000,
+  "status": "paidByAutopay",
+  "razorpayPaymentId": "pay_test12300",
+  "razorpaySubscriptionId": "sub_R186RxO12B10x",
+  "method": "autopaid",
+  "autoPay": true,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-04T05:59:17.360Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "policyNames": [
+    "Travel Insurance"
+  ],
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "68904e656bb69ed0ba69b632"
+  },
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "amount": 1000,
+  "status": "paidByAutopay",
+  "razorpayPaymentId": "pay_test12300",
+  "razorpaySubscriptionId": "sub_R186RxO12B10x",
+  "method": "autopaid",
+  "autoPay": true,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-04T06:08:37.359Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "policyNames": [
+    "Travel Insurance"
+  ],
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "68904f106bb69ed0ba69b634"
+  },
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "amount": 1000,
+  "status": "paidByAutopay",
+  "razorpayPaymentId": "pay_test12300",
+  "razorpaySubscriptionId": "sub_R186RxO12B10x",
+  "method": "autopaid",
+  "autoPay": true,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-04T06:11:28.224Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "policyNames": [
+    "Travel Insurance"
+  ],
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "6890518c6bb69ed0ba69b636"
+  },
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "amount": 1000,
+  "status": "paidByAutopay",
+  "razorpayPaymentId": "pay_test12300",
+  "razorpaySubscriptionId": "sub_R186RxO12B10x",
+  "method": "autopaid",
+  "autoPay": true,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-04T06:22:04.130Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "policyNames": [
+    "Travel Insurance"
+  ],
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "689055d26bb69ed0ba69b637"
+  },
+  "invoiceId": "689055be9336a51bda16ff48",
+  "customerId": "6883722345891cef31ce69cb",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 7080,
+  "status": "paid",
+  "razorpayPaymentId": "pay_R1A3rzE0Zopk4K",
+  "razorpaySubscriptionId": "",
+  "method": "razorpay",
+  "autoPay": false,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 1080,
+    "totalAmount": 7080
+  },
+  "paidAt": {
+    "$date": "2025-08-04T06:40:18.221Z"
+  },
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "68905d0d9336a51bda16ff4b"
+  },
+  "invoiceId": "68905ced9336a51bda16ff4a",
+  "customerId": "6883722345891cef31ce69cd",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1062,
+  "status": "paidByCash",
+  "method": "cash",
+  "isAutoPay": false,
+  "paidAt": {
+    "$date": "2025-08-04T07:11:09.983Z"
+  },
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 162,
+    "totalAmount": 1062
+  },
+  "policyIds": [
+    "688211ddf8685eb14f5e7d20"
+  ],
+  "policyNames": [
+    "Travel Insurance"
+  ],
+  "_class": "com.example.model.Payment"
+},
+{
+  "_id": {
+    "$oid": "68905d6f6bb69ed0ba69b638"
+  },
+  "invoiceId": "68905d2b9336a51bda16ff4c",
+  "customerId": "6883722345891cef31ce69cc",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 2360,
+  "status": "paid",
+  "razorpayPaymentId": "pay_R1AcCJsT17w6jz",
+  "razorpaySubscriptionId": "",
+  "method": "razorpay",
+  "autoPay": false,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-04T07:12:47.739Z"
+  },
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "68905db19336a51bda16ff4e"
+  },
+  "invoiceId": "68905da49336a51bda16ff4d",
+  "customerId": "6883722345891cef31ce69cc",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1062,
+  "status": "paidByCash",
+  "method": "cash",
+  "isAutoPay": false,
+  "paidAt": {
+    "$date": "2025-08-04T07:13:53.381Z"
+  },
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 162,
+    "totalAmount": 1062
+  },
+  "policyIds": [
+    "688211ddf8685eb14f5e7d20"
+  ],
+  "policyNames": [
+    "Travel Insurance"
+  ],
+  "_class": "com.example.model.Payment"
+},
+{
+  "_id": {
+    "$oid": "6890602e6bb69ed0ba69b639"
+  },
+  "invoiceId": "689060169336a51bda16ff50",
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1180,
+  "status": "paid",
+  "razorpayPaymentId": "pay_R1AoX1SzGy3bls",
+  "razorpaySubscriptionId": "",
+  "method": "razorpay",
+  "autoPay": false,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-04T07:24:30.616Z"
+  },
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "689063cf6bb69ed0ba69b63a"
+  },
+  "invoiceId": "689063b29336a51bda16ff52",
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1180,
+  "status": "paid",
+  "razorpayPaymentId": "pay_R1B4tN1Va4FhcP",
+  "razorpaySubscriptionId": "",
+  "method": "razorpay",
+  "autoPay": false,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-04T07:39:59.865Z"
+  },
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "689067376bb69ed0ba69b63b"
+  },
+  "invoiceId": "6890670c9336a51bda16ff55",
+  "customerId": "687f2a440ad9a21eee3bb481",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1180,
+  "status": "paid",
+  "razorpayPaymentId": "pay_R1BKD6H5HBb6Xj",
+  "razorpaySubscriptionId": "",
+  "method": "razorpay",
+  "autoPay": false,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-04T07:54:31.120Z"
+  },
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "6891a8b0302e45bc50093483"
+  },
+  "invoiceId": "6891a8297b339f8a7aac6fe3",
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1180,
+  "status": "paid",
+  "razorpayPaymentId": "pay_R1YhAe6hYdZ7me",
+  "razorpaySubscriptionId": "",
+  "method": "razorpay",
+  "autoPay": false,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-05T06:46:08.088Z"
+  },
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "6891a989302e45bc50093484"
+  },
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "amount": 1000,
+  "status": "paidByAutopay",
+  "razorpayPaymentId": "pay_test12300",
+  "razorpaySubscriptionId": "sub_R1YiN7K2sTmzQl",
+  "method": "autopaid",
+  "autoPay": true,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-05T06:49:45.061Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "policyNames": [
+    "Travel Insurance"
+  ],
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "6891cb80302e45bc50093485"
+  },
+  "invoiceId": "6891cb3d7b339f8a7aac6fe4",
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1180,
+  "status": "paid",
+  "razorpayPaymentId": "pay_R1bE31qArcvBNs",
+  "razorpaySubscriptionId": "",
+  "method": "razorpay",
+  "autoPay": false,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-05T09:14:40.921Z"
+  },
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "6892f226f53120e0f7854636"
+  },
+  "invoiceId": "6892f1492565182f9758e337",
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 3540,
+  "status": "paid",
+  "razorpayPaymentId": "pay_R1we4yhlmkgQhY",
+  "razorpaySubscriptionId": "",
+  "method": "razorpay",
+  "autoPay": false,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 540,
+    "totalAmount": 3540
+  },
+  "paidAt": {
+    "$date": "2025-08-06T06:11:50.601Z"
+  },
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "6892f66bf53120e0f7854637"
+  },
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "amount": 1000,
+  "status": "paidByAutopay",
+  "razorpayPaymentId": "pay_test12300",
+  "razorpaySubscriptionId": "sub_R1whwnXtQVwBKT",
+  "method": "autopaid",
+  "autoPay": true,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-06T06:30:03.912Z"
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "policyNames": [
+    "Health Insurance"
+  ],
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "6892f7ae2565182f9758e339"
+  },
+  "invoiceId": "6892f76e2565182f9758e338",
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 3540,
+  "status": "paidByCash",
+  "method": "cash",
+  "isAutoPay": false,
+  "paidAt": {
+    "$date": "2025-08-06T06:35:26.940Z"
+  },
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 540,
+    "totalAmount": 3540
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "policyNames": [
+    "Health Insurance"
+  ],
+  "_class": "com.example.model.Payment"
+},
+{
+  "_id": {
+    "$oid": "6895a278e9d52464df0264a3"
+  },
+  "invoiceId": "6895a11c55771b0bdbcf8120",
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 3540,
+  "status": "paid",
+  "razorpayPaymentId": "pay_R2kgJghNBvPhxF",
+  "razorpaySubscriptionId": "",
+  "method": "razorpay",
+  "autoPay": false,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 540,
+    "totalAmount": 3540
+  },
+  "paidAt": {
+    "$date": "2025-08-08T07:08:40.471Z"
+  },
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "6895d5e3dbd2a0baeec09ae0"
+  },
+  "invoiceId": "6895ab8855771b0bdbcf8121",
+  "customerId": "687f2a440ad9a21eee3bb481",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1180,
+  "status": "paid",
+  "razorpayPaymentId": "pay_xyz456",
+  "razorpaySubscriptionId": "",
+  "method": "razorpay",
+  "autoPay": false,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-08T10:48:03.481Z"
+  },
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "6895daaadbd2a0baeec09ae1"
+  },
+  "invoiceId": "6895ab8855771b0bdbcf8121",
+  "customerId": "687f2a440ad9a21eee3bb481",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 1180,
+  "status": "paid",
+  "razorpayPaymentId": "pay_xyz456",
+  "razorpaySubscriptionId": "",
+  "method": "razorpay",
+  "autoPay": false,
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "paidAt": {
+    "$date": "2025-08-08T11:08:26.849Z"
+  },
+  "_class": "training.iqgateway.entity.Payment"
+},
+{
+  "_id": {
+    "$oid": "689641d0f85fead517c14328"
+  },
+  "invoiceId": "68963db3bc425c0f98e6eeb8",
+  "customerId": "687f2a440ad9a21eee3bb480",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 6372,
+  "status": "success",
+  "razorpayPaymentId": "pay_xyz456",
+  "method": "razorpay",
+  "isAutoPay": false,
+  "paidAt": {
+    "$date": "2025-08-08T18:28:32.303Z"
+  },
+  "policyIds": [
+    "688211ddf8685eb14f5e7d20"
+  ],
+  "policyNames": [
+    "Travel Insurance"
+  ],
+  "_class": "com.example.model.Payment"
+},
+{
+  "_id": {
+    "$oid": "6896b466b44900b6fecc3e33"
+  },
+  "invoiceId": "6896b317b44900b6fecc3e32",
+  "customerId": "687f2a440ad9a21eee3bb481",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 13452,
+  "status": "success",
+  "razorpayPaymentId": "pay_xyz456",
+  "method": "razorpay",
+  "isAutoPay": false,
+  "paidAt": {
+    "$date": "2025-08-09T02:37:26.034Z"
+  },
+  "policyIds": [
+    "688211ddf8685eb14f5e7d20",
+    "687f2a890ad9a21eee3bb483"
+  ],
+  "policyNames": [
+    "Business Insurance",
+    "Travel Insurance"
+  ],
+  "_class": "com.example.model.Payment"
+},
+{
+  "_id": {
+    "$oid": "6896b835b44900b6fecc3e35"
+  },
+  "invoiceId": "6891d95b7b339f8a7aac6fe5",
+  "customerId": "687f2a440ad9a21eee3bb481",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 7080,
+  "status": "paidByCash",
+  "method": "cash",
+  "isAutoPay": false,
+  "paidAt": {
+    "$date": "2025-08-09T02:53:41.023Z"
+  },
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 1080,
+    "totalAmount": 7080
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "policyNames": [
+    "Health Insurance"
+  ],
+  "_class": "com.example.model.Payment"
+},
+{
+  "_id": {
+    "$oid": "6896b8f7b44900b6fecc3e36"
+  },
+  "invoiceId": "68907a989336a51bda16ff56",
+  "customerId": "6883722345891cef31ce69ca",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 14160,
+  "status": "paidByCash",
+  "method": "cash",
+  "isAutoPay": false,
+  "paidAt": {
+    "$date": "2025-08-09T02:56:55.383Z"
+  },
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 2160,
+    "totalAmount": 14160
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb483"
+  ],
+  "policyNames": [
+    "Business Insurance"
+  ],
+  "_class": "com.example.model.Payment"
+},
+{
+  "_id": {
+    "$oid": "6896bf3cb44900b6fecc3e39"
+  },
+  "invoiceId": "6896bf1bb44900b6fecc3e38",
+  "customerId": "6883722345891cef31ce69ce",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 2360,
+  "status": "paidByCash",
+  "method": "cash",
+  "isAutoPay": false,
+  "paidAt": {
+    "$date": "2025-08-09T03:23:40.284Z"
+  },
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482",
+    "687f2a890ad9a21eee3bb483"
+  ],
+  "policyNames": [
+    "Health Insurance",
+    "Business Insurance"
+  ],
+  "_class": "com.example.model.Payment"
+},
+{
+  "_id": {
+    "$oid": "6896bf79b44900b6fecc3e3a"
+  },
+  "invoiceId": "6896bf10b44900b6fecc3e37",
+  "customerId": "6883722345891cef31ce69cc",
+  "insurerId": "687f29c778ea00b1e56602d8",
+  "amount": 2360,
+  "status": "paidByCash",
+  "method": "cash",
+  "isAutoPay": false,
+  "paidAt": {
+    "$date": "2025-08-09T03:24:41.843Z"
+  },
+  "taxDetails": {
+    "taxType": "GST",
+    "taxRate": 0.18,
+    "taxAmount": 180,
+    "totalAmount": 1180
+  },
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482",
+    "687f2a890ad9a21eee3bb483"
+  ],
+  "policyNames": [
+    "Health Insurance",
+    "Business Insurance"
+  ],
+  "_class": "com.example.model.Payment"
+}]

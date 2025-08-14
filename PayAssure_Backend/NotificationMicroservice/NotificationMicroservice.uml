@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_5KDwIHevEfCrKuVL4Yb6uQ" name="NotificationMicroservice">
+    <eAnnotations xmi:id="_5XtxoHevEfCrKuVL4Yb6uQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_5XtxoXevEfCrKuVL4Yb6uQ" source="codegen">
+        <details xmi:id="_5XtxonevEfCrKuVL4Yb6uQ" key="codegenDirectory" value="/NotificationMicroservice/src/main/java"/>
+        <details xmi:id="_5mSZIHevEfCrKuVL4Yb6uQ" key="AssociatedSourceCode" value="/NotificationMicroservice/src/main/java/training/iqgateway/NotificationMicroserviceApplication.java;3221319676/1;/NotificationMicroservice/src/main/java/training/iqgateway/controller/NotificationController.java;54622738/1;/NotificationMicroservice/src/main/java/training/iqgateway/service/NotificationService.java;2892683354/1;/NotificationMicroservice/src/test/java/training/iqgateway/NotificationMicroserviceApplicationTests.java;1629208226/1;/NotificationMicroservice/src/test/java/training/iqgateway/controller/NotificationControllerTest.java;3109273211/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_5dV4gHevEfCrKuVL4Yb6uQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_5dWfkHevEfCrKuVL4Yb6uQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_5dWfkXevEfCrKuVL4Yb6uQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_5dWfknevEfCrKuVL4Yb6uQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_5dWfk3evEfCrKuVL4Yb6uQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_5dWflHevEfCrKuVL4Yb6uQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_5dWflXevEfCrKuVL4Yb6uQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_5dWflnevEfCrKuVL4Yb6uQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_5dXGoHevEfCrKuVL4Yb6uQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_5c0UEHevEfCrKuVL4Yb6uQ" name="training">
+      <packagedElement xmi:type="uml:Package" xmi:id="_5c2wUHevEfCrKuVL4Yb6uQ" name="iqgateway">
+        <packagedElement xmi:type="uml:Package" xmi:id="_5c4lgHevEfCrKuVL4Yb6uQ" name="service">
+          <packagedElement xmi:type="uml:Class" xmi:id="_5dg3oHevEfCrKuVL4Yb6uQ" name="NotificationService">
+            <ownedAttribute xmi:id="_5gO0cHevEfCrKuVL4Yb6uQ" name="log" visibility="private" isLeaf="true" isStatic="true" type="_5fw6YHevEfCrKuVL4Yb6uQ" isReadOnly="true" association="_5gbBsXevEfCrKuVL4Yb6uQ">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_5gO0cXevEfCrKuVL4Yb6uQ" value="LoggerFactory.getLogger(NotificationService.class)"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_5gPbgHevEfCrKuVL4Yb6uQ" name="mailSender" visibility="private" isLeaf="true" type="_5fyvknevEfCrKuVL4Yb6uQ" isReadOnly="true" association="_5gcP0HevEfCrKuVL4Yb6uQ"/>
+            <ownedAttribute xmi:id="_5gPbgXevEfCrKuVL4Yb6uQ" name="fromEmail" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5gTF5nevEfCrKuVL4Yb6uQ" name="NotificationService" specification="_5gJU4HevEfCrKuVL4Yb6uQ">
+              <ownedParameter xmi:id="_5gTF53evEfCrKuVL4Yb6uQ" name="mailSender" type="_5fyvknevEfCrKuVL4Yb6uQ"/>
+              <ownedParameter xmi:id="_5gTF6HevEfCrKuVL4Yb6uQ" type="_5dg3oHevEfCrKuVL4Yb6uQ" direction="return"/>
+              <language>java</language>
+              <body>this.mailSender = mailSender;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5gTs8HevEfCrKuVL4Yb6uQ" name="sendEmail" specification="_5dis0HevEfCrKuVL4Yb6uQ">
+              <ownedParameter xmi:id="_5gTs8XevEfCrKuVL4Yb6uQ" name="toEmail">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5gTs8nevEfCrKuVL4Yb6uQ" name="subject">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5gTs83evEfCrKuVL4Yb6uQ" name="body">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>try {&#xD;
+         SimpleMailMessage message = new SimpleMailMessage();&#xD;
+         message.setFrom(fromEmail);&#xD;
+         message.setTo(toEmail);&#xD;
+         message.setSubject(subject);&#xD;
+         message.setText(body);&#xD;
+&#xD;
+         mailSender.send(message);&#xD;
+         log.info(&quot;Email sent to {} successfully (from port 8886)&quot;, toEmail);&#xD;
+     } catch (Exception e) {&#xD;
+         log.error(&quot;Error sending email to {}: {}&quot;, toEmail, e.getMessage());&#xD;
+     }&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5gTs9HevEfCrKuVL4Yb6uQ" name="sendAutoPayStatusEmail" specification="_5dj68HevEfCrKuVL4Yb6uQ">
+              <ownedParameter xmi:id="_5gTs9XevEfCrKuVL4Yb6uQ" name="toEmail">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5gTs9nevEfCrKuVL4Yb6uQ" name="policyId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5gTs93evEfCrKuVL4Yb6uQ" name="policyName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5gTs-HevEfCrKuVL4Yb6uQ" name="enabled">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>String subject = enabled ? &quot;Auto-Pay Enabled for Your Policy&quot; : &quot;Auto-Pay Disabled for Your Policy&quot;;&#xD;
+     String body = enabled&#xD;
+             ? &quot;Dear Customer, Auto-pay has been successfully enabled for your policy \&quot;&quot; + policyName + &quot;\&quot; (ID: &quot; + policyId + &quot;). Your payments will now be automatic.&quot;&#xD;
+             : &quot;Dear Customer, Auto-pay has been disabled for your policy \&quot;&quot; + policyName + &quot;\&quot; (ID: &quot; + policyId + &quot;). Please manage your payments manually.&quot;;&#xD;
+     sendEmail(toEmail, subject, body);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5gTs-XevEfCrKuVL4Yb6uQ" name="sendPaymentStatusEmail" specification="_5gKjAHevEfCrKuVL4Yb6uQ">
+              <ownedParameter xmi:id="_5gTs-nevEfCrKuVL4Yb6uQ" name="toEmail">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5gTs-3evEfCrKuVL4Yb6uQ" name="customerName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5gTs_HevEfCrKuVL4Yb6uQ" name="invoiceId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5gTs_XevEfCrKuVL4Yb6uQ" name="status">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5gTs_nevEfCrKuVL4Yb6uQ" name="amount" type="_5gJ78XevEfCrKuVL4Yb6uQ"/>
+              <language>java</language>
+              <body>String subject, content;&#xD;
+     if (&quot;SUCCESS&quot;.equalsIgnoreCase(status)) {&#xD;
+         subject = &quot;Your Payment was Successful&quot;;&#xD;
+         content = &quot;Dear &quot; + (customerName != null ? customerName : &quot;Customer&quot;) + &quot;,\n\n&quot;&#xD;
+                 + &quot;Your payment&quot;&#xD;
+                 + (invoiceId != null ? &quot; for invoice &quot; + invoiceId : &quot;&quot;)&#xD;
+                 + &quot; of ₹&quot; + (amount != null ? amount : &quot;-&quot;) + &quot; was successful.\n&quot;&#xD;
+                 + &quot;Thank you for your payment!&quot;;&#xD;
+     } else {&#xD;
+         subject = &quot;Payment Failed&quot;;&#xD;
+         content = &quot;Dear &quot; + (customerName != null ? customerName : &quot;Customer&quot;) + &quot;,\n\n&quot;&#xD;
+                 + &quot;Unfortunately, your payment&quot;&#xD;
+                 + (invoiceId != null ? &quot; for invoice &quot; + invoiceId : &quot;&quot;)&#xD;
+                 + &quot; of ₹&quot; + (amount != null ? amount : &quot;-&quot;) + &quot; failed.\n&quot;&#xD;
+                 + &quot;Please try again or contact support if needed.&quot;;&#xD;
+     }&#xD;
+     sendEmail(toEmail, subject, content);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5gUUAHevEfCrKuVL4Yb6uQ" name="sendPolicyExpiryEmail" specification="_5dmXMHevEfCrKuVL4Yb6uQ">
+              <ownedParameter xmi:id="_5gUUAXevEfCrKuVL4Yb6uQ" name="toEmail">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5gUUAnevEfCrKuVL4Yb6uQ" name="policyId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5gUUA3evEfCrKuVL4Yb6uQ" name="policyName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5gUUBHevEfCrKuVL4Yb6uQ" name="expiryDate">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>String subject = &quot;Policy Expiry Reminder for &quot; + policyName + &quot; (&quot; + policyId + &quot;)&quot;;&#xD;
+     String body = &quot;Dear Customer,\n\nYour policy \&quot;&quot; + policyName + &quot;\&quot; (ID: &quot; + policyId + &quot;) is set to expire on &quot; + expiryDate&#xD;
+             + &quot;. Please renew it to avoid interruption.\n\nBest regards,\nInsurance Team&quot;;&#xD;
+     sendEmail(toEmail, subject, body);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_5dis0HevEfCrKuVL4Yb6uQ" name="sendEmail" method="_5gTs8HevEfCrKuVL4Yb6uQ">
+              <ownedParameter xmi:id="_5djT4HevEfCrKuVL4Yb6uQ" name="toEmail">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5djT4XevEfCrKuVL4Yb6uQ" name="subject">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5djT4nevEfCrKuVL4Yb6uQ" name="body">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_5dj68HevEfCrKuVL4Yb6uQ" name="sendAutoPayStatusEmail" method="_5gTs9HevEfCrKuVL4Yb6uQ">
+              <ownedParameter xmi:id="_5dj68XevEfCrKuVL4Yb6uQ" name="toEmail">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5dkiAHevEfCrKuVL4Yb6uQ" name="policyId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5dkiAXevEfCrKuVL4Yb6uQ" name="policyName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5dkiAnevEfCrKuVL4Yb6uQ" name="enabled">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_5dmXMHevEfCrKuVL4Yb6uQ" name="sendPolicyExpiryEmail" method="_5gUUAHevEfCrKuVL4Yb6uQ">
+              <ownedParameter xmi:id="_5dmXMXevEfCrKuVL4Yb6uQ" name="toEmail">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5dmXMnevEfCrKuVL4Yb6uQ" name="policyId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5dmXM3evEfCrKuVL4Yb6uQ" name="policyName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5dmXNHevEfCrKuVL4Yb6uQ" name="expiryDate">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_5gJU4HevEfCrKuVL4Yb6uQ" name="NotificationService" method="_5gTF5nevEfCrKuVL4Yb6uQ">
+              <eAnnotations xmi:id="_5gJU4nevEfCrKuVL4Yb6uQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_5gJU43evEfCrKuVL4Yb6uQ" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_5gJU4XevEfCrKuVL4Yb6uQ" name="mailSender" type="_5fyvknevEfCrKuVL4Yb6uQ"/>
+              <ownedParameter xmi:id="_5gJU5HevEfCrKuVL4Yb6uQ" type="_5dg3oHevEfCrKuVL4Yb6uQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_5gKjAHevEfCrKuVL4Yb6uQ" name="sendPaymentStatusEmail" method="_5gTs-XevEfCrKuVL4Yb6uQ">
+              <ownedParameter xmi:id="_5gKjAXevEfCrKuVL4Yb6uQ" name="toEmail">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5gKjAnevEfCrKuVL4Yb6uQ" name="customerName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5gKjA3evEfCrKuVL4Yb6uQ" name="invoiceId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5gKjBHevEfCrKuVL4Yb6uQ" name="status">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5gKjBXevEfCrKuVL4Yb6uQ" name="amount" type="_5gJ78XevEfCrKuVL4Yb6uQ"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_5gbBsXevEfCrKuVL4Yb6uQ" name="" memberEnd="_5gbBsnevEfCrKuVL4Yb6uQ _5gO0cHevEfCrKuVL4Yb6uQ">
+            <ownedEnd xmi:id="_5gbBsnevEfCrKuVL4Yb6uQ" name="" type="_5dg3oHevEfCrKuVL4Yb6uQ" association="_5gbBsXevEfCrKuVL4Yb6uQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_5gcP0HevEfCrKuVL4Yb6uQ" name="" memberEnd="_5gcP0XevEfCrKuVL4Yb6uQ _5gPbgHevEfCrKuVL4Yb6uQ">
+            <ownedEnd xmi:id="_5gcP0XevEfCrKuVL4Yb6uQ" name="" type="_5dg3oHevEfCrKuVL4Yb6uQ" association="_5gcP0HevEfCrKuVL4Yb6uQ"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_5c7BwHevEfCrKuVL4Yb6uQ" name="controller">
+          <packagedElement xmi:type="uml:Class" xmi:id="_5dZi4HevEfCrKuVL4Yb6uQ" name="NotificationController">
+            <ownedAttribute xmi:id="_5gNmUHevEfCrKuVL4Yb6uQ" name="notificationService" visibility="private" type="_5dg3oHevEfCrKuVL4Yb6uQ" association="_5gZzkHevEfCrKuVL4Yb6uQ"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5gSe03evEfCrKuVL4Yb6uQ" name="sendEmail" specification="_5gAyAHevEfCrKuVL4Yb6uQ">
+              <ownedParameter xmi:id="_5gSe1HevEfCrKuVL4Yb6uQ" name="body" type="_5fvFMXevEfCrKuVL4Yb6uQ"/>
+              <ownedParameter xmi:id="_5gSe1XevEfCrKuVL4Yb6uQ" type="_5ftQAXevEfCrKuVL4Yb6uQ" direction="return"/>
+              <language>java</language>
+              <body>String to = body.get(&quot;to&quot;);&#xD;
+     String subject = body.get(&quot;subject&quot;);&#xD;
+     String content = body.get(&quot;content&quot;);&#xD;
+     notificationService.sendEmail(to, subject, content);&#xD;
+     return ResponseEntity.ok(&quot;Email sent successfully&quot;);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5gSe1nevEfCrKuVL4Yb6uQ" name="sendAutoPayStatus" specification="_5gDOQHevEfCrKuVL4Yb6uQ">
+              <ownedParameter xmi:id="_5gSe13evEfCrKuVL4Yb6uQ" name="body" type="_5fvFMXevEfCrKuVL4Yb6uQ"/>
+              <ownedParameter xmi:id="_5gSe2HevEfCrKuVL4Yb6uQ" type="_5ftQAXevEfCrKuVL4Yb6uQ" direction="return"/>
+              <language>java</language>
+              <body>String toEmail = (String) body.get(&quot;toEmail&quot;);&#xD;
+     String policyId = (String) body.get(&quot;policyId&quot;);&#xD;
+     String policyName = (String) body.get(&quot;policyName&quot;);&#xD;
+     boolean enabled = (boolean) body.get(&quot;enabled&quot;);&#xD;
+     notificationService.sendAutoPayStatusEmail(toEmail, policyId, policyName, enabled);&#xD;
+     return ResponseEntity.ok(&quot;Auto-pay status email sent successfully&quot;);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5gTF4HevEfCrKuVL4Yb6uQ" name="sendPaymentStatus" specification="_5gEcZXevEfCrKuVL4Yb6uQ">
+              <ownedParameter xmi:id="_5gTF4XevEfCrKuVL4Yb6uQ" name="body" type="_5fvFMXevEfCrKuVL4Yb6uQ"/>
+              <ownedParameter xmi:id="_5gTF4nevEfCrKuVL4Yb6uQ" type="_5ftQAXevEfCrKuVL4Yb6uQ" direction="return"/>
+              <language>java</language>
+              <body>String toEmail = (String) body.get(&quot;toEmail&quot;);&#xD;
+     String customerName = (String) body.get(&quot;customerName&quot;);&#xD;
+     String invoiceId = (String) body.get(&quot;invoiceId&quot;);&#xD;
+     String status = (String) body.get(&quot;status&quot;);&#xD;
+     Double amount = body.get(&quot;amount&quot;) == null ? null : Double.valueOf(body.get(&quot;amount&quot;).toString());&#xD;
+     notificationService.sendPaymentStatusEmail(toEmail, customerName, invoiceId, status, amount);&#xD;
+     return ResponseEntity.ok(&quot;Payment status email sent&quot;);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5gTF43evEfCrKuVL4Yb6uQ" name="sendPolicyExpiryNotification" specification="_5gGRlXevEfCrKuVL4Yb6uQ">
+              <ownedParameter xmi:id="_5gTF5HevEfCrKuVL4Yb6uQ" name="body" type="_5fvFMXevEfCrKuVL4Yb6uQ"/>
+              <ownedParameter xmi:id="_5gTF5XevEfCrKuVL4Yb6uQ" type="_5ftQAXevEfCrKuVL4Yb6uQ" direction="return"/>
+              <language>java</language>
+              <body>String toEmail = body.get(&quot;toEmail&quot;);&#xD;
+     String policyId = body.get(&quot;policyId&quot;);&#xD;
+     String policyName = body.get(&quot;policyName&quot;);&#xD;
+     String expiryDate = body.get(&quot;expiryDate&quot;);&#xD;
+&#xD;
+     if (toEmail == null || policyId == null || expiryDate == null || policyName == null) {&#xD;
+         return ResponseEntity.badRequest().body(&quot;Missing required fields&quot;);&#xD;
+     }&#xD;
+&#xD;
+     notificationService.sendPolicyExpiryEmail(toEmail, policyId, policyName, expiryDate);&#xD;
+     return ResponseEntity.ok(&quot;Policy expiry email sent&quot;);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_5gAyAHevEfCrKuVL4Yb6uQ" name="sendEmail" method="_5gSe03evEfCrKuVL4Yb6uQ">
+              <ownedParameter xmi:id="_5gAyAXevEfCrKuVL4Yb6uQ" name="body" type="_5fvFMXevEfCrKuVL4Yb6uQ"/>
+              <ownedParameter xmi:id="_5gCAIHevEfCrKuVL4Yb6uQ" type="_5ftQAXevEfCrKuVL4Yb6uQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_5gDOQHevEfCrKuVL4Yb6uQ" name="sendAutoPayStatus" method="_5gSe1nevEfCrKuVL4Yb6uQ">
+              <ownedParameter xmi:id="_5gDOQXevEfCrKuVL4Yb6uQ" name="body" type="_5fvFMXevEfCrKuVL4Yb6uQ"/>
+              <ownedParameter xmi:id="_5gD1UHevEfCrKuVL4Yb6uQ" type="_5ftQAXevEfCrKuVL4Yb6uQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_5gEcZXevEfCrKuVL4Yb6uQ" name="sendPaymentStatus" method="_5gTF4HevEfCrKuVL4Yb6uQ">
+              <ownedParameter xmi:id="_5gFDcHevEfCrKuVL4Yb6uQ" name="body" type="_5fvFMXevEfCrKuVL4Yb6uQ"/>
+              <ownedParameter xmi:id="_5gFDcnevEfCrKuVL4Yb6uQ" type="_5ftQAXevEfCrKuVL4Yb6uQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_5gGRlXevEfCrKuVL4Yb6uQ" name="sendPolicyExpiryNotification" method="_5gTF43evEfCrKuVL4Yb6uQ">
+              <ownedParameter xmi:id="_5gGRlnevEfCrKuVL4Yb6uQ" name="body" type="_5fvFMXevEfCrKuVL4Yb6uQ"/>
+              <ownedParameter xmi:id="_5gHfsHevEfCrKuVL4Yb6uQ" type="_5ftQAXevEfCrKuVL4Yb6uQ" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_5dtr8nevEfCrKuVL4Yb6uQ" name="NotificationControllerTest">
+            <eAnnotations xmi:id="_5duTAHevEfCrKuVL4Yb6uQ" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_5duTAXevEfCrKuVL4Yb6uQ" source="codegen">
+                <details xmi:id="_5duTAnevEfCrKuVL4Yb6uQ" key="codegenDirectory" value="/NotificationMicroservice/src/test/java"/>
+              </contents>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_5gQCkHevEfCrKuVL4Yb6uQ" name="mockMvc" visibility="private" type="_5f7ScXevEfCrKuVL4Yb6uQ" association="_5gc24XevEfCrKuVL4Yb6uQ"/>
+            <ownedAttribute xmi:id="_5gQpoXevEfCrKuVL4Yb6uQ" name="notificationService" visibility="private" type="_5dg3oHevEfCrKuVL4Yb6uQ" association="_5geFAXevEfCrKuVL4Yb6uQ"/>
+            <ownedAttribute xmi:id="_5gQppHevEfCrKuVL4Yb6uQ" name="objectMapper" visibility="private" type="_5f4PIHevEfCrKuVL4Yb6uQ" association="_5gesEXevEfCrKuVL4Yb6uQ"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5gUUBXevEfCrKuVL4Yb6uQ" name="testSendEmail_Success" specification="_5dwIMHevEfCrKuVL4Yb6uQ">
+              <language>java</language>
+              <body>Map&lt;String, String> request = new HashMap&lt;>();&#xD;
+     request.put(&quot;to&quot;, &quot;user@example.com&quot;);&#xD;
+     request.put(&quot;subject&quot;, &quot;Test Subject&quot;);&#xD;
+     request.put(&quot;content&quot;, &quot;Test email content&quot;);&#xD;
+&#xD;
+     // Mockito does not need to stub void methods if no exception thrown&#xD;
+     Mockito.doNothing().when(notificationService).sendEmail(&quot;user@example.com&quot;, &quot;Test Subject&quot;, &quot;Test email content&quot;);&#xD;
+&#xD;
+     mockMvc.perform(post(&quot;/notify/email&quot;)&#xD;
+                     .contentType(MediaType.APPLICATION_JSON)&#xD;
+                     .content(objectMapper.writeValueAsString(request)))&#xD;
+             .andExpect(status().isOk())&#xD;
+             .andExpect(content().string(&quot;Email sent successfully&quot;));&#xD;
+&#xD;
+     Mockito.verify(notificationService).sendEmail(&quot;user@example.com&quot;, &quot;Test Subject&quot;, &quot;Test email content&quot;);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5gUUBnevEfCrKuVL4Yb6uQ" name="testSendAutoPayStatus_Success" specification="_5dx9YHevEfCrKuVL4Yb6uQ">
+              <language>java</language>
+              <body>Map&lt;String, Object> request = new HashMap&lt;>();&#xD;
+     request.put(&quot;toEmail&quot;, &quot;user@example.com&quot;);&#xD;
+     request.put(&quot;policyId&quot;, &quot;policy123&quot;);&#xD;
+     request.put(&quot;policyName&quot;, &quot;Health Insurance&quot;);&#xD;
+     request.put(&quot;enabled&quot;, true);&#xD;
+&#xD;
+     Mockito.doNothing().when(notificationService).sendAutoPayStatusEmail(&quot;user@example.com&quot;, &quot;policy123&quot;, &quot;Health Insurance&quot;, true);&#xD;
+&#xD;
+     mockMvc.perform(post(&quot;/notify/autopay-status&quot;)&#xD;
+                     .contentType(MediaType.APPLICATION_JSON)&#xD;
+                     .content(objectMapper.writeValueAsString(request)))&#xD;
+             .andExpect(status().isOk())&#xD;
+             .andExpect(content().string(&quot;Auto-pay status email sent successfully&quot;));&#xD;
+&#xD;
+     Mockito.verify(notificationService).sendAutoPayStatusEmail(&quot;user@example.com&quot;, &quot;policy123&quot;, &quot;Health Insurance&quot;, true);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5gUUB3evEfCrKuVL4Yb6uQ" name="testSendPaymentStatus_Success" specification="_5dzLgHevEfCrKuVL4Yb6uQ">
+              <language>java</language>
+              <body>Map&lt;String, Object> request = new HashMap&lt;>();&#xD;
+     request.put(&quot;toEmail&quot;, &quot;user@example.com&quot;);&#xD;
+     request.put(&quot;customerName&quot;, &quot;John Doe&quot;);&#xD;
+     request.put(&quot;invoiceId&quot;, &quot;inv123&quot;);&#xD;
+     request.put(&quot;status&quot;, &quot;PAID&quot;);&#xD;
+     request.put(&quot;amount&quot;, 150.75);&#xD;
+&#xD;
+     Mockito.doNothing().when(notificationService).sendPaymentStatusEmail(&quot;user@example.com&quot;, &quot;John Doe&quot;, &quot;inv123&quot;, &quot;PAID&quot;, 150.75);&#xD;
+&#xD;
+     mockMvc.perform(post(&quot;/notify/payment-status&quot;)&#xD;
+                     .contentType(MediaType.APPLICATION_JSON)&#xD;
+                     .content(objectMapper.writeValueAsString(request)))&#xD;
+             .andExpect(status().isOk())&#xD;
+             .andExpect(content().string(&quot;Payment status email sent&quot;));&#xD;
+&#xD;
+     Mockito.verify(notificationService).sendPaymentStatusEmail(&quot;user@example.com&quot;, &quot;John Doe&quot;, &quot;inv123&quot;, &quot;PAID&quot;, 150.75);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5gU7EHevEfCrKuVL4Yb6uQ" name="testSendPaymentStatus_AmountNull_Success" specification="_5d0ZoHevEfCrKuVL4Yb6uQ">
+              <language>java</language>
+              <body>Map&lt;String, Object> request = new HashMap&lt;>();&#xD;
+     request.put(&quot;toEmail&quot;, &quot;user@example.com&quot;);&#xD;
+     request.put(&quot;customerName&quot;, &quot;John Doe&quot;);&#xD;
+     request.put(&quot;invoiceId&quot;, &quot;inv123&quot;);&#xD;
+     request.put(&quot;status&quot;, &quot;PAID&quot;);&#xD;
+     request.put(&quot;amount&quot;, null);&#xD;
+&#xD;
+     Mockito.doNothing().when(notificationService).sendPaymentStatusEmail(&quot;user@example.com&quot;, &quot;John Doe&quot;, &quot;inv123&quot;, &quot;PAID&quot;, null);&#xD;
+&#xD;
+     mockMvc.perform(post(&quot;/notify/payment-status&quot;)&#xD;
+                     .contentType(MediaType.APPLICATION_JSON)&#xD;
+                     .content(objectMapper.writeValueAsString(request)))&#xD;
+             .andExpect(status().isOk())&#xD;
+             .andExpect(content().string(&quot;Payment status email sent&quot;));&#xD;
+&#xD;
+     Mockito.verify(notificationService).sendPaymentStatusEmail(&quot;user@example.com&quot;, &quot;John Doe&quot;, &quot;inv123&quot;, &quot;PAID&quot;, null);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5gU7EXevEfCrKuVL4Yb6uQ" name="testSendPolicyExpiryNotification_Success" specification="_5d1nwHevEfCrKuVL4Yb6uQ">
+              <language>java</language>
+              <body>Map&lt;String, String> request = new HashMap&lt;>();&#xD;
+     request.put(&quot;toEmail&quot;, &quot;user@example.com&quot;);&#xD;
+     request.put(&quot;policyId&quot;, &quot;policy123&quot;);&#xD;
+     request.put(&quot;policyName&quot;, &quot;Life Insurance&quot;);&#xD;
+     request.put(&quot;expiryDate&quot;, &quot;2025-12-31&quot;);&#xD;
+&#xD;
+     Mockito.doNothing().when(notificationService).sendPolicyExpiryEmail(&quot;user@example.com&quot;, &quot;policy123&quot;, &quot;Life Insurance&quot;, &quot;2025-12-31&quot;);&#xD;
+&#xD;
+     mockMvc.perform(post(&quot;/notify/policy-expiry&quot;)&#xD;
+                     .contentType(MediaType.APPLICATION_JSON)&#xD;
+                     .content(objectMapper.writeValueAsString(request)))&#xD;
+             .andExpect(status().isOk())&#xD;
+             .andExpect(content().string(&quot;Policy expiry email sent&quot;));&#xD;
+&#xD;
+     Mockito.verify(notificationService).sendPolicyExpiryEmail(&quot;user@example.com&quot;, &quot;policy123&quot;, &quot;Life Insurance&quot;, &quot;2025-12-31&quot;);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5gU7EnevEfCrKuVL4Yb6uQ" name="testSendPolicyExpiryNotification_MissingFields_BadRequest" specification="_5d214HevEfCrKuVL4Yb6uQ">
+              <language>java</language>
+              <body>Map&lt;String, String> request = new HashMap&lt;>();&#xD;
+     request.put(&quot;toEmail&quot;, &quot;user@example.com&quot;);&#xD;
+     request.put(&quot;policyName&quot;, &quot;Life Insurance&quot;);&#xD;
+&#xD;
+     mockMvc.perform(post(&quot;/notify/policy-expiry&quot;)&#xD;
+                     .contentType(MediaType.APPLICATION_JSON)&#xD;
+                     .content(objectMapper.writeValueAsString(request)))&#xD;
+             .andExpect(status().isBadRequest())&#xD;
+             .andExpect(content().string(&quot;Missing required fields&quot;));&#xD;
+&#xD;
+     Mockito.verify(notificationService, Mockito.never()).sendPolicyExpiryEmail(Mockito.anyString(), Mockito.anyString(), Mockito.anyString(), Mockito.anyString());&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_5dwIMHevEfCrKuVL4Yb6uQ" name="testSendEmail_Success" method="_5gUUBXevEfCrKuVL4Yb6uQ" raisedException="_5gLxIHevEfCrKuVL4Yb6uQ"/>
+            <ownedOperation xmi:id="_5dx9YHevEfCrKuVL4Yb6uQ" name="testSendAutoPayStatus_Success" method="_5gUUBnevEfCrKuVL4Yb6uQ" raisedException="_5gLxIHevEfCrKuVL4Yb6uQ"/>
+            <ownedOperation xmi:id="_5dzLgHevEfCrKuVL4Yb6uQ" name="testSendPaymentStatus_Success" method="_5gUUB3evEfCrKuVL4Yb6uQ" raisedException="_5gLxIHevEfCrKuVL4Yb6uQ"/>
+            <ownedOperation xmi:id="_5d0ZoHevEfCrKuVL4Yb6uQ" name="testSendPaymentStatus_AmountNull_Success" method="_5gU7EHevEfCrKuVL4Yb6uQ" raisedException="_5gLxIHevEfCrKuVL4Yb6uQ"/>
+            <ownedOperation xmi:id="_5d1nwHevEfCrKuVL4Yb6uQ" name="testSendPolicyExpiryNotification_Success" method="_5gU7EXevEfCrKuVL4Yb6uQ" raisedException="_5gLxIHevEfCrKuVL4Yb6uQ"/>
+            <ownedOperation xmi:id="_5d214HevEfCrKuVL4Yb6uQ" name="testSendPolicyExpiryNotification_MissingFields_BadRequest" method="_5gU7EnevEfCrKuVL4Yb6uQ" raisedException="_5gLxIHevEfCrKuVL4Yb6uQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_5gZzkHevEfCrKuVL4Yb6uQ" name="" memberEnd="_5gZzkXevEfCrKuVL4Yb6uQ _5gNmUHevEfCrKuVL4Yb6uQ">
+            <ownedEnd xmi:id="_5gZzkXevEfCrKuVL4Yb6uQ" name="" type="_5dZi4HevEfCrKuVL4Yb6uQ" association="_5gZzkHevEfCrKuVL4Yb6uQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_5gc24XevEfCrKuVL4Yb6uQ" name="" memberEnd="_5gc24nevEfCrKuVL4Yb6uQ _5gQCkHevEfCrKuVL4Yb6uQ">
+            <ownedEnd xmi:id="_5gc24nevEfCrKuVL4Yb6uQ" name="" type="_5dtr8nevEfCrKuVL4Yb6uQ" association="_5gc24XevEfCrKuVL4Yb6uQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_5geFAXevEfCrKuVL4Yb6uQ" name="" memberEnd="_5geFAnevEfCrKuVL4Yb6uQ _5gQpoXevEfCrKuVL4Yb6uQ">
+            <ownedEnd xmi:id="_5geFAnevEfCrKuVL4Yb6uQ" name="" type="_5dtr8nevEfCrKuVL4Yb6uQ" association="_5geFAXevEfCrKuVL4Yb6uQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_5gesEXevEfCrKuVL4Yb6uQ" name="" memberEnd="_5gesEnevEfCrKuVL4Yb6uQ _5gQppHevEfCrKuVL4Yb6uQ">
+            <ownedEnd xmi:id="_5gesEnevEfCrKuVL4Yb6uQ" name="" type="_5dtr8nevEfCrKuVL4Yb6uQ" association="_5gesEXevEfCrKuVL4Yb6uQ"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5dTcQHevEfCrKuVL4Yb6uQ" name="NotificationMicroserviceApplication">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5gSe0HevEfCrKuVL4Yb6uQ" name="main" specification="_5dXGoXevEfCrKuVL4Yb6uQ">
+            <ownedParameter xmi:id="_5gSe0XevEfCrKuVL4Yb6uQ" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5gSe0nevEfCrKuVL4Yb6uQ" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>SpringApplication.run(NotificationMicroserviceApplication.class, args);
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_5dXGoXevEfCrKuVL4Yb6uQ" name="main" isStatic="true" method="_5gSe0HevEfCrKuVL4Yb6uQ">
+            <ownedParameter xmi:id="_5dXtsHevEfCrKuVL4Yb6uQ" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5dYUwXevEfCrKuVL4Yb6uQ" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5dqooHevEfCrKuVL4Yb6uQ" name="NotificationMicroserviceApplicationTests" visibility="package">
+          <eAnnotations xmi:id="_5drPsHevEfCrKuVL4Yb6uQ" source="http://ns.yatta.de/umllab">
+            <contents xmi:type="ecore:EAnnotation" xmi:id="_5drPsXevEfCrKuVL4Yb6uQ" source="codegen">
+              <details xmi:id="_5drPsnevEfCrKuVL4Yb6uQ" key="codegenDirectory" value="/NotificationMicroservice/src/test/java"/>
+            </contents>
+          </eAnnotations>
+          <ownedOperation xmi:id="_5dsd0HevEfCrKuVL4Yb6uQ" name="contextLoads" visibility="package"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_5c1iMHevEfCrKuVL4Yb6uQ" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_5c1iMXevEfCrKuVL4Yb6uQ" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_5c1iMnevEfCrKuVL4Yb6uQ" name="boot">
+          <packagedElement xmi:type="uml:Package" xmi:id="_5c1iM3evEfCrKuVL4Yb6uQ" name="autoconfigure">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_5fsB4XevEfCrKuVL4Yb6uQ" name="SpringBootApplication"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_5dDkoHevEfCrKuVL4Yb6uQ" name="test">
+            <packagedElement xmi:type="uml:Package" xmi:id="_5dDkoXevEfCrKuVL4Yb6uQ" name="context">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_5f3oEXevEfCrKuVL4Yb6uQ" name="SpringBootTest"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_5dEyxXevEfCrKuVL4Yb6uQ" name="autoconfigure">
+              <packagedElement xmi:type="uml:Package" xmi:id="_5dEyxnevEfCrKuVL4Yb6uQ" name="web">
+                <packagedElement xmi:type="uml:Package" xmi:id="_5dEyx3evEfCrKuVL4Yb6uQ" name="servlet">
+                  <packagedElement xmi:type="uml:Interface" xmi:id="_5f42MnevEfCrKuVL4Yb6uQ" name="WebMvcTest"/>
+                </packagedElement>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_5dFZ0HevEfCrKuVL4Yb6uQ" name="mock">
+              <packagedElement xmi:type="uml:Package" xmi:id="_5dFZ0XevEfCrKuVL4Yb6uQ" name="mockito">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_5f5dQXevEfCrKuVL4Yb6uQ" name="MockBean"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_5fra0HevEfCrKuVL4Yb6uQ" name="SpringApplication"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_5c3XYHevEfCrKuVL4Yb6uQ" name="beans">
+          <packagedElement xmi:type="uml:Package" xmi:id="_5c3-cHevEfCrKuVL4Yb6uQ" name="factory">
+            <packagedElement xmi:type="uml:Package" xmi:id="_5c3-cXevEfCrKuVL4Yb6uQ" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_5fso8XevEfCrKuVL4Yb6uQ" name="Autowired"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_5fyIgXevEfCrKuVL4Yb6uQ" name="Value"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_5c3-cnevEfCrKuVL4Yb6uQ" name="http">
+          <packagedElement xmi:type="uml:Class" xmi:id="_5ftQAXevEfCrKuVL4Yb6uQ" name="ResponseEntity"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_5f6rYXevEfCrKuVL4Yb6uQ" name="MediaType"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_5c3-c3evEfCrKuVL4Yb6uQ" name="web">
+          <packagedElement xmi:type="uml:Package" xmi:id="_5c3-dHevEfCrKuVL4Yb6uQ" name="bind">
+            <packagedElement xmi:type="uml:Package" xmi:id="_5c3-dXevEfCrKuVL4Yb6uQ" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_5ft3EXevEfCrKuVL4Yb6uQ" name="PostMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_5ft3E3evEfCrKuVL4Yb6uQ" name="RequestBody"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_5fueIXevEfCrKuVL4Yb6uQ" name="RequestMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_5fueI3evEfCrKuVL4Yb6uQ" name="RestController"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_5c828XevEfCrKuVL4Yb6uQ" name="mail">
+          <packagedElement xmi:type="uml:Package" xmi:id="_5c9eAHevEfCrKuVL4Yb6uQ" name="javamail">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_5fyvknevEfCrKuVL4Yb6uQ" name="JavaMailSender"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_5fyvkHevEfCrKuVL4Yb6uQ" name="SimpleMailMessage"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_5c9eAXevEfCrKuVL4Yb6uQ" name="stereotype">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_5fz9sHevEfCrKuVL4Yb6uQ" name="Service"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_5dFZ0nevEfCrKuVL4Yb6uQ" name="test">
+          <packagedElement xmi:type="uml:Package" xmi:id="_5dFZ03evEfCrKuVL4Yb6uQ" name="web">
+            <packagedElement xmi:type="uml:Package" xmi:id="_5dFZ1HevEfCrKuVL4Yb6uQ" name="servlet">
+              <packagedElement xmi:type="uml:Package" xmi:id="_5dFZ1XevEfCrKuVL4Yb6uQ" name="request">
+                <packagedElement xmi:type="uml:Class" xmi:id="_5f8gkXevEfCrKuVL4Yb6uQ" name="MockMvcRequestBuilders"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_5dFZ1nevEfCrKuVL4Yb6uQ" name="result">
+                <packagedElement xmi:type="uml:Class" xmi:id="_5f9HoHevEfCrKuVL4Yb6uQ" name="MockMvcResultMatchers"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_5f7ScXevEfCrKuVL4Yb6uQ" name="MockMvc"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_5c828HevEfCrKuVL4Yb6uQ" name="slf4j">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_5fw6YHevEfCrKuVL4Yb6uQ" name="Logger"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5fxhcXevEfCrKuVL4Yb6uQ" name="LoggerFactory"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_5dC9kHevEfCrKuVL4Yb6uQ" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_5dC9kXevEfCrKuVL4Yb6uQ" name="jupiter">
+          <packagedElement xmi:type="uml:Package" xmi:id="_5dC9knevEfCrKuVL4Yb6uQ" name="api">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_5f3BAHevEfCrKuVL4Yb6uQ" name="Test"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_5dEyxHevEfCrKuVL4Yb6uQ" name="mockito">
+        <packagedElement xmi:type="uml:Class" xmi:id="_5f42MHevEfCrKuVL4Yb6uQ" name="Mockito"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_5c4lgXevEfCrKuVL4Yb6uQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_5c4lgnevEfCrKuVL4Yb6uQ" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_5fvFMXevEfCrKuVL4Yb6uQ" name="Map"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5f75gXevEfCrKuVL4Yb6uQ" name="HashMap"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_5gJ78HevEfCrKuVL4Yb6uQ" name="lang">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_5gJ78XevEfCrKuVL4Yb6uQ" name="Double"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5gLxIHevEfCrKuVL4Yb6uQ" name="Exception"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_5dEywHevEfCrKuVL4Yb6uQ" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_5dEywXevEfCrKuVL4Yb6uQ" name="fasterxml">
+        <packagedElement xmi:type="uml:Package" xmi:id="_5dEywnevEfCrKuVL4Yb6uQ" name="jackson">
+          <packagedElement xmi:type="uml:Package" xmi:id="_5dEyw3evEfCrKuVL4Yb6uQ" name="databind">
+            <packagedElement xmi:type="uml:Class" xmi:id="_5f4PIHevEfCrKuVL4Yb6uQ" name="ObjectMapper"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_5Xu_wHevEfCrKuVL4Yb6uQ">
+      <eAnnotations xmi:id="_5Xu_wXevEfCrKuVL4Yb6uQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_5Xvm0HevEfCrKuVL4Yb6uQ" base_Package="_5KDwIHevEfCrKuVL4Yb6uQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5dVRcHevEfCrKuVL4Yb6uQ" base_Element="_5dTcQHevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_5dYUwHevEfCrKuVL4Yb6uQ" base_Element="_5dXGoXevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Annotations xmi:id="_5dY70HevEfCrKuVL4Yb6uQ" base_Element="_5dTcQHevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5dY70XevEfCrKuVL4Yb6uQ" name="SpringBootApplication"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5daJ8HevEfCrKuVL4Yb6uQ" base_Element="_5dZi4HevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Annotations xmi:id="_5db_IHevEfCrKuVL4Yb6uQ" base_Element="_5dZi4HevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5db_IXevEfCrKuVL4Yb6uQ" name="RestController"/>
+    <annotations xmi:id="_5db_InevEfCrKuVL4Yb6uQ" name="RequestMapping">
+      <annotationParameters xmi:id="_5db_I3evEfCrKuVL4Yb6uQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_5gWJMHevEfCrKuVL4Yb6uQ" value="&quot;/notify&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5diFwHevEfCrKuVL4Yb6uQ" base_Element="_5dg3oHevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_5djT43evEfCrKuVL4Yb6uQ" base_Element="_5dis0HevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_5dlJEHevEfCrKuVL4Yb6uQ" base_Element="_5dj68HevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_5dm-QHevEfCrKuVL4Yb6uQ" base_Element="_5dmXMHevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Annotations xmi:id="_5dnlUHevEfCrKuVL4Yb6uQ" base_Element="_5dg3oHevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5dnlUXevEfCrKuVL4Yb6uQ" name="Service"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5dr2wHevEfCrKuVL4Yb6uQ" base_Element="_5dqooHevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Annotations xmi:id="_5dtE4HevEfCrKuVL4Yb6uQ" base_Element="_5dsd0HevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5dtE4XevEfCrKuVL4Yb6uQ" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5dtr8HevEfCrKuVL4Yb6uQ" base_Element="_5dqooHevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5dtr8XevEfCrKuVL4Yb6uQ" name="SpringBootTest"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5du6EHevEfCrKuVL4Yb6uQ" base_Element="_5dtr8nevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Annotations xmi:id="_5dwvQHevEfCrKuVL4Yb6uQ" base_Element="_5dwIMHevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5dwvQXevEfCrKuVL4Yb6uQ" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5dykcHevEfCrKuVL4Yb6uQ" base_Element="_5dx9YHevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5dykcXevEfCrKuVL4Yb6uQ" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5dzykHevEfCrKuVL4Yb6uQ" base_Element="_5dzLgHevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5dzykXevEfCrKuVL4Yb6uQ" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5d1AsHevEfCrKuVL4Yb6uQ" base_Element="_5d0ZoHevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5d1AsXevEfCrKuVL4Yb6uQ" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5d2O0HevEfCrKuVL4Yb6uQ" base_Element="_5d1nwHevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5d2O0XevEfCrKuVL4Yb6uQ" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5d3c8HevEfCrKuVL4Yb6uQ" base_Element="_5d214HevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5d3c8XevEfCrKuVL4Yb6uQ" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5d4EAHevEfCrKuVL4Yb6uQ" base_Element="_5dtr8nevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5d4EAXevEfCrKuVL4Yb6uQ" name="WebMvcTest">
+      <annotationParameters xmi:id="_5d4rEHevEfCrKuVL4Yb6uQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_5gWwQnevEfCrKuVL4Yb6uQ" value="NotificationController.class"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_5fsB4HevEfCrKuVL4Yb6uQ" base_Element="_5fra0HevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5fso8HevEfCrKuVL4Yb6uQ" base_Element="_5fsB4XevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5ftQAHevEfCrKuVL4Yb6uQ" base_Element="_5fso8XevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5ft3EHevEfCrKuVL4Yb6uQ" base_Element="_5ftQAXevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5ft3EnevEfCrKuVL4Yb6uQ" base_Element="_5ft3EXevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5fueIHevEfCrKuVL4Yb6uQ" base_Element="_5ft3E3evEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5fueInevEfCrKuVL4Yb6uQ" base_Element="_5fueIXevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5fvFMHevEfCrKuVL4Yb6uQ" base_Element="_5fueI3evEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5fvsQHevEfCrKuVL4Yb6uQ" base_Element="_5fvFMXevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5fxhcHevEfCrKuVL4Yb6uQ" base_Element="_5fw6YHevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5fyIgHevEfCrKuVL4Yb6uQ" base_Element="_5fxhcXevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5fyIgnevEfCrKuVL4Yb6uQ" base_Element="_5fyIgXevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5fyvkXevEfCrKuVL4Yb6uQ" base_Element="_5fyvkHevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5fzWoHevEfCrKuVL4Yb6uQ" base_Element="_5fyvknevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5fz9sXevEfCrKuVL4Yb6uQ" base_Element="_5fz9sHevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5f3oEHevEfCrKuVL4Yb6uQ" base_Element="_5f3BAHevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5f3oEnevEfCrKuVL4Yb6uQ" base_Element="_5f3oEXevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5f4PIXevEfCrKuVL4Yb6uQ" base_Element="_5f4PIHevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5f42MXevEfCrKuVL4Yb6uQ" base_Element="_5f42MHevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5f5dQHevEfCrKuVL4Yb6uQ" base_Element="_5f42MnevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5f6rYHevEfCrKuVL4Yb6uQ" base_Element="_5f5dQXevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5f7ScHevEfCrKuVL4Yb6uQ" base_Element="_5f6rYXevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5f75gHevEfCrKuVL4Yb6uQ" base_Element="_5f7ScXevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5f8gkHevEfCrKuVL4Yb6uQ" base_Element="_5f75gXevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5f8gknevEfCrKuVL4Yb6uQ" base_Element="_5f8gkXevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5f9usHevEfCrKuVL4Yb6uQ" base_Element="_5f9HoHevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Generics xmi:id="_5gBZEHevEfCrKuVL4Yb6uQ" genericsValue="String" base_Element="_5gAyAHevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Generics xmi:id="_5gCAIXevEfCrKuVL4Yb6uQ" genericsValue="String, String" base_Element="_5gAyAXevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Annotations xmi:id="_5gCnMHevEfCrKuVL4Yb6uQ" base_Element="_5gAyAXevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5gCnMXevEfCrKuVL4Yb6uQ" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5gCnMnevEfCrKuVL4Yb6uQ" base_Element="_5gAyAHevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5gCnM3evEfCrKuVL4Yb6uQ" name="PostMapping">
+      <annotationParameters xmi:id="_5gCnNHevEfCrKuVL4Yb6uQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_5gWJMXevEfCrKuVL4Yb6uQ" value="&quot;/email&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_5gDOQnevEfCrKuVL4Yb6uQ" genericsValue="String" base_Element="_5gDOQHevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Generics xmi:id="_5gD1UXevEfCrKuVL4Yb6uQ" genericsValue="String, Object" base_Element="_5gDOQXevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Annotations xmi:id="_5gEcYHevEfCrKuVL4Yb6uQ" base_Element="_5gDOQXevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5gEcYXevEfCrKuVL4Yb6uQ" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5gEcYnevEfCrKuVL4Yb6uQ" base_Element="_5gDOQHevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5gEcY3evEfCrKuVL4Yb6uQ" name="PostMapping">
+      <annotationParameters xmi:id="_5gEcZHevEfCrKuVL4Yb6uQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_5gWJMnevEfCrKuVL4Yb6uQ" value="&quot;/autopay-status&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_5gFDcXevEfCrKuVL4Yb6uQ" genericsValue="String" base_Element="_5gEcZXevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Generics xmi:id="_5gFqgHevEfCrKuVL4Yb6uQ" genericsValue="String, Object" base_Element="_5gFDcHevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Annotations xmi:id="_5gGRkHevEfCrKuVL4Yb6uQ" base_Element="_5gFDcHevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5gGRkXevEfCrKuVL4Yb6uQ" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5gGRknevEfCrKuVL4Yb6uQ" base_Element="_5gEcZXevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5gGRk3evEfCrKuVL4Yb6uQ" name="PostMapping">
+      <annotationParameters xmi:id="_5gGRlHevEfCrKuVL4Yb6uQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_5gWJM3evEfCrKuVL4Yb6uQ" value="&quot;/payment-status&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_5gG4oHevEfCrKuVL4Yb6uQ" genericsValue="String" base_Element="_5gGRlXevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Generics xmi:id="_5gIGwHevEfCrKuVL4Yb6uQ" genericsValue="String, String" base_Element="_5gGRlnevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Annotations xmi:id="_5gIGwXevEfCrKuVL4Yb6uQ" base_Element="_5gGRlnevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5gIGwnevEfCrKuVL4Yb6uQ" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5gIGw3evEfCrKuVL4Yb6uQ" base_Element="_5gGRlXevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5gIGxHevEfCrKuVL4Yb6uQ" name="PostMapping">
+      <annotationParameters xmi:id="_5gIGxXevEfCrKuVL4Yb6uQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_5gWwQHevEfCrKuVL4Yb6uQ" value="&quot;/policy-expiry&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_5gJU5XevEfCrKuVL4Yb6uQ" base_Element="_5gJU4HevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5gJ78nevEfCrKuVL4Yb6uQ" base_Element="_5gJ78XevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_5gKjBnevEfCrKuVL4Yb6uQ" base_Element="_5gKjAHevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5gMYMHevEfCrKuVL4Yb6uQ" base_Element="_5gLxIHevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Annotations xmi:id="_5gONYHevEfCrKuVL4Yb6uQ" base_Element="_5gNmUHevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5gONYXevEfCrKuVL4Yb6uQ" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_5gO0cnevEfCrKuVL4Yb6uQ" base_Element="_5gO0cHevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Annotations xmi:id="_5gPbgnevEfCrKuVL4Yb6uQ" base_Element="_5gPbgXevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5gPbg3evEfCrKuVL4Yb6uQ" name="Value">
+      <annotationParameters xmi:id="_5gPbhHevEfCrKuVL4Yb6uQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_5gWwQXevEfCrKuVL4Yb6uQ" value="&quot;${notification.from_email}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5gQCkXevEfCrKuVL4Yb6uQ" base_Element="_5gQCkHevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5gQpoHevEfCrKuVL4Yb6uQ" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5gQponevEfCrKuVL4Yb6uQ" base_Element="_5gQpoXevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5gQpo3evEfCrKuVL4Yb6uQ" name="MockBean"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5gRQsHevEfCrKuVL4Yb6uQ" base_Element="_5gQppHevEfCrKuVL4Yb6uQ">
+    <annotations xmi:id="_5gRQsXevEfCrKuVL4Yb6uQ" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_5gbBsHevEfCrKuVL4Yb6uQ" base_Element="_5gZzkHevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5gbowHevEfCrKuVL4Yb6uQ" base_Element="_5gbBsXevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5gc24HevEfCrKuVL4Yb6uQ" base_Element="_5gcP0HevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5geFAHevEfCrKuVL4Yb6uQ" base_Element="_5gc24XevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5gesEHevEfCrKuVL4Yb6uQ" base_Element="_5geFAXevEfCrKuVL4Yb6uQ"/>
+  <UMLLabProfile:Reference xmi:id="_5gfTIHevEfCrKuVL4Yb6uQ" base_Element="_5gesEXevEfCrKuVL4Yb6uQ"/>
+</xmi:XMI>

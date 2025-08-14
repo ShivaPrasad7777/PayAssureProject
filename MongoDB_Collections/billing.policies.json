@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "687f2a890ad9a21eee3bb482"
+  },
+  "name": "Health Insurance",
+  "coverageAmount": 500000,
+  "monthlyPremium": 1000,
+  "durationMonths": 12,
+  "active": true,
+  "policyType": {
+    "$oid": "6881de8af8685eb14f5e7d1a"
+  },
+  "createdAt": {
+    "$date": "2025-07-22T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "687f2a890ad9a21eee3bb483"
+  },
+  "name": "Business Insurance",
+  "coverageAmount": 300000,
+  "monthlyPremium": 1000,
+  "durationMonths": 12,
+  "active": true,
+  "policyType": {
+    "$oid": "6881de8af8685eb14f5e7d1b"
+  },
+  "createdAt": {
+    "$date": "2025-07-22T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688211ddf8685eb14f5e7d20"
+  },
+  "name": "Travel Insurance",
+  "policyType": {
+    "$oid": "6881de8af8685eb14f5e7d1a"
+  },
+  "coverageAmount": 200000,
+  "monthlyPremium": 900,
+  "durationMonths": 13,
+  "active": true,
+  "createdAt": {
+    "$date": "2025-07-22T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6892e76c9514bbe95ac7e08d"
+  },
+  "name": "Home Insurance",
+  "coverageAmount": 1000000,
+  "monthlyPremium": 1500,
+  "durationMonths": 24,
+  "active": true,
+  "policyType": {
+    "$oid": "6881de8af8685eb14f5e7d1a"
+  },
+  "createdAt": {
+    "$date": "2025-07-25T09:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6892e76c9514bbe95ac7e08e"
+  },
+  "name": "Auto Insurance",
+  "coverageAmount": 700000,
+  "monthlyPremium": 1200,
+  "durationMonths": 12,
+  "active": true,
+  "policyType": {
+    "$oid": "6881de8af8685eb14f5e7d1a"
+  },
+  "createdAt": {
+    "$date": "2025-07-25T09:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6892e76c9514bbe95ac7e08f"
+  },
+  "name": "Life Insurance",
+  "coverageAmount": 2000000,
+  "monthlyPremium": 2000,
+  "durationMonths": 60,
+  "active": false,
+  "policyType": {
+    "$oid": "6881de8af8685eb14f5e7d1b"
+  },
+  "createdAt": {
+    "$date": "2025-07-25T09:10:00.000Z"
+  }
+}]

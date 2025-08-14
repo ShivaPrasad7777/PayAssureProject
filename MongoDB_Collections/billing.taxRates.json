@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "6881de8af8685eb14f5e7d1a"
+  },
+  "policyType": "Term Insurance",
+  "gstRate": 0.18,
+  "applicability": "On the total premium amount",
+  "updatedAt": {
+    "$date": "2025-07-24T07:19:38.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6881de8af8685eb14f5e7d1b"
+  },
+  "policyType": "Health Insurance",
+  "gstRate": 0.18,
+  "applicability": "On the total premium amount",
+  "updatedAt": {
+    "$date": "2025-07-24T07:19:38.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6881de8af8685eb14f5e7d1c"
+  },
+  "policyType": "Unit-Linked Insurance Plans (ULIPs)",
+  "gstRate": 0.18,
+  "applicability": "Only on charges, not invested amount",
+  "updatedAt": {
+    "$date": "2025-07-24T07:19:38.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6881de8af8685eb14f5e7d1d"
+  },
+  "policyType": "Endowment Plans",
+  "gstRate": 0.18,
+  "applicability": "On the total premium amount (4.5% first year; 2.25% subsequent years)",
+  "updatedAt": {
+    "$date": "2025-07-24T07:19:38.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6881de8af8685eb14f5e7d1e"
+  },
+  "policyType": "Single Premium Annuity Plans",
+  "gstRate": 0.018,
+  "applicability": "On the total premium amount",
+  "updatedAt": {
+    "$date": "2025-07-24T07:19:38.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6881de8af8685eb14f5e7d1f"
+  },
+  "policyType": "Riders (e.g., accidental death)",
+  "gstRate": 0.18,
+  "applicability": "On the rider premium",
+  "updatedAt": {
+    "$date": "2025-07-24T07:19:38.479Z"
+  }
+}]

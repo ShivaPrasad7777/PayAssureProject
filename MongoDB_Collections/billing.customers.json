@@ -1,0 +1,292 @@
+[{
+  "_id": {
+    "$oid": "687f2a440ad9a21eee3bb480"
+  },
+  "name": "Shiv",
+  "email": "pattedashivaprasad@gmail.com",
+  "phone": "+919390679463",
+  "address": "123 Gandhi Nagar, Ahmedabad",
+  "password": "321",
+  "autoPayEnabled": true,
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482",
+    "687f2a890ad9a21eee3bb483"
+  ],
+  "paymentHistory": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "status": "paidByAutopayActive",
+      "lastPaidDate": {
+        "$date": "2025-08-08T07:08:55.768Z"
+      },
+      "validUpto": {
+        "$date": "2025-05-08T07:08:55.768Z"
+      }
+    },
+    {
+      "policyId": "687f2a890ad9a21eee3bb483",
+      "status": "paidByAutopayActive",
+      "lastPaidDate": {
+        "$date": "2025-08-06T06:11:54.769Z"
+      },
+      "validUpto": {
+        "$date": "2025-11-06T06:11:54.769Z"
+      }
+    },
+    {
+      "policyId": "688211ddf8685eb14f5e7d20",
+      "status": "pending invoice",
+      "validUpto": {
+        "$date": "2025-09-30T00:00:00.000Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-22T09:00:00.000Z"
+  },
+  "_class": "com.example.model.Customer"
+},
+{
+  "_id": {
+    "$oid": "687f2a440ad9a21eee3bb481"
+  },
+  "name": "Parvath Reddy",
+  "email": "parvath409@gmail.com",
+  "phone": "+919108114162",
+  "address": "45 Krishna Colony, Kolkata",
+  "password": "Welcome@1401",
+  "autoPayEnabled": true,
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "paymentHistory": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "status": "paidByCash",
+      "lastPaidDate": {
+        "$date": "2025-08-09T02:53:41.031Z"
+      },
+      "validUpto": {
+        "$date": "2026-02-09T02:53:41.031Z"
+      }
+    },
+    {
+      "policyId": "688211ddf8685eb14f5e7d20",
+      "status": "pending invoice",
+      "validUpto": {
+        "$date": "2025-09-30T00:00:00.000Z"
+      }
+    },
+    {
+      "policyId": "687f2a890ad9a21eee3bb483",
+      "status": "pending invoice",
+      "validUpto": {
+        "$date": "2025-09-30T00:00:00.000Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-22T10:00:00.000Z"
+  },
+  "_class": "com.example.model.Customer"
+},
+{
+  "_id": {
+    "$oid": "6883722345891cef31ce69ca"
+  },
+  "name": "Akash",
+  "email": "akashvadnal699@gmail.com",
+  "phone": "+917795354279",
+  "address": "456 Elm Street, Cityville",
+  "password": "Akash@1401",
+  "autoPayEnabled": false,
+  "policyIds": [
+    "687f2a890ad9a21eee3bb483",
+    "688211ddf8685eb14f5e7d20"
+  ],
+  "paymentHistory": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb483",
+      "status": "paidByCash",
+      "lastPaidDate": {
+        "$date": "2025-08-09T02:56:55.389Z"
+      },
+      "validUpto": {
+        "$date": "2026-08-09T02:56:55.389Z"
+      }
+    },
+    {
+      "policyId": "688211ddf8685eb14f5e7d20",
+      "status": "paidByAutopayInActive",
+      "lastPaidDate": {
+        "$date": "2025-08-04T04:41:46.256Z"
+      },
+      "validUpto": {
+        "$date": "2025-04-02T13:44:26.843Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-05-25T00:00:00.000Z"
+  },
+  "_class": "com.example.model.Customer"
+},
+{
+  "_id": {
+    "$oid": "6883722345891cef31ce69cb"
+  },
+  "name": "Srigowri",
+  "email": "srigowrin226@gmail.com",
+  "phone": "+919141060081",
+  "address": "789 Oak Avenue, Townsville",
+  "password": "sri226!M",
+  "autoPayEnabled": false,
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "paymentHistory": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "status": "paidByAutopayInActive",
+      "lastPaidDate": {
+        "$date": "2025-08-04T06:40:22.025Z"
+      },
+      "validUpto": {
+        "$date": "2025-08-10T13:44:26.843Z"
+      },
+      "razorpaySubscriptionId": "sub_R1CXneyxxGnHcS"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-25T00:00:00.000Z"
+  },
+  "razorpayCustomerId": "cust_QylKtQSHwpHiBf",
+  "_class": "training.iqgateway.entity.Customer"
+},
+{
+  "_id": {
+    "$oid": "6883722345891cef31ce69cc"
+  },
+  "name": "Gurudeep",
+  "email": "pattedashivaprasad01@gmail.com",
+  "phone": "5551234567",
+  "address": "321 Pine Road, Villageton",
+  "password": "121212",
+  "autoPayEnabled": false,
+  "policyIds": [
+    "687f2a890ad9a21eee3bb483",
+    "687f2a890ad9a21eee3bb482",
+    "688211ddf8685eb14f5e7d20"
+  ],
+  "paymentHistory": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb483",
+      "status": "paidByAutopayInActive",
+      "lastPaidDate": {
+        "$date": "2025-08-09T03:24:41.851Z"
+      },
+      "validUpto": {
+        "$date": "2025-09-09T03:24:41.851Z"
+      },
+      "razorpaySubscriptionId": "sub_R3KRNoOrrOWJQ3"
+    },
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "status": "paidByAutopayInActive",
+      "lastPaidDate": {
+        "$date": "2025-08-09T03:24:41.851Z"
+      },
+      "validUpto": {
+        "$date": "2025-09-09T03:24:41.851Z"
+      },
+      "razorpaySubscriptionId": "sub_R3KaAnZmxY0gN5"
+    },
+    {
+      "policyId": "688211ddf8685eb14f5e7d20",
+      "status": "paidByCash",
+      "lastPaidDate": {
+        "$date": "2025-08-04T07:13:53.388Z"
+      },
+      "validUpto": {
+        "$date": "2025-04-02T13:44:26.843Z"
+      },
+      "razorpaySubscriptionId": ""
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-25T00:00:00.000Z"
+  },
+  "razorpayCustomerId": "cust_R1vedRIblqmCT7",
+  "_class": "training.iqgateway.entity.Customer"
+},
+{
+  "_id": {
+    "$oid": "6883722345891cef31ce69cd"
+  },
+  "name": "Roopesh",
+  "email": "r325143@gmail.com",
+  "phone": "7993850090",
+  "address": "654 Maple Lane, Suburbia",
+  "password": "123",
+  "autoPayEnabled": false,
+  "policyIds": [
+    "688211ddf8685eb14f5e7d20"
+  ],
+  "paymentHistory": [
+    {
+      "policyId": "688211ddf8685eb14f5e7d20",
+      "status": "paidByCash",
+      "lastPaidDate": {
+        "$date": "2025-08-04T07:11:09.998Z"
+      },
+      "validUpto": {
+        "$date": "2025-08-07T13:44:26.843Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-25T00:00:00.000Z"
+  },
+  "_class": "com.example.model.Customer"
+},
+{
+  "_id": {
+    "$oid": "6883722345891cef31ce69ce"
+  },
+  "name": "Sunil",
+  "email": "sunil@gmail.com",
+  "phone": "3334567890",
+  "address": "987 Birch Drive, Metropolis",
+  "password": "Welcome@123",
+  "autoPayEnabled": true,
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482",
+    "687f2a890ad9a21eee3bb483"
+  ],
+  "paymentHistory": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "status": "paidByCash",
+      "lastPaidDate": {
+        "$date": "2025-08-09T03:23:40.291Z"
+      },
+      "validUpto": {
+        "$date": "2025-09-09T03:23:40.291Z"
+      }
+    },
+    {
+      "policyId": "687f2a890ad9a21eee3bb483",
+      "status": "paidByCash",
+      "lastPaidDate": {
+        "$date": "2025-08-09T03:23:40.291Z"
+      },
+      "validUpto": {
+        "$date": "2025-09-09T03:23:40.291Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-25T00:00:00.000Z"
+  },
+  "_class": "com.example.model.Customer"
+}]

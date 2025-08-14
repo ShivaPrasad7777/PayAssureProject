@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_OOOnIHeoEfChD9IJViQV1g">
+  <modelElement href="CustomerMicroservice.uml#_O8YGkHeoEfChD9IJViQV1g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PO9EUHeoEfChD9IJViQV1g" sourceAnchor="118.0,0.0" targetAnchor="83.0,156.0" target="_PPQmUHeoEfChD9IJViQV1g" source="_PO_gkHeoEfChD9IJViQV1g">
+    <modelElement href="CustomerMicroservice.uml#_PCptsHeoEfChD9IJViQV1g"/>
+    <stereotypes xmi:id="_PO9EUXeoEfChD9IJViQV1g" name="Reference">
+      <modelElement href="CustomerMicroservice.uml#_PCq70HeoEfChD9IJViQV1g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PO9EUneoEfChD9IJViQV1g" text="">
+      <visualProperties xmi:id="_PlgjIHeoEfChD9IJViQV1g" position="-8.0,-70.00000000000001"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PO9EU3eoEfChD9IJViQV1g" aggregationKind="NONE" name="">
+      <modelElement href="CustomerMicroservice.uml#_PCptsXeoEfChD9IJViQV1g"/>
+      <visualProperties xmi:id="_Plf8EHeoEfChD9IJViQV1g" position="4.0,-77.0"/>
+      <visibility xmi:id="_PO9EVHeoEfChD9IJViQV1g" label="+"/>
+      <cardinality xmi:id="_PO9EVXeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PO9EVneoEfChD9IJViQV1g" aggregationKind="NONE" name="taxDetails" navigable="true">
+      <modelElement href="CustomerMicroservice.uml#_PCMasHeoEfChD9IJViQV1g"/>
+      <visualProperties xmi:id="_PlgjIXeoEfChD9IJViQV1g" position="-22.0,-103.0"/>
+      <visibility xmi:id="_PO9EV3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PO9EWHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPWs8HeoEfChD9IJViQV1g" sourceAnchor="118.0,0.0" targetAnchor="0.0,77.0" target="_PPhsEHeoEfChD9IJViQV1g" source="_PPXUB3eoEfChD9IJViQV1g">
+    <modelElement href="CustomerMicroservice.uml#_PCofkHeoEfChD9IJViQV1g"/>
+    <bendpoints xmi:id="_bT2ZkHeoEfChD9IJViQV1g" sourceY="-132" targetX="-180"/>
+    <stereotypes xmi:id="_PPWs8XeoEfChD9IJViQV1g" name="Reference">
+      <modelElement href="CustomerMicroservice.uml#_PCpGoHeoEfChD9IJViQV1g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPXUAHeoEfChD9IJViQV1g" text="">
+      <visualProperties xmi:id="_PliYUHeoEfChD9IJViQV1g" position="-7.0,34.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PPXUAXeoEfChD9IJViQV1g" aggregationKind="NONE" name="">
+      <modelElement href="CustomerMicroservice.uml#_PCofkXeoEfChD9IJViQV1g"/>
+      <visualProperties xmi:id="_PlhxQHeoEfChD9IJViQV1g" position="3.0,-77.0"/>
+      <visibility xmi:id="_PPXUAneoEfChD9IJViQV1g" label="+"/>
+      <cardinality xmi:id="_PPXUA3eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPXUBHeoEfChD9IJViQV1g" aggregationKind="NONE" name="taxDetailsList" navigable="true">
+      <modelElement href="CustomerMicroservice.uml#_PB-YQXeoEfChD9IJViQV1g"/>
+      <visualProperties xmi:id="_PliYUXeoEfChD9IJViQV1g" position="-210.0,-27.0"/>
+      <visibility xmi:id="_PPXUBXeoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPXUBneoEfChD9IJViQV1g" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PP6toHeoEfChD9IJViQV1g" sourceAnchor="131.0,0.0" targetAnchor="119.0,175.0" target="_PQG64HeoEfChD9IJViQV1g" source="_PP7UsHeoEfChD9IJViQV1g">
+    <modelElement href="CustomerMicroservice.uml#_PCmDUHeoEfChD9IJViQV1g"/>
+    <stereotypes xmi:id="_PP6toXeoEfChD9IJViQV1g" name="Reference">
+      <modelElement href="CustomerMicroservice.uml#_PCn4gHeoEfChD9IJViQV1g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PP6toneoEfChD9IJViQV1g" text="">
+      <visualProperties xmi:id="_PljmcHeoEfChD9IJViQV1g" position="-37.5,-14.666666666666657"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PP6to3eoEfChD9IJViQV1g" aggregationKind="NONE" name="">
+      <modelElement href="CustomerMicroservice.uml#_PCmDUXeoEfChD9IJViQV1g"/>
+      <visualProperties xmi:id="_Pli_YHeoEfChD9IJViQV1g" position="-55.5,-50.0"/>
+      <visibility xmi:id="_PP6tpHeoEfChD9IJViQV1g" label="+"/>
+      <cardinality xmi:id="_PP6tpXeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PP6tpneoEfChD9IJViQV1g" aggregationKind="NONE" name="paymentHistory" navigable="true">
+      <modelElement href="CustomerMicroservice.uml#_PByyEHeoEfChD9IJViQV1g"/>
+      <visualProperties xmi:id="_PljmcXeoEfChD9IJViQV1g" position="2.5,2.3333333333333144"/>
+      <visibility xmi:id="_PP6tp3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PP6tqHeoEfChD9IJViQV1g" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PPXUB3eoEfChD9IJViQV1g" name="Invoice" associationsOut="_PPWs8HeoEfChD9IJViQV1g">
+    <modelElement href="CustomerMicroservice.uml#_O9_3MHeoEfChD9IJViQV1g"/>
+    <visualProperties xmi:id="_PPXUCHeoEfChD9IJViQV1g" position="330.0,-175.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_PPXUCXeoEfChD9IJViQV1g" name="LegacyStyledElement">
+      <modelElement href="CustomerMicroservice.uml#_O-BFUHeoEfChD9IJViQV1g"/>
+    </stereotypes>
+    <stereotypes xmi:id="_PPXUCneoEfChD9IJViQV1g" name="Annotations">
+      <modelElement href="CustomerMicroservice.uml#_O-K2UHeoEfChD9IJViQV1g"/>
+    </stereotypes>
+    <visibility xmi:id="_PPXUC3eoEfChD9IJViQV1g" label="+"/>
+    <attributes xmi:id="_PPXUDHeoEfChD9IJViQV1g" name="id">
+      <modelElement href="CustomerMicroservice.uml#_PB44sHeoEfChD9IJViQV1g"/>
+      <stereotypes xmi:id="_PPXUDXeoEfChD9IJViQV1g" name="Annotations">
+        <modelElement href="CustomerMicroservice.uml#_PB5fwHeoEfChD9IJViQV1g"/>
+      </stereotypes>
+      <visibility xmi:id="_PPXUDneoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPXUD3eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPXUEHeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPXUEXeoEfChD9IJViQV1g" name="customerId">
+      <modelElement href="CustomerMicroservice.uml#_PB6G0HeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPXUEneoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPXUE3eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPXUFHeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPXUFXeoEfChD9IJViQV1g" name="insurerId">
+      <modelElement href="CustomerMicroservice.uml#_PB6t4HeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPXUFneoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPXUF3eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPXUGHeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPXUGXeoEfChD9IJViQV1g" name="amount">
+      <modelElement href="CustomerMicroservice.uml#_PB78AHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPXUGneoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPXUG3eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPXUHHeoEfChD9IJViQV1g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPXUHXeoEfChD9IJViQV1g" name="status">
+      <modelElement href="CustomerMicroservice.uml#_PB9KIHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPXUHneoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPXUH3eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPXUIHeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPXUIXeoEfChD9IJViQV1g" name="validUpto">
+      <modelElement href="CustomerMicroservice.uml#_PB9xMHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPXUIneoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPXUI3eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPXUJHeoEfChD9IJViQV1g" name="Date">
+        <modelElement href="CustomerMicroservice.uml#_PA_g0HeoEfChD9IJViQV1g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPXUJXeoEfChD9IJViQV1g" name="razorpayOrderId">
+      <modelElement href="CustomerMicroservice.uml#_PB-YQHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPXUJneoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPXUJ3eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPXUKHeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPXUKXeoEfChD9IJViQV1g" name="taxDetailsList">
+      <modelElement href="CustomerMicroservice.uml#_PB-YQXeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPXUKneoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPXUK3eoEfChD9IJViQV1g" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_PPXULHeoEfChD9IJViQV1g" name="TaxDetails">
+        <modelElement href="CustomerMicroservice.uml#_O-EvsHeoEfChD9IJViQV1g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPXULXeoEfChD9IJViQV1g" name="createdAt">
+      <modelElement href="CustomerMicroservice.uml#_PB_mYHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPXULneoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPXUL3eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPXUMHeoEfChD9IJViQV1g" name="Date">
+        <modelElement href="CustomerMicroservice.uml#_PA_g0HeoEfChD9IJViQV1g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPXUMXeoEfChD9IJViQV1g" name="policyIds">
+      <modelElement href="CustomerMicroservice.uml#_PCA0gHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPXUMneoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPXUM3eoEfChD9IJViQV1g" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_PPXUNHeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPXUNXeoEfChD9IJViQV1g" name="paymentLink">
+      <modelElement href="CustomerMicroservice.uml#_PCBbkHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPXUNneoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPXUN3eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPXUOHeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPXUOXeoEfChD9IJViQV1g" name="months">
+      <modelElement href="CustomerMicroservice.uml#_PCCCoHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPXUOneoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPXUO3eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPXUPHeoEfChD9IJViQV1g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPXUPXeoEfChD9IJViQV1g" defaultValue="&quot;&quot;" name="razorpaySubscriptionId">
+      <modelElement href="CustomerMicroservice.uml#_PCCCoXeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPXUPneoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPXUP3eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPXUQHeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PPhsEHeoEfChD9IJViQV1g" name="TaxDetails" associationsIn="_PPWs8HeoEfChD9IJViQV1g">
+    <modelElement href="CustomerMicroservice.uml#_O-EvsHeoEfChD9IJViQV1g"/>
+    <visualProperties xmi:id="_PPhsEXeoEfChD9IJViQV1g" position="629.0,-385.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_PPhsEneoEfChD9IJViQV1g" keyword="static"/>
+    <stereotypes xmi:id="_PPhsE3eoEfChD9IJViQV1g" name="Annotations">
+      <modelElement href="CustomerMicroservice.uml#_O-HzAHeoEfChD9IJViQV1g"/>
+    </stereotypes>
+    <visibility xmi:id="_PPhsFHeoEfChD9IJViQV1g" label="+"/>
+    <attributes xmi:id="_PPhsFXeoEfChD9IJViQV1g" name="policyId">
+      <modelElement href="CustomerMicroservice.uml#_PCCpsHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPhsFneoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPhsF3eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPhsGHeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPhsGXeoEfChD9IJViQV1g" name="gstRate">
+      <modelElement href="CustomerMicroservice.uml#_PCDQwHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPhsGneoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPhsG3eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPhsHHeoEfChD9IJViQV1g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPhsHXeoEfChD9IJViQV1g" name="taxAmount">
+      <modelElement href="CustomerMicroservice.uml#_PCDQwXeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPhsHneoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPhsH3eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPhsIHeoEfChD9IJViQV1g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPhsIXeoEfChD9IJViQV1g" name="totalAmount">
+      <modelElement href="CustomerMicroservice.uml#_PCD30HeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPhsIneoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPhsI3eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPhsJHeoEfChD9IJViQV1g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PPtSQHeoEfChD9IJViQV1g" name="Policy">
+    <modelElement href="CustomerMicroservice.uml#_O-rzsHeoEfChD9IJViQV1g"/>
+    <visualProperties xmi:id="_PPtSQXeoEfChD9IJViQV1g" position="359.0,170.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_PPtSQneoEfChD9IJViQV1g" name="LegacyStyledElement">
+      <modelElement href="CustomerMicroservice.uml#_O-sawHeoEfChD9IJViQV1g"/>
+    </stereotypes>
+    <stereotypes xmi:id="_PPtSQ3eoEfChD9IJViQV1g" name="Annotations">
+      <modelElement href="CustomerMicroservice.uml#_O-uP8HeoEfChD9IJViQV1g"/>
+    </stereotypes>
+    <visibility xmi:id="_PPtSRHeoEfChD9IJViQV1g" label="+"/>
+    <attributes xmi:id="_PPtSRXeoEfChD9IJViQV1g" name="id">
+      <modelElement href="CustomerMicroservice.uml#_PCQsIHeoEfChD9IJViQV1g"/>
+      <stereotypes xmi:id="_PPtSRneoEfChD9IJViQV1g" name="Annotations">
+        <modelElement href="CustomerMicroservice.uml#_PCR6QHeoEfChD9IJViQV1g"/>
+      </stereotypes>
+      <visibility xmi:id="_PPtSR3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPtSSHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPtSSXeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPtSSneoEfChD9IJViQV1g" name="insurerId">
+      <modelElement href="CustomerMicroservice.uml#_PCR6QneoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPtSS3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPtSTHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPtSTXeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPtSTneoEfChD9IJViQV1g" name="type">
+      <modelElement href="CustomerMicroservice.uml#_PCShUHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPtST3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPtSUHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPtSUXeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPtSUneoEfChD9IJViQV1g" name="coverageAmount">
+      <modelElement href="CustomerMicroservice.uml#_PCShUXeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPtSU3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPtSVHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPtSVXeoEfChD9IJViQV1g" name="Double">
+        <modelElement href="CustomerMicroservice.uml#_PBlWsXeoEfChD9IJViQV1g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPtSVneoEfChD9IJViQV1g" name="monthlyPremium">
+      <modelElement href="CustomerMicroservice.uml#_PCShUneoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPtSV3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPtSWHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPtSWXeoEfChD9IJViQV1g" name="Double">
+        <modelElement href="CustomerMicroservice.uml#_PBlWsXeoEfChD9IJViQV1g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPtSWneoEfChD9IJViQV1g" name="durationMonths">
+      <modelElement href="CustomerMicroservice.uml#_PCTIYHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPtSW3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPtSXHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPtSXXeoEfChD9IJViQV1g" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPtSXneoEfChD9IJViQV1g" defaultValue="true" name="active">
+      <modelElement href="CustomerMicroservice.uml#_PCUWgHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPtSX3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPtSYHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPtSYXeoEfChD9IJViQV1g" name="Boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPtSYneoEfChD9IJViQV1g" defaultValue="new Date()" name="createdAt">
+      <modelElement href="CustomerMicroservice.uml#_PCU9kHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPtSY3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPtSZHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPtSZXeoEfChD9IJViQV1g" name="Date">
+        <modelElement href="CustomerMicroservice.uml#_PA_g0HeoEfChD9IJViQV1g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPtSZneoEfChD9IJViQV1g" name="policyType">
+      <modelElement href="CustomerMicroservice.uml#_PCWLsHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPtSZ3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPtSaHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPtSaXeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPtSaneoEfChD9IJViQV1g" name="name">
+      <modelElement href="CustomerMicroservice.uml#_PCWywHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPtSa3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPtSbHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPtSbXeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PP7UsHeoEfChD9IJViQV1g" name="Customer" associationsOut="_PP6toHeoEfChD9IJViQV1g">
+    <modelElement href="CustomerMicroservice.uml#_O9lngHeoEfChD9IJViQV1g"/>
+    <visualProperties xmi:id="_PP7UsXeoEfChD9IJViQV1g" position="613.0,171.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_PP7UsneoEfChD9IJViQV1g" name="LegacyStyledElement">
+      <modelElement href="CustomerMicroservice.uml#_O9qgAHeoEfChD9IJViQV1g"/>
+    </stereotypes>
+    <stereotypes xmi:id="_PP7Us3eoEfChD9IJViQV1g" name="Annotations">
+      <modelElement href="CustomerMicroservice.uml#_O93UUHeoEfChD9IJViQV1g"/>
+    </stereotypes>
+    <visibility xmi:id="_PP7UtHeoEfChD9IJViQV1g" label="+"/>
+    <attributes xmi:id="_PP7UtXeoEfChD9IJViQV1g" name="id">
+      <modelElement href="CustomerMicroservice.uml#_PBsEYHeoEfChD9IJViQV1g"/>
+      <stereotypes xmi:id="_PP7UtneoEfChD9IJViQV1g" name="Annotations">
+        <modelElement href="CustomerMicroservice.uml#_PBtSgHeoEfChD9IJViQV1g"/>
+      </stereotypes>
+      <visibility xmi:id="_PP7Ut3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PP7UuHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PP7UuXeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PP7UuneoEfChD9IJViQV1g" name="name">
+      <modelElement href="CustomerMicroservice.uml#_PBtSgneoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PP7Uu3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PP7UvHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PP7UvXeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PP7UvneoEfChD9IJViQV1g" name="email">
+      <modelElement href="CustomerMicroservice.uml#_PBugoHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PP7Uv3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PP7UwHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PP7UwXeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PP7UwneoEfChD9IJViQV1g" name="phone">
+      <modelElement href="CustomerMicroservice.uml#_PBvHsHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PP7Uw3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PP7UxHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PP7UxXeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PP7UxneoEfChD9IJViQV1g" name="address">
+      <modelElement href="CustomerMicroservice.uml#_PBvHsXeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PP7Ux3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PP7UyHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PP7UyXeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PP7UyneoEfChD9IJViQV1g" name="password">
+      <modelElement href="CustomerMicroservice.uml#_PBvuwHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PP7Uy3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PP7UzHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PP7UzXeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PP7UzneoEfChD9IJViQV1g" name="autoPayEnabled">
+      <modelElement href="CustomerMicroservice.uml#_PBw84HeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PP7Uz3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PP7U0HeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PP7U0XeoEfChD9IJViQV1g" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PP7U0neoEfChD9IJViQV1g" name="policyIds">
+      <modelElement href="CustomerMicroservice.uml#_PBxj8HeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PP7U03eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PP7U1HeoEfChD9IJViQV1g" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_PP7U1XeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PP7U1neoEfChD9IJViQV1g" name="paymentHistory">
+      <modelElement href="CustomerMicroservice.uml#_PByyEHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PP7U13eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PP7U2HeoEfChD9IJViQV1g" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_PP7U2XeoEfChD9IJViQV1g" name="PaymentHistory">
+        <modelElement href="CustomerMicroservice.uml#_O9xNsHeoEfChD9IJViQV1g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PP7U2neoEfChD9IJViQV1g" name="createdAt">
+      <modelElement href="CustomerMicroservice.uml#_PBzZIHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PP7U23eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PP7U3HeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PP7U3XeoEfChD9IJViQV1g" name="Date">
+        <modelElement href="CustomerMicroservice.uml#_PA_g0HeoEfChD9IJViQV1g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PP7U3neoEfChD9IJViQV1g" name="razorpayCustomerId">
+      <modelElement href="CustomerMicroservice.uml#_PB0AMHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PP7U33eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PP7U4HeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PP7U4XeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PQG64HeoEfChD9IJViQV1g" name="PaymentHistory" associationsIn="_PP6toHeoEfChD9IJViQV1g">
+    <modelElement href="CustomerMicroservice.uml#_O9xNsHeoEfChD9IJViQV1g"/>
+    <visualProperties xmi:id="_PQG64XeoEfChD9IJViQV1g" position="625.0,-59.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_PQG64neoEfChD9IJViQV1g" keyword="static"/>
+    <stereotypes xmi:id="_PQG643eoEfChD9IJViQV1g" name="Annotations">
+      <modelElement href="CustomerMicroservice.uml#_O90RAHeoEfChD9IJViQV1g"/>
+    </stereotypes>
+    <visibility xmi:id="_PQG65HeoEfChD9IJViQV1g" label="+"/>
+    <attributes xmi:id="_PQG65XeoEfChD9IJViQV1g" name="policyId">
+      <modelElement href="CustomerMicroservice.uml#_PB1OUHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PQG65neoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PQG653eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PQG66HeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQG66XeoEfChD9IJViQV1g" name="status">
+      <modelElement href="CustomerMicroservice.uml#_PB11YHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PQG66neoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PQG663eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PQG67HeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQG67XeoEfChD9IJViQV1g" name="lastPaidDate">
+      <modelElement href="CustomerMicroservice.uml#_PB3DgHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PQG67neoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PQG673eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PQG68HeoEfChD9IJViQV1g" name="Date">
+        <modelElement href="CustomerMicroservice.uml#_PA_g0HeoEfChD9IJViQV1g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQG68XeoEfChD9IJViQV1g" name="validUpto">
+      <modelElement href="CustomerMicroservice.uml#_PB3qkHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PQG68neoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PQG683eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PQG69HeoEfChD9IJViQV1g" name="Date">
+        <modelElement href="CustomerMicroservice.uml#_PA_g0HeoEfChD9IJViQV1g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQG69XeoEfChD9IJViQV1g" defaultValue="&quot;&quot;" name="razorpaySubscriptionId">
+      <modelElement href="CustomerMicroservice.uml#_PB3qkXeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PQG69neoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PQG693eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PQG6-HeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PPnysHeoEfChD9IJViQV1g" name="NotificationRequest">
+    <modelElement href="CustomerMicroservice.uml#_O-TZMHeoEfChD9IJViQV1g"/>
+    <visualProperties xmi:id="_PPnysXeoEfChD9IJViQV1g" position="662.0,-158.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_PPnysneoEfChD9IJViQV1g" label="+"/>
+    <attributes xmi:id="_PPnys3eoEfChD9IJViQV1g" name="customerId">
+      <modelElement href="CustomerMicroservice.uml#_PCEe4HeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPnytHeoEfChD9IJViQV1g" label="+"/>
+      <cardinality xmi:id="_PPnytXeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPnytneoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPnyt3eoEfChD9IJViQV1g" name="policyId">
+      <modelElement href="CustomerMicroservice.uml#_PCFtAHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPnyuHeoEfChD9IJViQV1g" label="+"/>
+      <cardinality xmi:id="_PPnyuXeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPnyuneoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PO_gkHeoEfChD9IJViQV1g" name="Payment" associationsOut="_PO9EUHeoEfChD9IJViQV1g">
+    <modelElement href="CustomerMicroservice.uml#_O-V1cHeoEfChD9IJViQV1g"/>
+    <visualProperties xmi:id="_PO_gkXeoEfChD9IJViQV1g" position="30.0,30.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_PO_gkneoEfChD9IJViQV1g" name="LegacyStyledElement">
+      <modelElement href="CustomerMicroservice.uml#_O-XqoHeoEfChD9IJViQV1g"/>
+    </stereotypes>
+    <stereotypes xmi:id="_PO_gk3eoEfChD9IJViQV1g" name="Annotations">
+      <modelElement href="CustomerMicroservice.uml#_O-g0kHeoEfChD9IJViQV1g"/>
+    </stereotypes>
+    <visibility xmi:id="_PO_glHeoEfChD9IJViQV1g" label="+"/>
+    <attributes xmi:id="_PO_glXeoEfChD9IJViQV1g" name="id">
+      <modelElement href="CustomerMicroservice.uml#_PCGUEHeoEfChD9IJViQV1g"/>
+      <stereotypes xmi:id="_PO_glneoEfChD9IJViQV1g" name="Annotations">
+        <modelElement href="CustomerMicroservice.uml#_PCIJQHeoEfChD9IJViQV1g"/>
+      </stereotypes>
+      <visibility xmi:id="_PO_gl3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PO_gmHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PO_gmXeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PO_gmneoEfChD9IJViQV1g" name="invoiceId">
+      <modelElement href="CustomerMicroservice.uml#_PCIwUHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PO_gm3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PO_gnHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PO_gnXeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PO_gnneoEfChD9IJViQV1g" name="customerId">
+      <modelElement href="CustomerMicroservice.uml#_PCIwUXeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PO_gn3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PO_goHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PO_goXeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PO_goneoEfChD9IJViQV1g" name="insurerId">
+      <modelElement href="CustomerMicroservice.uml#_PCJXYHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PO_go3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PO_gpHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PO_gpXeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PO_gpneoEfChD9IJViQV1g" name="amount">
+      <modelElement href="CustomerMicroservice.uml#_PCJXYXeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PO_gp3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PO_gqHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PO_gqXeoEfChD9IJViQV1g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PO_gqneoEfChD9IJViQV1g" name="status">
+      <modelElement href="CustomerMicroservice.uml#_PCJ-cHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PO_gq3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PO_grHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PO_grXeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PO_grneoEfChD9IJViQV1g" name="razorpayPaymentId">
+      <modelElement href="CustomerMicroservice.uml#_PCJ-cXeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PO_gr3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PO_gsHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PO_gsXeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PO_gsneoEfChD9IJViQV1g" defaultValue="&quot;&quot;" name="razorpaySubscriptionId">
+      <modelElement href="CustomerMicroservice.uml#_PCKlgHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PO_gs3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PO_gtHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PO_gtXeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PO_gtneoEfChD9IJViQV1g" name="method">
+      <modelElement href="CustomerMicroservice.uml#_PCLMkHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PO_gt3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PO_guHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PO_guXeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PO_guneoEfChD9IJViQV1g" name="autoPay">
+      <modelElement href="CustomerMicroservice.uml#_PCLzoHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PO_gu3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PO_gvHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PO_gvXeoEfChD9IJViQV1g" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PO_gvneoEfChD9IJViQV1g" name="taxDetails">
+      <modelElement href="CustomerMicroservice.uml#_PCMasHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PO_gv3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PO_gwHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PO_gwXeoEfChD9IJViQV1g" name="TaxDetails">
+        <modelElement href="CustomerMicroservice.uml#_O-cjIHeoEfChD9IJViQV1g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PO_gwneoEfChD9IJViQV1g" name="paidAt">
+      <modelElement href="CustomerMicroservice.uml#_PCNBwHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PO_gw3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PO_gxHeoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PO_gxXeoEfChD9IJViQV1g" name="Date">
+        <modelElement href="CustomerMicroservice.uml#_PA_g0HeoEfChD9IJViQV1g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PO_gxneoEfChD9IJViQV1g" name="policyIds">
+      <modelElement href="CustomerMicroservice.uml#_PCNo0HeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PO_gx3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PO_gyHeoEfChD9IJViQV1g" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_PO_gyXeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PO_gyneoEfChD9IJViQV1g" name="policyNames">
+      <modelElement href="CustomerMicroservice.uml#_PCOP4HeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PO_gy3eoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PO_gzHeoEfChD9IJViQV1g" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_PO_gzXeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PPQmUHeoEfChD9IJViQV1g" name="TaxDetails" associationsIn="_PO9EUHeoEfChD9IJViQV1g">
+    <modelElement href="CustomerMicroservice.uml#_O-cjIHeoEfChD9IJViQV1g"/>
+    <visualProperties xmi:id="_PPQmUXeoEfChD9IJViQV1g" position="65.0,-180.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_PPQmUneoEfChD9IJViQV1g" keyword="static"/>
+    <stereotypes xmi:id="_PPQmU3eoEfChD9IJViQV1g" name="Annotations">
+      <modelElement href="CustomerMicroservice.uml#_O-fmcHeoEfChD9IJViQV1g"/>
+    </stereotypes>
+    <visibility xmi:id="_PPQmVHeoEfChD9IJViQV1g" label="+"/>
+    <attributes xmi:id="_PPQmVXeoEfChD9IJViQV1g" name="taxType">
+      <modelElement href="CustomerMicroservice.uml#_PCO28HeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPQmVneoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPQmV3eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPQmWHeoEfChD9IJViQV1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPQmWXeoEfChD9IJViQV1g" name="taxRate">
+      <modelElement href="CustomerMicroservice.uml#_PCPeAHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPQmWneoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPQmW3eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPQmXHeoEfChD9IJViQV1g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPQmXXeoEfChD9IJViQV1g" name="taxAmount">
+      <modelElement href="CustomerMicroservice.uml#_PCQFEHeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPQmXneoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPQmX3eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPQmYHeoEfChD9IJViQV1g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPQmYXeoEfChD9IJViQV1g" name="totalAmount">
+      <modelElement href="CustomerMicroservice.uml#_PCQFEXeoEfChD9IJViQV1g"/>
+      <visibility xmi:id="_PPQmYneoEfChD9IJViQV1g" label="-"/>
+      <cardinality xmi:id="_PPQmY3eoEfChD9IJViQV1g" label="1" max="1" min="1"/>
+      <type xmi:id="_PPQmZHeoEfChD9IJViQV1g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

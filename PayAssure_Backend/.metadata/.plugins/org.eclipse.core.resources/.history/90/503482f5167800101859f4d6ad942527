@@ -1,0 +1,2508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_4X0s0HetEfCrKuVL4Yb6uQ">
+  <modelElement href="InsurerMicroservice.uml#_5HB8MHetEfCrKuVL4Yb6uQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_557_0HetEfCrKuVL4Yb6uQ" sourceAnchor="278.0,0.0" targetAnchor="278.0,418.0" target="_5989IHetEfCrKuVL4Yb6uQ" source="_5591AHetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5lh2EXetEfCrKuVL4Yb6uQ"/>
+    <stereotypes xmi:id="_557_0XetEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="InsurerMicroservice.uml#_5ljEMHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_557_0netEfCrKuVL4Yb6uQ" text="">
+      <visualProperties xmi:id="_6XuvEHetEfCrKuVL4Yb6uQ" position="-78.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_558m4HetEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="">
+      <modelElement href="InsurerMicroservice.uml#_5lh2EnetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6Xtg8netEfCrKuVL4Yb6uQ" position="45.0,-35.0"/>
+      <visibility xmi:id="_558m4XetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_558m4netEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_558m43etEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="billingService" navigable="true">
+      <modelElement href="InsurerMicroservice.uml#_5kRR0HetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6XvWIHetEfCrKuVL4Yb6uQ" position="-43.0,-14.0"/>
+      <visibility xmi:id="_558m5HetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_558m5XetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_57gGEHetEfCrKuVL4Yb6uQ" sourceAnchor="191.0,175.0" targetAnchor="0.0,77.0" target="_57rsQHetEfCrKuVL4Yb6uQ" source="_57gtIHetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5lWP4HetEfCrKuVL4Yb6uQ"/>
+    <stereotypes xmi:id="_57gGEXetEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="InsurerMicroservice.uml#_5lW28HetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_57gGEnetEfCrKuVL4Yb6uQ" text="">
+      <visualProperties xmi:id="_6XwkQHetEfCrKuVL4Yb6uQ" position="-17.5,2.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_57gGE3etEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="">
+      <modelElement href="InsurerMicroservice.uml#_5lWP4XetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6Xv9MHetEfCrKuVL4Yb6uQ" position="6.333333333333314,-50.5"/>
+      <visibility xmi:id="_57gGFHetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_57gGFXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_57gGFnetEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="paymentHistory" navigable="true">
+      <modelElement href="InsurerMicroservice.uml#_5kCoUHetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6XwkQXetEfCrKuVL4Yb6uQ" position="-61.5,46.5"/>
+      <visibility xmi:id="_57gGF3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57gGGHetEfCrKuVL4Yb6uQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_58HxIHetEfCrKuVL4Yb6uQ" sourceAnchor="103.0,276.0" targetAnchor="80.0,157.0" target="_58WaoHetEfCrKuVL4Yb6uQ" source="_58I_QHetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5lUasHetEfCrKuVL4Yb6uQ"/>
+    <bendpoints xmi:id="_u6uDwHeuEfCrKuVL4Yb6uQ" sourceY="21" targetX="650" targetY="86"/>
+    <bendpoints xmi:id="_u6uDwXeuEfCrKuVL4Yb6uQ" sourceX="-648" sourceY="5" targetX="2" targetY="70"/>
+    <stereotypes xmi:id="_58HxIXetEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="InsurerMicroservice.uml#_5lVo0HetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_58IYMHetEfCrKuVL4Yb6uQ" text="">
+      <visualProperties xmi:id="_6XznkHetEfCrKuVL4Yb6uQ" position="10.0,-20.999999999999943"/>
+    </nameVisual>
+    <sourceRole xmi:id="_58IYMXetEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="">
+      <modelElement href="InsurerMicroservice.uml#_5lUasXetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6XxyYHetEfCrKuVL4Yb6uQ" position="-131.0,-29.999999999999943"/>
+      <visibility xmi:id="_58IYMnetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_58IYM3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_58IYNHetEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="taxDetailsList" navigable="true">
+      <modelElement href="InsurerMicroservice.uml#_5jgc0HetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6XznkXetEfCrKuVL4Yb6uQ" position="1.9999999999998863,13.000000000000398"/>
+      <visibility xmi:id="_58IYNXetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58IYNnetEfCrKuVL4Yb6uQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_58in4HetEfCrKuVL4Yb6uQ" sourceAnchor="93.0,0.0" targetAnchor="80.0,155.0" target="_586bUHetEfCrKuVL4Yb6uQ" source="_58jO8HetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5lR-cHetEfCrKuVL4Yb6uQ"/>
+    <stereotypes xmi:id="_58in4XetEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="InsurerMicroservice.uml#_5lTzoHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_58in4netEfCrKuVL4Yb6uQ" text="">
+      <visualProperties xmi:id="_6X01sHetEfCrKuVL4Yb6uQ" position="-77.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_58in43etEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="">
+      <modelElement href="InsurerMicroservice.uml#_5lR-cXetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6X0OoHetEfCrKuVL4Yb6uQ" position="41.0,-34.0"/>
+      <visibility xmi:id="_58in5HetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_58in5XetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_58in5netEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="taxDetails" navigable="true">
+      <modelElement href="InsurerMicroservice.uml#_5jYhAXetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6X1cwHetEfCrKuVL4Yb6uQ" position="-33.0,-15.0"/>
+      <visibility xmi:id="_58in53etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58in6HetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_59IdwHetEfCrKuVL4Yb6uQ" sourceAnchor="443.0,0.0" targetAnchor="241.0,43.0" target="_59MIIHetEfCrKuVL4Yb6uQ" source="_5989IHetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5lYsIXetEfCrKuVL4Yb6uQ"/>
+    <bendpoints xmi:id="_u6tctHeuEfCrKuVL4Yb6uQ" sourceX="-45" sourceY="-162" targetX="155" targetY="3"/>
+    <stereotypes xmi:id="_59Jr4netEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="InsurerMicroservice.uml#_5lZ6QHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_59JE0HetEfCrKuVL4Yb6uQ" text="">
+      <visualProperties xmi:id="_6X68UHetEfCrKuVL4Yb6uQ" position="-120.0,-22.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_59Jr4HetEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="">
+      <modelElement href="InsurerMicroservice.uml#_5lYsInetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6X6VQHetEfCrKuVL4Yb6uQ" position="-16.0,-122.0"/>
+      <visibility xmi:id="_59KS8XetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_59KS8HetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_59Jr4XetEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="paymentRepository" navigable="true">
+      <modelElement href="InsurerMicroservice.uml#_5kKkInetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6X7jYHetEfCrKuVL4Yb6uQ" position="44.0,0.0"/>
+      <stereotypes xmi:id="_59KS9HetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5kLLMHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_59KS83etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_59KS8netEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_59PygHetEfCrKuVL4Yb6uQ" sourceAnchor="565.0,178.0" targetAnchor="458.0,89.0" target="_59S10HetEfCrKuVL4Yb6uQ" source="_5989IHetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5lYFEXetEfCrKuVL4Yb6uQ"/>
+    <bendpoints xmi:id="_u6tcsHeuEfCrKuVL4Yb6uQ" sourceX="1728" targetX="1365" targetY="275"/>
+    <bendpoints xmi:id="_u6tcsXeuEfCrKuVL4Yb6uQ" sourceX="1793" sourceY="-275" targetX="1430"/>
+    <stereotypes xmi:id="_59RAonetEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="InsurerMicroservice.uml#_5lYFE3etEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_59QZkHetEfCrKuVL4Yb6uQ" text="">
+      <visualProperties xmi:id="_6X2q4HetEfCrKuVL4Yb6uQ" position="-42.00000000000023,-96.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_59RAoHetEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="">
+      <modelElement href="InsurerMicroservice.uml#_5lYFEnetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6X2D0HetEfCrKuVL4Yb6uQ" position="1.0,-90.0"/>
+      <visibility xmi:id="_59SOwHetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_59RAo3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_59RAoXetEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="invoiceRepository" navigable="true">
+      <modelElement href="InsurerMicroservice.uml#_5kHg0HetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6X3R8HetEfCrKuVL4Yb6uQ" position="1.0,-90.0"/>
+      <stereotypes xmi:id="_59SOw3etEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5kIH4HetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_59SOwnetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_59SOwXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_59XHQHetEfCrKuVL4Yb6uQ" sourceAnchor="443.0,0.0" targetAnchor="143.0,53.0" target="_59ZjgHetEfCrKuVL4Yb6uQ" source="_5989IHetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5lZ6QXetEfCrKuVL4Yb6uQ"/>
+    <bendpoints xmi:id="_u6tctXeuEfCrKuVL4Yb6uQ" sourceX="-3" sourceY="-132" targetX="22" targetY="3"/>
+    <stereotypes xmi:id="_59YVYnetEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="InsurerMicroservice.uml#_5lahUHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_59XHQXetEfCrKuVL4Yb6uQ" text="">
+      <visualProperties xmi:id="_6X9YkHetEfCrKuVL4Yb6uQ" position="2.0,16.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_59YVYHetEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="">
+      <modelElement href="InsurerMicroservice.uml#_5lZ6QnetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6X8KcHetEfCrKuVL4Yb6uQ" position="2.0,-77.0"/>
+      <visibility xmi:id="_59YVZHetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_59YVY3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_59YVYXetEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="notificationRepository" navigable="true">
+      <modelElement href="InsurerMicroservice.uml#_5kLyQXetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6X9YkXetEfCrKuVL4Yb6uQ" position="-21.0,-90.0"/>
+      <stereotypes xmi:id="_59Y8cnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5kNAYHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_59Y8cXetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_59Y8cHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_59cm0HetEfCrKuVL4Yb6uQ" sourceAnchor="213.0,0.0" targetAnchor="217.0,82.0" target="_59fDEHetEfCrKuVL4Yb6uQ" source="_5989IHetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5lahUXetEfCrKuVL4Yb6uQ"/>
+    <stereotypes xmi:id="_59d083etEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="InsurerMicroservice.uml#_5lbIYHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_59d08HetEfCrKuVL4Yb6uQ" text="">
+      <visualProperties xmi:id="_6X_NwHetEfCrKuVL4Yb6uQ" position="-83.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_59d08XetEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="">
+      <modelElement href="InsurerMicroservice.uml#_5lahUnetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6X9_oHetEfCrKuVL4Yb6uQ" position="-18.0,-34.0"/>
+      <visibility xmi:id="_59ecAXetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_59ecAHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_59d08netEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="customerRepository" navigable="true">
+      <modelElement href="InsurerMicroservice.uml#_5kNAYnetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6X_00HetEfCrKuVL4Yb6uQ" position="6.0,-15.0"/>
+      <stereotypes xmi:id="_59ecBHetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5kNncHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_59ecA3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_59ecAnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_59iGYHetEfCrKuVL4Yb6uQ" sourceAnchor="565.0,268.0" targetAnchor="336.0,34.0" target="_59j7kXetEfCrKuVL4Yb6uQ" source="_5989IHetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5lbIYXetEfCrKuVL4Yb6uQ"/>
+    <bendpoints xmi:id="_u6tctneuEfCrKuVL4Yb6uQ" sourceX="1734" targetX="1009" targetY="405"/>
+    <bendpoints xmi:id="_u6tct3euEfCrKuVL4Yb6uQ" sourceX="1789" sourceY="-403" targetX="1064" targetY="2"/>
+    <stereotypes xmi:id="_59itc3etEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="InsurerMicroservice.uml#_5lc9kHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_59itcHetEfCrKuVL4Yb6uQ" text="">
+      <visualProperties xmi:id="_6YBC8XetEfCrKuVL4Yb6uQ" position="-36.99999999999977,-159.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_59itcXetEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="">
+      <modelElement href="InsurerMicroservice.uml#_5lbIYnetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6YBC8HetEfCrKuVL4Yb6uQ" position="1.0,41.0"/>
+      <visibility xmi:id="_59jUgXetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_59jUgHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_59itcnetEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="taxRateRepository" navigable="true">
+      <modelElement href="InsurerMicroservice.uml#_5kNncnetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6YBqAHetEfCrKuVL4Yb6uQ" position="96.0,-50.99999999999994"/>
+      <stereotypes xmi:id="_59j7kHetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5kOOgHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_59jUg3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_59jUgnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_59m-4HetEfCrKuVL4Yb6uQ" sourceAnchor="565.0,238.0" targetAnchor="107.0,34.0" target="_59pbIHetEfCrKuVL4Yb6uQ" source="_5989IHetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5lYFFHetEfCrKuVL4Yb6uQ"/>
+    <bendpoints xmi:id="_u6tcsneuEfCrKuVL4Yb6uQ" sourceX="1710" targetX="1700" targetY="270"/>
+    <bendpoints xmi:id="_u6tcs3euEfCrKuVL4Yb6uQ" sourceX="1785" sourceY="-270" targetX="1775"/>
+    <stereotypes xmi:id="_59nl8netEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="InsurerMicroservice.uml#_5lYsIHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_59m-4XetEfCrKuVL4Yb6uQ" text="">
+      <visualProperties xmi:id="_6X5HIHetEfCrKuVL4Yb6uQ" position="-37.0,-95.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_59nl8HetEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="">
+      <modelElement href="InsurerMicroservice.uml#_5lYFFXetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6X35AHetEfCrKuVL4Yb6uQ" position="10.0,-361.0"/>
+      <visibility xmi:id="_59nl9HetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_59nl83etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_59nl8XetEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="policyRepository" navigable="true">
+      <modelElement href="InsurerMicroservice.uml#_5kJWAHetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6X5HIXetEfCrKuVL4Yb6uQ" position="1.0,40.0"/>
+      <stereotypes xmi:id="_59oNAnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5kKkIHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_59oNAXetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_59oNAHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_596g4HetEfCrKuVL4Yb6uQ" source="_5989IHetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5lXeAHetEfCrKuVL4Yb6uQ"/>
+    <stereotypes xmi:id="_596g4XetEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="InsurerMicroservice.uml#_5lYFEHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_596g4netEfCrKuVL4Yb6uQ" text=""/>
+    <sourceRole xmi:id="_596g43etEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="">
+      <modelElement href="InsurerMicroservice.uml#_5lXeAXetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_596g5HetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_596g5XetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_596g5netEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="log" navigable="true">
+      <modelElement href="InsurerMicroservice.uml#_5kG5wHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_596g53etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_596g6HetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_598WEHetEfCrKuVL4Yb6uQ" source="_5989IHetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5lc9kXetEfCrKuVL4Yb6uQ"/>
+    <stereotypes xmi:id="_598WEXetEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="InsurerMicroservice.uml#_5leLsHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_598WEnetEfCrKuVL4Yb6uQ" text=""/>
+    <sourceRole xmi:id="_598WE3etEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="">
+      <modelElement href="InsurerMicroservice.uml#_5lc9knetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_598WFHetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_598WFXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_598WFnetEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="razorpayClient" navigable="true">
+      <modelElement href="InsurerMicroservice.uml#_5kOOgnetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_598WF3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_598WGHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5-lPQHetEfCrKuVL4Yb6uQ" sourceAnchor="175.0,584.0" targetAnchor="0.0,208.0" target="_5989IHetEfCrKuVL4Yb6uQ" source="_5-1G4HetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5lgA4HetEfCrKuVL4Yb6uQ"/>
+    <bendpoints xmi:id="_u6uDwneuEfCrKuVL4Yb6uQ" sourceY="209" targetX="1785" targetY="599"/>
+    <bendpoints xmi:id="_u6uDw3euEfCrKuVL4Yb6uQ" sourceX="-1804" sourceY="209" targetX="-19" targetY="599"/>
+    <bendpoints xmi:id="_u6uDxHeuEfCrKuVL4Yb6uQ" sourceX="-1804" sourceY="-390" targetX="-19"/>
+    <stereotypes xmi:id="_5-o5oHetEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="InsurerMicroservice.uml#_5lgn8HetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_5-oSkHetEfCrKuVL4Yb6uQ" text="">
+      <visualProperties xmi:id="_6YC4IHetEfCrKuVL4Yb6uQ" position="41.00000000000023,-19.99999999999966"/>
+    </nameVisual>
+    <sourceRole xmi:id="_5-oSkXetEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="">
+      <modelElement href="InsurerMicroservice.uml#_5lgA4XetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6YCREHetEfCrKuVL4Yb6uQ" position="2.0,65.0"/>
+      <visibility xmi:id="_5-r88XetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-r88HetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5-oSknetEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="billingService" navigable="true">
+      <modelElement href="InsurerMicroservice.uml#_5kQDsnetEfCrKuVL4Yb6uQ"/>
+      <visualProperties xmi:id="_6YC4IXetEfCrKuVL4Yb6uQ" position="-105.00000000000023,137.00000000000114"/>
+      <visibility xmi:id="_5-skAHetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5-r88netEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5-yqoHetEfCrKuVL4Yb6uQ" source="_5-1G4HetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5leLsXetEfCrKuVL4Yb6uQ"/>
+    <stereotypes xmi:id="_5-yqoXetEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="InsurerMicroservice.uml#_5lfZ0HetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_5-yqonetEfCrKuVL4Yb6uQ" text=""/>
+    <sourceRole xmi:id="_5-yqo3etEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="">
+      <modelElement href="InsurerMicroservice.uml#_5leLsnetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_5-yqpHetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-yqpXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5-yqpnetEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="mockMvc" navigable="true">
+      <modelElement href="InsurerMicroservice.uml#_5kPcoHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_5-yqp3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5-yqqHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5-0f0HetEfCrKuVL4Yb6uQ" source="_5-1G4HetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5lhPAHetEfCrKuVL4Yb6uQ"/>
+    <stereotypes xmi:id="_5-0f0XetEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="InsurerMicroservice.uml#_5lh2EHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_5-0f0netEfCrKuVL4Yb6uQ" text=""/>
+    <sourceRole xmi:id="_5-0f03etEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="">
+      <modelElement href="InsurerMicroservice.uml#_5lhPAXetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_5-0f1HetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-0f1XetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5-0f1netEfCrKuVL4Yb6uQ" aggregationKind="NONE" name="objectMapper" navigable="true">
+      <modelElement href="InsurerMicroservice.uml#_5kQDtXetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_5-0f13etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5-0f2HetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5989IHetEfCrKuVL4Yb6uQ" name="InsurerService" associationsIn="_557_0HetEfCrKuVL4Yb6uQ _5-lPQHetEfCrKuVL4Yb6uQ" associationsOut="_59PygHetEfCrKuVL4Yb6uQ _59m-4HetEfCrKuVL4Yb6uQ _59IdwHetEfCrKuVL4Yb6uQ _59XHQHetEfCrKuVL4Yb6uQ _59cm0HetEfCrKuVL4Yb6uQ _59iGYHetEfCrKuVL4Yb6uQ _596g4HetEfCrKuVL4Yb6uQ _598WEHetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5PFE8HetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_5989IXetEfCrKuVL4Yb6uQ" position="-1328.0,-318.0" size="565.0,417.0"/>
+    <stereotypes xmi:id="_5989InetEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="InsurerMicroservice.uml#_5PHhMHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_5989I3etEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="InsurerMicroservice.uml#_5PxogHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_5989JHetEfCrKuVL4Yb6uQ" label="+"/>
+    <attributes xmi:id="_5989JXetEfCrKuVL4Yb6uQ" defaultValue="LoggerFactory.getLogger(InsurerService.class)" name="log" staticAttribute="true">
+      <modelElement href="InsurerMicroservice.uml#_5kG5wHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5989JnetEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5kG5wnetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5989J3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5989KHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5989KXetEfCrKuVL4Yb6uQ" name="Logger">
+        <modelElement href="InsurerMicroservice.uml#_5hEz4HetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5989KnetEfCrKuVL4Yb6uQ" name="invoiceRepository">
+      <modelElement href="InsurerMicroservice.uml#_5kHg0HetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_5989K3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5989LHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5989LXetEfCrKuVL4Yb6uQ" name="InvoiceRepository">
+        <modelElement href="InsurerMicroservice.uml#_5NP48HetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5989LnetEfCrKuVL4Yb6uQ" name="policyRepository">
+      <modelElement href="InsurerMicroservice.uml#_5kJWAHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_5989L3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5989MHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5989MXetEfCrKuVL4Yb6uQ" name="PolicyRepository">
+        <modelElement href="InsurerMicroservice.uml#_5M8-AHetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5989MnetEfCrKuVL4Yb6uQ" name="paymentRepository">
+      <modelElement href="InsurerMicroservice.uml#_5kKkInetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_5989M3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5989NHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5989NXetEfCrKuVL4Yb6uQ" name="PaymentRepository">
+        <modelElement href="InsurerMicroservice.uml#_5NDrsHetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5989NnetEfCrKuVL4Yb6uQ" name="notificationRepository">
+      <modelElement href="InsurerMicroservice.uml#_5kLyQXetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_5989N3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5989OHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5989OXetEfCrKuVL4Yb6uQ" name="NotificationRepository">
+        <modelElement href="InsurerMicroservice.uml#_5NLngHetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5989OnetEfCrKuVL4Yb6uQ" name="customerRepository">
+      <modelElement href="InsurerMicroservice.uml#_5kNAYnetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_5989O3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5989PHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5989PXetEfCrKuVL4Yb6uQ" name="CustomerRepository">
+        <modelElement href="InsurerMicroservice.uml#_5Nw2UHetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5989PnetEfCrKuVL4Yb6uQ" name="taxRateRepository">
+      <modelElement href="InsurerMicroservice.uml#_5kNncnetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_5989P3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5989QHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5989QXetEfCrKuVL4Yb6uQ" name="TaxRateRepository">
+        <modelElement href="InsurerMicroservice.uml#_5Mx-4HetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5989QnetEfCrKuVL4Yb6uQ" name="razorpayClient">
+      <modelElement href="InsurerMicroservice.uml#_5kOOgnetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_5989Q3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5989RHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5989RXetEfCrKuVL4Yb6uQ" name="RazorpayClient">
+        <modelElement href="InsurerMicroservice.uml#_5g-GMHetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_5989RnetEfCrKuVL4Yb6uQ" name="InsurerService">
+      <modelElement href="InsurerMicroservice.uml#_5PJ9cHetEfCrKuVL4Yb6uQ"/>
+      <keywords xmi:id="_5989R3etEfCrKuVL4Yb6uQ" keyword="create"/>
+      <visibility xmi:id="_5989SHetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5989SXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5989SnetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5PLLknetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5989S3etEfCrKuVL4Yb6uQ" name="InsurerService">
+          <modelElement href="InsurerMicroservice.uml#_5PFE8HetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5989THetEfCrKuVL4Yb6uQ" name="keyId">
+        <modelElement href="InsurerMicroservice.uml#_5PKkgHetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5989TXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5989TnetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5989T3etEfCrKuVL4Yb6uQ" name="keySecret">
+        <modelElement href="InsurerMicroservice.uml#_5PKkgXetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5989UHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5989UXetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5989UnetEfCrKuVL4Yb6uQ" name="initiatePayment">
+      <modelElement href="InsurerMicroservice.uml#_5PQEEHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5989U3etEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5PQrIXetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5989VHetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5989VXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5989VnetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5PQrIHetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5989V3etEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5989WHetEfCrKuVL4Yb6uQ" name="invoiceId">
+        <modelElement href="InsurerMicroservice.uml#_5PQEEXetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5989WXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5989WnetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5989W3etEfCrKuVL4Yb6uQ" name="customerId">
+        <modelElement href="InsurerMicroservice.uml#_5PQEEnetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5989XHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5989XXetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5989XnetEfCrKuVL4Yb6uQ" name="verifyPayment">
+      <modelElement href="InsurerMicroservice.uml#_5PR5QHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5989X3etEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5PTHYXetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5989YHetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5989YXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5989YnetEfCrKuVL4Yb6uQ" name="razorpayPaymentId">
+        <modelElement href="InsurerMicroservice.uml#_5PSgUHetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5989Y3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5989ZHetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5989ZXetEfCrKuVL4Yb6uQ" name="razorpayOrderId">
+        <modelElement href="InsurerMicroservice.uml#_5PSgUXetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5989ZnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5989Z3etEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5989aHetEfCrKuVL4Yb6uQ" name="status">
+        <modelElement href="InsurerMicroservice.uml#_5PTHYHetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5989aXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5989anetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5989a3etEfCrKuVL4Yb6uQ" name="sendNotification">
+      <modelElement href="InsurerMicroservice.uml#_5PTucHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5989bHetEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5PUVgHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5989bXetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5989bnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5989b3etEfCrKuVL4Yb6uQ" name="invoiceId">
+        <modelElement href="InsurerMicroservice.uml#_5PTucXetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5989cHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5989cXetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5989cnetEfCrKuVL4Yb6uQ" name="customerId">
+        <modelElement href="InsurerMicroservice.uml#_5PTucnetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5989c3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5989dHetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5989dXetEfCrKuVL4Yb6uQ" name="insurerId">
+        <modelElement href="InsurerMicroservice.uml#_5PTuc3etEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5989dnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5989d3etEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5989eHetEfCrKuVL4Yb6uQ" name="getUnpaidCustomers">
+      <modelElement href="InsurerMicroservice.uml#_5PU8kHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5989eXetEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5PXY0HetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5989enetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5989e3etEfCrKuVL4Yb6uQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_5989fHetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5PVjoHetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5989fXetEfCrKuVL4Yb6uQ" name="CustomerSummary">
+          <modelElement href="InsurerMicroservice.uml#_5MhgMHetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5989fnetEfCrKuVL4Yb6uQ" name="getUnpaidPoliciesForCustomer">
+      <modelElement href="InsurerMicroservice.uml#_5PX_4HetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5989f3etEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5PacIHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5989gHetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5989gXetEfCrKuVL4Yb6uQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_5989gnetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5PZOAHetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5989g3etEfCrKuVL4Yb6uQ" name="PolicySummary">
+          <modelElement href="InsurerMicroservice.uml#_5MqDEHetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5989hHetEfCrKuVL4Yb6uQ" name="customerId">
+        <modelElement href="InsurerMicroservice.uml#_5PYm8HetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5989hXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5989hnetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5989h3etEfCrKuVL4Yb6uQ" name="processCashPayment">
+      <modelElement href="InsurerMicroservice.uml#_5PbDMHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5989iHetEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5PbqQHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5989iXetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5989inetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5989i3etEfCrKuVL4Yb6uQ" name="invoiceId">
+        <modelElement href="InsurerMicroservice.uml#_5PbDMXetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5989jHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5989jXetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5989jnetEfCrKuVL4Yb6uQ" name="getAllPaymentHistory">
+      <modelElement href="InsurerMicroservice.uml#_5PcRUHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5989j3etEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5PdfcHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5989kHetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5989kXetEfCrKuVL4Yb6uQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_5989knetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5Pc4YHetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5989k3etEfCrKuVL4Yb6uQ" name="Payment">
+          <modelElement href="InsurerMicroservice.uml#_5N3kAHetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5989lHetEfCrKuVL4Yb6uQ" name="getCustomerById">
+      <modelElement href="InsurerMicroservice.uml#_5PetkHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5989lXetEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="InsurerMicroservice.uml#_5PiX8HetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5989lnetEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5Pi_AHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5989l3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5989mHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5989mXetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5i1ucHetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5989mnetEfCrKuVL4Yb6uQ" name="Optional">
+          <modelElement href="InsurerMicroservice.uml#_5gT-4HetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5989m3etEfCrKuVL4Yb6uQ" name="customerId">
+        <modelElement href="InsurerMicroservice.uml#_5PetkXetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5989nHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5989nXetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5989nnetEfCrKuVL4Yb6uQ" name="getInvoiceById">
+      <modelElement href="InsurerMicroservice.uml#_5PkNIHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5989n3etEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="InsurerMicroservice.uml#_5PmpYHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5989oHetEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5Pn3gHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5989oXetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5989onetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5989o3etEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5i1ucXetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5989pHetEfCrKuVL4Yb6uQ" name="Optional">
+          <modelElement href="InsurerMicroservice.uml#_5gT-4HetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5989pXetEfCrKuVL4Yb6uQ" name="invoiceId">
+        <modelElement href="InsurerMicroservice.uml#_5Pk0MHetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5989pnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5989p3etEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5989qHetEfCrKuVL4Yb6uQ" name="getAllInvoiceHistory">
+      <modelElement href="InsurerMicroservice.uml#_5PoekHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5989qXetEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5PpssHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5989qnetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5989q3etEfCrKuVL4Yb6uQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_5989rHetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5PpFoHetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5989rXetEfCrKuVL4Yb6uQ" name="Invoice">
+          <modelElement href="InsurerMicroservice.uml#_5OcLwHetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5989rnetEfCrKuVL4Yb6uQ" name="searchCustomersByName">
+      <modelElement href="InsurerMicroservice.uml#_5Pq60HetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5989r3etEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5PswAHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5989sHetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5989sXetEfCrKuVL4Yb6uQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_5989snetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5PsI8HetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5989s3etEfCrKuVL4Yb6uQ" name="CustomerSummary">
+          <modelElement href="InsurerMicroservice.uml#_5MhgMHetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5989tHetEfCrKuVL4Yb6uQ" name="name">
+        <modelElement href="InsurerMicroservice.uml#_5Prh4HetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5989tXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5989tnetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5989t3etEfCrKuVL4Yb6uQ" name="getUnpaidFailedInvoicesForCustomer">
+      <modelElement href="InsurerMicroservice.uml#_5PulMHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5989uHetEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5PvzUHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5989uXetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5989unetEfCrKuVL4Yb6uQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_5989u3etEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5PvMQHetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5989vHetEfCrKuVL4Yb6uQ" name="Invoice">
+          <modelElement href="InsurerMicroservice.uml#_5OcLwHetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5989vXetEfCrKuVL4Yb6uQ" name="customerId">
+        <modelElement href="InsurerMicroservice.uml#_5PulMXetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5989vnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5989v3etEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5989wHetEfCrKuVL4Yb6uQ" name="createInvoice">
+      <modelElement href="InsurerMicroservice.uml#_5ivn0HetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5989wXetEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5iwO4HetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5989wnetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5989w3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5989xHetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5ivn1netEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5989xXetEfCrKuVL4Yb6uQ" name="Invoice">
+          <modelElement href="InsurerMicroservice.uml#_5OcLwHetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5989xnetEfCrKuVL4Yb6uQ" name="customerId">
+        <modelElement href="InsurerMicroservice.uml#_5ivn0XetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5989x3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5989yHetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5989yXetEfCrKuVL4Yb6uQ" name="policyIds">
+        <modelElement href="InsurerMicroservice.uml#_5ivn0netEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5989ynetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5989y3etEfCrKuVL4Yb6uQ" name="List">
+          <modelElement href="InsurerMicroservice.uml#_5gbToHetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5989zHetEfCrKuVL4Yb6uQ" name="insurerId">
+        <modelElement href="InsurerMicroservice.uml#_5ivn03etEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5989zXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5989znetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5989z3etEfCrKuVL4Yb6uQ" name="dueDate">
+        <modelElement href="InsurerMicroservice.uml#_5ivn1HetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_59890HetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_59890XetEfCrKuVL4Yb6uQ" name="Date">
+          <modelElement href="InsurerMicroservice.uml#_5gj2gXetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_59890netEfCrKuVL4Yb6uQ" name="months">
+        <modelElement href="InsurerMicroservice.uml#_5ivn1XetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_598903etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_59891HetEfCrKuVL4Yb6uQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_59891XetEfCrKuVL4Yb6uQ" name="calculateDueDate">
+      <modelElement href="InsurerMicroservice.uml#_5iyEEHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_59891netEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5iz5QHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_598913etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_59892HetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_59892XetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5iyrInetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_59892netEfCrKuVL4Yb6uQ" name="Date">
+          <modelElement href="InsurerMicroservice.uml#_5gj2gXetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_598923etEfCrKuVL4Yb6uQ" name="currentDate">
+        <modelElement href="InsurerMicroservice.uml#_5iyrIHetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_59893HetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_59893XetEfCrKuVL4Yb6uQ" name="Date">
+          <modelElement href="InsurerMicroservice.uml#_5gj2gXetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_59893netEfCrKuVL4Yb6uQ" name="months">
+        <modelElement href="InsurerMicroservice.uml#_5iyrIXetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_598933etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_59894HetEfCrKuVL4Yb6uQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_59894XetEfCrKuVL4Yb6uQ" name="updatePaymentHistory">
+      <modelElement href="InsurerMicroservice.uml#_5i0gUHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_59894netEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5i1HYHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_598943etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_59895HetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_59895XetEfCrKuVL4Yb6uQ" name="customer">
+        <modelElement href="InsurerMicroservice.uml#_5i0gUXetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_59895netEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_598953etEfCrKuVL4Yb6uQ" name="Customer">
+          <modelElement href="InsurerMicroservice.uml#_5Oxi8HetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_59896HetEfCrKuVL4Yb6uQ" name="policyId">
+        <modelElement href="InsurerMicroservice.uml#_5i0gUnetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_59896XetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_59896netEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_598963etEfCrKuVL4Yb6uQ" name="newValidUpto">
+        <modelElement href="InsurerMicroservice.uml#_5i0gU3etEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_59897HetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_59897XetEfCrKuVL4Yb6uQ" name="Date">
+          <modelElement href="InsurerMicroservice.uml#_5gj2gXetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_59897netEfCrKuVL4Yb6uQ" name="getPoliciesByIds">
+      <modelElement href="InsurerMicroservice.uml#_5i2VgHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_598973etEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5i3joHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_59898HetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_59898XetEfCrKuVL4Yb6uQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_59898netEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5i2VgnetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_598983etEfCrKuVL4Yb6uQ" name="Policy">
+          <modelElement href="InsurerMicroservice.uml#_5NgXoHetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_59899HetEfCrKuVL4Yb6uQ" name="policyIds">
+        <modelElement href="InsurerMicroservice.uml#_5i2VgXetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_59899XetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_59899netEfCrKuVL4Yb6uQ" name="List">
+          <modelElement href="InsurerMicroservice.uml#_5gbToHetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_598993etEfCrKuVL4Yb6uQ" name="processCashPaymentMultiple">
+      <modelElement href="InsurerMicroservice.uml#_5i4KsHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5989-HetEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5i4KsnetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5989-XetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5989-netEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5989-3etEfCrKuVL4Yb6uQ" name="invoiceIds">
+        <modelElement href="InsurerMicroservice.uml#_5i4KsXetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5989_HetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5989_XetEfCrKuVL4Yb6uQ" name="List">
+          <modelElement href="InsurerMicroservice.uml#_5gbToHetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_59fDEHetEfCrKuVL4Yb6uQ" name="CustomerRepository" associationsIn="_59cm0HetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5Nw2UHetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_59fDEXetEfCrKuVL4Yb6uQ" position="-1332.0,-417.0" size="435.0,80.0"/>
+    <visibility xmi:id="_59fDEnetEfCrKuVL4Yb6uQ" label="+"/>
+    <operations xmi:id="_59fDE3etEfCrKuVL4Yb6uQ" name="findByNameContainingIgnoreCase">
+      <modelElement href="InsurerMicroservice.uml#_5NzSkHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_59fDFHetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_59fDFXetEfCrKuVL4Yb6uQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_59fDFnetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5Nz5oHetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_59fDF3etEfCrKuVL4Yb6uQ" name="Customer">
+          <modelElement href="InsurerMicroservice.uml#_5Oxi8HetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_59fDGHetEfCrKuVL4Yb6uQ" name="name">
+        <modelElement href="InsurerMicroservice.uml#_5NzSkXetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_59fDGXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_59fDGnetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_59MIIHetEfCrKuVL4Yb6uQ" name="PaymentRepository" associationsIn="_59IdwHetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5NDrsHetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_59MIIXetEfCrKuVL4Yb6uQ" position="-1326.0,-528.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_59MIInetEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="InsurerMicroservice.uml#_5NE50HetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_59MII3etEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="InsurerMicroservice.uml#_5NHWEHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_59MIJHetEfCrKuVL4Yb6uQ" label="+"/>
+    <operations xmi:id="_59MIJXetEfCrKuVL4Yb6uQ" name="findAll">
+      <modelElement href="InsurerMicroservice.uml#_5iUxEHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_59MIJnetEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5iVYIHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_59MIJ3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_59MIKHetEfCrKuVL4Yb6uQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_59MIKXetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5iUxEnetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_59MIKnetEfCrKuVL4Yb6uQ" name="Payment">
+          <modelElement href="InsurerMicroservice.uml#_5N3kAHetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_59MIK3etEfCrKuVL4Yb6uQ" name="sort">
+        <modelElement href="InsurerMicroservice.uml#_5iUxEXetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_59MILHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_59MILXetEfCrKuVL4Yb6uQ" name="Sort">
+          <modelElement href="InsurerMicroservice.uml#_5gb6sXetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_59ZjgHetEfCrKuVL4Yb6uQ" name="NotificationRepository" associationsIn="_59XHQHetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5NLngHetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_59ZjgXetEfCrKuVL4Yb6uQ" position="-1053.0,-508.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_59ZjgnetEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="InsurerMicroservice.uml#_5NM1oHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_59Zjg3etEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="InsurerMicroservice.uml#_5NODwHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_59ZjhHetEfCrKuVL4Yb6uQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_59pbIHetEfCrKuVL4Yb6uQ" name="PolicyRepository" associationsIn="_59m-4HetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5M8-AHetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_59pbIXetEfCrKuVL4Yb6uQ" position="-860.0,-384.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_59pbInetEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="InsurerMicroservice.uml#_5NABUHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_59pbI3etEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="InsurerMicroservice.uml#_5NBPcHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_59pbJHetEfCrKuVL4Yb6uQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_59S10HetEfCrKuVL4Yb6uQ" name="InvoiceRepository" associationsIn="_59PygHetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5NP48HetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_59S10XetEfCrKuVL4Yb6uQ" position="-858.0,-504.0" size="458.0,93.0"/>
+    <stereotypes xmi:id="_59S10netEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="InsurerMicroservice.uml#_5NRHEHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_59S103etEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="InsurerMicroservice.uml#_5NXNsHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_59S11HetEfCrKuVL4Yb6uQ" label="+"/>
+    <operations xmi:id="_59S11XetEfCrKuVL4Yb6uQ" name="findByRazorpayOrderId">
+      <modelElement href="InsurerMicroservice.uml#_5NRuIHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_59S11netEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="InsurerMicroservice.uml#_5NUKYHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_59S113etEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5NUxcHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_59S12HetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_59S12XetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_59S12netEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5ia3sHetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_59S123etEfCrKuVL4Yb6uQ" name="Optional">
+          <modelElement href="InsurerMicroservice.uml#_5gT-4HetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_59S13HetEfCrKuVL4Yb6uQ" name="razorpayOrderId">
+        <modelElement href="InsurerMicroservice.uml#_5NSVMHetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_59S13XetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_59S13netEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_59S133etEfCrKuVL4Yb6uQ" name="findByCustomerIdAndStatusIn">
+      <modelElement href="InsurerMicroservice.uml#_5ibewHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_59S14HetEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5ics4HetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_59S14XetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_59S14netEfCrKuVL4Yb6uQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_59S143etEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5icF0XetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_59S15HetEfCrKuVL4Yb6uQ" name="Invoice">
+          <modelElement href="InsurerMicroservice.uml#_5OcLwHetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_59S15XetEfCrKuVL4Yb6uQ" name="customerId">
+        <modelElement href="InsurerMicroservice.uml#_5ibewXetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_59S15netEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_59S153etEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_59S16HetEfCrKuVL4Yb6uQ" name="statuses">
+        <modelElement href="InsurerMicroservice.uml#_5icF0HetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_59S16XetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_59S16netEfCrKuVL4Yb6uQ" name="List">
+          <modelElement href="InsurerMicroservice.uml#_5gbToHetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_59j7kXetEfCrKuVL4Yb6uQ" name="TaxRateRepository" associationsIn="_59iGYHetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5Mx-4HetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_59j7knetEfCrKuVL4Yb6uQ" position="-374.0,-489.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_59j7k3etEfCrKuVL4Yb6uQ" label="+"/>
+    <operations xmi:id="_59j7lHetEfCrKuVL4Yb6uQ" name="findByPolicyType">
+      <modelElement href="InsurerMicroservice.uml#_5M0bIHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_59j7lXetEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="InsurerMicroservice.uml#_5M4FgHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_59kioHetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_59kioXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_59kionetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5iOqcHetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_59kio3etEfCrKuVL4Yb6uQ" name="Optional">
+          <modelElement href="InsurerMicroservice.uml#_5gT-4HetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_59kipHetEfCrKuVL4Yb6uQ" name="policyType">
+        <modelElement href="InsurerMicroservice.uml#_5M1pQHetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_59kipXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_59kipnetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5591AHetEfCrKuVL4Yb6uQ" name="InsurerController" associationsOut="_557_0HetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5RLWsHetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_5591AXetEfCrKuVL4Yb6uQ" position="-1328.0,120.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_5591AnetEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="InsurerMicroservice.uml#_5RNy8HetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_5591A3etEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="InsurerMicroservice.uml#_5SJAAHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_5591BHetEfCrKuVL4Yb6uQ" label="+"/>
+    <attributes xmi:id="_5591BXetEfCrKuVL4Yb6uQ" name="billingService">
+      <modelElement href="InsurerMicroservice.uml#_5kRR0HetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5591BnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5kR44HetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5591B3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5591CHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5591CXetEfCrKuVL4Yb6uQ" name="InsurerService">
+        <modelElement href="InsurerMicroservice.uml#_5PFE8HetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_5591CnetEfCrKuVL4Yb6uQ" name="handleWebhook">
+      <modelElement href="InsurerMicroservice.uml#_5RPoIHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5591C3etEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="InsurerMicroservice.uml#_5RSrcHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5591DHetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5RWV0HetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5591DXetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5591DnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5591D3etEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5i-4YnetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5591EHetEfCrKuVL4Yb6uQ" name="ResponseEntity">
+          <modelElement href="InsurerMicroservice.uml#_5hlxQXetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5591EXetEfCrKuVL4Yb6uQ" name="payload">
+        <modelElement href="InsurerMicroservice.uml#_5RPoIXetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5591EnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5591E3etEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5591FHetEfCrKuVL4Yb6uQ" name="signature">
+        <modelElement href="InsurerMicroservice.uml#_5RPoInetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5591FXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5591FnetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5591F3etEfCrKuVL4Yb6uQ" name="getUnpaidCustomers">
+      <modelElement href="InsurerMicroservice.uml#_5RYLAHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5591GHetEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="InsurerMicroservice.uml#_5RanQHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5591GXetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5Rb1YHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5591GnetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5591G3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5591HHetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5i_fcHetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5591HXetEfCrKuVL4Yb6uQ" name="ResponseEntity">
+          <modelElement href="InsurerMicroservice.uml#_5hlxQXetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5591HnetEfCrKuVL4Yb6uQ" name="getUnpaidFailedInvoicesForCustomer">
+      <modelElement href="InsurerMicroservice.uml#_5RdqkHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5591H3etEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="InsurerMicroservice.uml#_5Rgt4HetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5591IHetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5RjxMHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5591IXetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5591InetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5591I3etEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5i_fcXetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5591JHetEfCrKuVL4Yb6uQ" name="ResponseEntity">
+          <modelElement href="InsurerMicroservice.uml#_5hlxQXetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5591JXetEfCrKuVL4Yb6uQ" name="customerId">
+        <modelElement href="InsurerMicroservice.uml#_5RdqkXetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5591JnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5591J3etEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5591KHetEfCrKuVL4Yb6uQ" name="getUnpaidPoliciesForCustomer">
+      <modelElement href="InsurerMicroservice.uml#_5RlmYHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5591KXetEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="InsurerMicroservice.uml#_5RoCoHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5591KnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5Rqe4HetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5591K3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5591LHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5591LXetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5i_fcnetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5591LnetEfCrKuVL4Yb6uQ" name="ResponseEntity">
+          <modelElement href="InsurerMicroservice.uml#_5hlxQXetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5591L3etEfCrKuVL4Yb6uQ" name="customerId">
+        <modelElement href="InsurerMicroservice.uml#_5RlmYXetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5591MHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5591MXetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5591MnetEfCrKuVL4Yb6uQ" name="payByCash">
+      <modelElement href="InsurerMicroservice.uml#_5RrtAHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5591M3etEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="InsurerMicroservice.uml#_5RvXYHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5591NHetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5RxMkHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5591NXetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5591NnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5591N3etEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5i_fc3etEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5591OHetEfCrKuVL4Yb6uQ" name="ResponseEntity">
+          <modelElement href="InsurerMicroservice.uml#_5hlxQXetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5591OXetEfCrKuVL4Yb6uQ" name="invoiceId">
+        <modelElement href="InsurerMicroservice.uml#_5RsUEHetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5591OnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5591O3etEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5591PHetEfCrKuVL4Yb6uQ" name="getAllPaymentHistory">
+      <modelElement href="InsurerMicroservice.uml#_5RyasHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5591PXetEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="InsurerMicroservice.uml#_5R028HetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5591PnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5R2FEHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5591P3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5591QHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5591QXetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5jAtkHetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5591QnetEfCrKuVL4Yb6uQ" name="ResponseEntity">
+          <modelElement href="InsurerMicroservice.uml#_5hlxQXetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5591Q3etEfCrKuVL4Yb6uQ" name="getCustomerById">
+      <modelElement href="InsurerMicroservice.uml#_5R2sIHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5591RHetEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="InsurerMicroservice.uml#_5R5IYHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5591RXetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5R7koHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5591RnetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5591R3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5591SHetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5jB7sHetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5591SXetEfCrKuVL4Yb6uQ" name="ResponseEntity">
+          <modelElement href="InsurerMicroservice.uml#_5hlxQXetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5591SnetEfCrKuVL4Yb6uQ" name="customerId">
+        <modelElement href="InsurerMicroservice.uml#_5R3TMHetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5591S3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5591THetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5591TXetEfCrKuVL4Yb6uQ" name="getInvoiceById">
+      <modelElement href="InsurerMicroservice.uml#_5R9Z0HetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5591TnetEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="InsurerMicroservice.uml#_5R_PAHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5591T3etEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5SBEMHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5591UHetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5591UXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5591UnetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5jB7sXetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5591U3etEfCrKuVL4Yb6uQ" name="ResponseEntity">
+          <modelElement href="InsurerMicroservice.uml#_5hlxQXetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5591VHetEfCrKuVL4Yb6uQ" name="invoiceId">
+        <modelElement href="InsurerMicroservice.uml#_5R9Z0XetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5591VXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5591VnetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5591V3etEfCrKuVL4Yb6uQ" name="getAllInvoiceHistory">
+      <modelElement href="InsurerMicroservice.uml#_5SCSUHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5591WHetEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="InsurerMicroservice.uml#_5SC5YHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5591WXetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5SEHgHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5591WnetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5591W3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5591XHetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5jFmEHetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5591XXetEfCrKuVL4Yb6uQ" name="ResponseEntity">
+          <modelElement href="InsurerMicroservice.uml#_5hlxQXetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5591XnetEfCrKuVL4Yb6uQ" name="searchCustomersByName">
+      <modelElement href="InsurerMicroservice.uml#_5SEukHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5591X3etEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="InsurerMicroservice.uml#_5SHK0HetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5591YHetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5SIY8HetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5591YXetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5591YnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5591Y3etEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5jFmEXetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5591ZHetEfCrKuVL4Yb6uQ" name="ResponseEntity">
+          <modelElement href="InsurerMicroservice.uml#_5hlxQXetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5591ZXetEfCrKuVL4Yb6uQ" name="name">
+        <modelElement href="InsurerMicroservice.uml#_5SFVoHetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5591ZnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5591Z3etEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5591aHetEfCrKuVL4Yb6uQ" name="createInvoice">
+      <modelElement href="InsurerMicroservice.uml#_5ho0kHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5591aXetEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="InsurerMicroservice.uml#_5hqpwHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5591anetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5htGAHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5591a3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5591bHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5591bXetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5i-4YHetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5591bnetEfCrKuVL4Yb6uQ" name="ResponseEntity">
+          <modelElement href="InsurerMicroservice.uml#_5hlxQXetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5591b3etEfCrKuVL4Yb6uQ" name="request">
+        <modelElement href="InsurerMicroservice.uml#_5hpboHetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5591cHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5591cXetEfCrKuVL4Yb6uQ" name="InvoiceRequest">
+          <modelElement href="InsurerMicroservice.uml#_5OWFIHetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5591cnetEfCrKuVL4Yb6uQ" name="initiatePayment">
+      <modelElement href="InsurerMicroservice.uml#_5huUIHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5591c3etEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="InsurerMicroservice.uml#_5hwJUHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5591dHetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5hx-gHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_55-cEHetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_55-cEXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_55-cEnetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5i-4YXetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_55-cE3etEfCrKuVL4Yb6uQ" name="ResponseEntity">
+          <modelElement href="InsurerMicroservice.uml#_5hlxQXetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_55-cFHetEfCrKuVL4Yb6uQ" name="request">
+        <modelElement href="InsurerMicroservice.uml#_5huUIXetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_55-cFXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_55-cFnetEfCrKuVL4Yb6uQ" name="PaymentInitiateRequest">
+          <modelElement href="InsurerMicroservice.uml#_5NaRAHetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_55-cF3etEfCrKuVL4Yb6uQ" name="getPoliciesByIds">
+      <modelElement href="InsurerMicroservice.uml#_5jCiwHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_55-cGHetEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="InsurerMicroservice.uml#_5jCiwnetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_55-cGXetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5jE_AnetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_55-cGnetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_55-cG3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_55-cHHetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5jDw4HetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_55-cHXetEfCrKuVL4Yb6uQ" name="ResponseEntity">
+          <modelElement href="InsurerMicroservice.uml#_5hlxQXetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_55-cHnetEfCrKuVL4Yb6uQ" name="policyIds">
+        <modelElement href="InsurerMicroservice.uml#_5jCiwXetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_55-cH3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_55-cIHetEfCrKuVL4Yb6uQ" name="List">
+          <modelElement href="InsurerMicroservice.uml#_5gbToHetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_55-cIXetEfCrKuVL4Yb6uQ" name="payByCashMultiple">
+      <modelElement href="InsurerMicroservice.uml#_5jGNIHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_55-cInetEfCrKuVL4Yb6uQ" name="Generics">
+        <modelElement href="InsurerMicroservice.uml#_5jG0MHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_55-cI3etEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5jIpYHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_55-cJHetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_55-cJXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_55-cJnetEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5jHbQHetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_55-cJ3etEfCrKuVL4Yb6uQ" name="ResponseEntity">
+          <modelElement href="InsurerMicroservice.uml#_5hlxQXetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_55-cKHetEfCrKuVL4Yb6uQ" name="body">
+        <modelElement href="InsurerMicroservice.uml#_5jGNIXetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_55-cKXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_55-cKnetEfCrKuVL4Yb6uQ" name="Map">
+          <modelElement href="InsurerMicroservice.uml#_5hm_YHetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_586bUHetEfCrKuVL4Yb6uQ" name="TaxDetails" associationsIn="_58in4HetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5N-4wHetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_586bUXetEfCrKuVL4Yb6uQ" position="-660.0,-270.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_586bUnetEfCrKuVL4Yb6uQ" keyword="static"/>
+    <stereotypes xmi:id="_586bU3etEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="InsurerMicroservice.uml#_5OAt8HetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_586bVHetEfCrKuVL4Yb6uQ" label="+"/>
+    <attributes xmi:id="_586bVXetEfCrKuVL4Yb6uQ" name="taxType">
+      <modelElement href="InsurerMicroservice.uml#_5jZIEnetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_586bVnetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_586bV3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_586bWHetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_586bWXetEfCrKuVL4Yb6uQ" name="taxRate">
+      <modelElement href="InsurerMicroservice.uml#_5jZIE3etEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_586bWnetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_586bW3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_586bXHetEfCrKuVL4Yb6uQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_586bXXetEfCrKuVL4Yb6uQ" name="taxAmount">
+      <modelElement href="InsurerMicroservice.uml#_5jZvIHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_586bXnetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_586bX3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_586bYHetEfCrKuVL4Yb6uQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_586bYXetEfCrKuVL4Yb6uQ" name="totalAmount">
+      <modelElement href="InsurerMicroservice.uml#_5jZvIXetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_586bYnetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_586bY3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_586bZHetEfCrKuVL4Yb6uQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_58jO8HetEfCrKuVL4Yb6uQ" name="Payment" associationsOut="_58in4HetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5N3kAHetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_58jO8XetEfCrKuVL4Yb6uQ" position="-673.0,-96.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_58jO8netEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="InsurerMicroservice.uml#_5N5ZMHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_58jO83etEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="InsurerMicroservice.uml#_5OB8EHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_58jO9HetEfCrKuVL4Yb6uQ" label="+"/>
+    <attributes xmi:id="_58jO9XetEfCrKuVL4Yb6uQ" name="id">
+      <modelElement href="InsurerMicroservice.uml#_5jU2oHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_58jO9netEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5jU2oXetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_58jO93etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58jO-HetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58jO-XetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58jO-netEfCrKuVL4Yb6uQ" name="invoiceId">
+      <modelElement href="InsurerMicroservice.uml#_5jVdsXetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58jO-3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58jO_HetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58jO_XetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58jO_netEfCrKuVL4Yb6uQ" name="customerId">
+      <modelElement href="InsurerMicroservice.uml#_5jVdsnetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58jO_3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58jPAHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58jPAXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58jPAnetEfCrKuVL4Yb6uQ" name="insurerId">
+      <modelElement href="InsurerMicroservice.uml#_5jVds3etEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58jPA3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58jPBHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58jPBXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58jPBnetEfCrKuVL4Yb6uQ" name="amount">
+      <modelElement href="InsurerMicroservice.uml#_5jWEwHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58jPB3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58jPCHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58jPCXetEfCrKuVL4Yb6uQ" name="Double">
+        <modelElement href="InsurerMicroservice.uml#_5ifJIXetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58jPCnetEfCrKuVL4Yb6uQ" name="status">
+      <modelElement href="InsurerMicroservice.uml#_5jWEwXetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58jPC3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58jPDHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58jPDXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58jPDnetEfCrKuVL4Yb6uQ" name="razorpayPaymentId">
+      <modelElement href="InsurerMicroservice.uml#_5jWEwnetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58jPD3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58jPEHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58jPEXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58jPEnetEfCrKuVL4Yb6uQ" name="razorpaySubscriptionId">
+      <modelElement href="InsurerMicroservice.uml#_5jXS4HetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58jPE3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58jPFHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58jPFXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58jPFnetEfCrKuVL4Yb6uQ" name="method">
+      <modelElement href="InsurerMicroservice.uml#_5jX58HetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58jPF3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58jPGHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58jPGXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58jPGnetEfCrKuVL4Yb6uQ" defaultValue="false" name="isAutoPay">
+      <modelElement href="InsurerMicroservice.uml#_5jX58XetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58jPG3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58jPHHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58jPHXetEfCrKuVL4Yb6uQ" name="Boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58jPHnetEfCrKuVL4Yb6uQ" defaultValue="new Date()" name="paidAt">
+      <modelElement href="InsurerMicroservice.uml#_5jX583etEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58jPH3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58jPIHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58jPIXetEfCrKuVL4Yb6uQ" name="Date">
+        <modelElement href="InsurerMicroservice.uml#_5gj2gXetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58jPInetEfCrKuVL4Yb6uQ" name="taxDetails">
+      <modelElement href="InsurerMicroservice.uml#_5jYhAXetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58jPI3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58jPJHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58jPJXetEfCrKuVL4Yb6uQ" name="TaxDetails">
+        <modelElement href="InsurerMicroservice.uml#_5N-4wHetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58jPJnetEfCrKuVL4Yb6uQ" name="policyIds">
+      <modelElement href="InsurerMicroservice.uml#_5jYhAnetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58jPJ3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58jPKHetEfCrKuVL4Yb6uQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_58jPKXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58jPKnetEfCrKuVL4Yb6uQ" name="policyNames">
+      <modelElement href="InsurerMicroservice.uml#_5jZIEHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58jPK3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58jPLHetEfCrKuVL4Yb6uQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_58jPLXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_58WaoHetEfCrKuVL4Yb6uQ" name="TaxDetails" associationsIn="_58HxIHetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5OhrUHetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_58WaoXetEfCrKuVL4Yb6uQ" position="-810.0,248.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_58WaonetEfCrKuVL4Yb6uQ" keyword="static"/>
+    <stereotypes xmi:id="_58Wao3etEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="InsurerMicroservice.uml#_5OkuoHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_58WapHetEfCrKuVL4Yb6uQ" label="+"/>
+    <attributes xmi:id="_58WapXetEfCrKuVL4Yb6uQ" name="policyId">
+      <modelElement href="InsurerMicroservice.uml#_5j4QQHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58WapnetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58Wap3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58WaqHetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58XowHetEfCrKuVL4Yb6uQ" name="gstRate">
+      <modelElement href="InsurerMicroservice.uml#_5j5eYHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58XowXetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58XownetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58Xow3etEfCrKuVL4Yb6uQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58XoxHetEfCrKuVL4Yb6uQ" name="taxAmount">
+      <modelElement href="InsurerMicroservice.uml#_5j5eYXetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58XoxXetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58XoxnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58Xox3etEfCrKuVL4Yb6uQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58XoyHetEfCrKuVL4Yb6uQ" name="totalAmount">
+      <modelElement href="InsurerMicroservice.uml#_5j6sgHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58XoyXetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58XoynetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58Xoy3etEfCrKuVL4Yb6uQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_57HrkHetEfCrKuVL4Yb6uQ" name="InvoiceRequest">
+    <modelElement href="InsurerMicroservice.uml#_5OWFIHetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_57ISoHetEfCrKuVL4Yb6uQ" position="-4.0,-322.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_57ISoXetEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="InsurerMicroservice.uml#_5OYhYHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_57ISonetEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="InsurerMicroservice.uml#_5OaWkHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_57ISo3etEfCrKuVL4Yb6uQ" label="+"/>
+    <attributes xmi:id="_57ISpHetEfCrKuVL4Yb6uQ" name="customerId">
+      <modelElement href="InsurerMicroservice.uml#_5jcyc3etEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57ISpXetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57ISpnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57ISp3etEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57ISqHetEfCrKuVL4Yb6uQ" name="policyIds">
+      <modelElement href="InsurerMicroservice.uml#_5jdZgHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57ISqXetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57ISqnetEfCrKuVL4Yb6uQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_57ISq3etEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57ISrHetEfCrKuVL4Yb6uQ" name="insurerId">
+      <modelElement href="InsurerMicroservice.uml#_5jeAkHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57ISrXetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57ISrnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57ISr3etEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57ISsHetEfCrKuVL4Yb6uQ" name="validUpto">
+      <modelElement href="InsurerMicroservice.uml#_5jeAkXetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57ISsXetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57ISsnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57ISs3etEfCrKuVL4Yb6uQ" name="Date">
+        <modelElement href="InsurerMicroservice.uml#_5gj2gXetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57IStHetEfCrKuVL4Yb6uQ" name="months">
+      <modelElement href="InsurerMicroservice.uml#_5jeAknetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57IStXetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57IStnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57ISt3etEfCrKuVL4Yb6uQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_572rYHetEfCrKuVL4Yb6uQ" name="Policy">
+    <modelElement href="InsurerMicroservice.uml#_5NgXoHetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_572rYXetEfCrKuVL4Yb6uQ" position="-433.0,-40.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_572rYnetEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="InsurerMicroservice.uml#_5NhlwHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_572rY3etEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="InsurerMicroservice.uml#_5NkpEHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_572rZHetEfCrKuVL4Yb6uQ" label="+"/>
+    <attributes xmi:id="_572rZXetEfCrKuVL4Yb6uQ" name="id">
+      <modelElement href="InsurerMicroservice.uml#_5jP-IHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_572rZnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5jQlMHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_572rZ3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_572raHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_572raXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_572ranetEfCrKuVL4Yb6uQ" name="insurerId">
+      <modelElement href="InsurerMicroservice.uml#_5jQlMnetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_572ra3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_572rbHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_572rbXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_572rbnetEfCrKuVL4Yb6uQ" name="type">
+      <modelElement href="InsurerMicroservice.uml#_5jQlM3etEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_572rb3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_572rcHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_572rcXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_572rcnetEfCrKuVL4Yb6uQ" name="coverageAmount">
+      <modelElement href="InsurerMicroservice.uml#_5jQlNHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_572rc3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_572rdHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_572rdXetEfCrKuVL4Yb6uQ" name="Double">
+        <modelElement href="InsurerMicroservice.uml#_5ifJIXetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_572rdnetEfCrKuVL4Yb6uQ" name="monthlyPremium">
+      <modelElement href="InsurerMicroservice.uml#_5jRMQHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_572rd3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_572reHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_572reXetEfCrKuVL4Yb6uQ" name="Double">
+        <modelElement href="InsurerMicroservice.uml#_5ifJIXetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_572renetEfCrKuVL4Yb6uQ" name="durationMonths">
+      <modelElement href="InsurerMicroservice.uml#_5jRMQXetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_572re3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_572rfHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_572rfXetEfCrKuVL4Yb6uQ" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_572rfnetEfCrKuVL4Yb6uQ" defaultValue="true" name="active">
+      <modelElement href="InsurerMicroservice.uml#_5jRzUHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_572rf3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_572rgHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_572rgXetEfCrKuVL4Yb6uQ" name="Boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_572rgnetEfCrKuVL4Yb6uQ" defaultValue="new Date()" name="createdAt">
+      <modelElement href="InsurerMicroservice.uml#_5jRzUnetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_572rg3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_572rhHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_572rhXetEfCrKuVL4Yb6uQ" name="Date">
+        <modelElement href="InsurerMicroservice.uml#_5gj2gXetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_572rhnetEfCrKuVL4Yb6uQ" name="policyType">
+      <modelElement href="InsurerMicroservice.uml#_5jSaYHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_572rh3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_572riHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_572riXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_572rinetEfCrKuVL4Yb6uQ" name="name">
+      <modelElement href="InsurerMicroservice.uml#_5jSaYXetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_572ri3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_572rjHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_572rjXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_563z8HetEfCrKuVL4Yb6uQ" name="CustomerSummary">
+    <modelElement href="InsurerMicroservice.uml#_5MhgMHetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_563z8XetEfCrKuVL4Yb6uQ" position="-444.0,-252.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_563z8netEfCrKuVL4Yb6uQ" label="+"/>
+    <attributes xmi:id="_563z83etEfCrKuVL4Yb6uQ" name="id">
+      <modelElement href="InsurerMicroservice.uml#_5jNh4HetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_563z9HetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_563z9XetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_563z9netEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_563z93etEfCrKuVL4Yb6uQ" name="name">
+      <modelElement href="InsurerMicroservice.uml#_5jOI8HetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_563z-HetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_563z-XetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_563z-netEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_563z-3etEfCrKuVL4Yb6uQ" name="CustomerSummary">
+      <modelElement href="InsurerMicroservice.uml#_5MkjgHetEfCrKuVL4Yb6uQ"/>
+      <keywords xmi:id="_563z_HetEfCrKuVL4Yb6uQ" keyword="create"/>
+      <visibility xmi:id="_563z_XetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_563z_netEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_563z_3etEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5Mnm0HetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_5630AHetEfCrKuVL4Yb6uQ" name="CustomerSummary">
+          <modelElement href="InsurerMicroservice.uml#_5MhgMHetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5630AXetEfCrKuVL4Yb6uQ" name="id">
+        <modelElement href="InsurerMicroservice.uml#_5MlKkHetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5630AnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5630A3etEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5630BHetEfCrKuVL4Yb6uQ" name="name">
+        <modelElement href="InsurerMicroservice.uml#_5MmYsHetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_5630BXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_5630BnetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_57SDoHetEfCrKuVL4Yb6uQ" name="Notification">
+    <modelElement href="InsurerMicroservice.uml#_5OLGAHetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_57SDoXetEfCrKuVL4Yb6uQ" position="-614.0,240.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_57SDonetEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="InsurerMicroservice.uml#_5OM7MHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_57SDo3etEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="InsurerMicroservice.uml#_5ORMoHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_57SDpHetEfCrKuVL4Yb6uQ" label="+"/>
+    <attributes xmi:id="_57SDpXetEfCrKuVL4Yb6uQ" name="id">
+      <modelElement href="InsurerMicroservice.uml#_5jaWMHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_57SDpnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5ja9QHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_57SDp3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57SDqHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57SDqXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57SDqnetEfCrKuVL4Yb6uQ" name="customerId">
+      <modelElement href="InsurerMicroservice.uml#_5ja9QnetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57SDq3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57SDrHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57SDrXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57SDrnetEfCrKuVL4Yb6uQ" name="invoiceId">
+      <modelElement href="InsurerMicroservice.uml#_5ja9Q3etEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57SDr3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57SDsHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57SDsXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57SDsnetEfCrKuVL4Yb6uQ" name="insurerId">
+      <modelElement href="InsurerMicroservice.uml#_5jbkUHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57SDs3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57SDtHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57SDtXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57SDtnetEfCrKuVL4Yb6uQ" name="type">
+      <modelElement href="InsurerMicroservice.uml#_5jbkUXetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57SDt3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57SDuHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57SDuXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57SDunetEfCrKuVL4Yb6uQ" name="message">
+      <modelElement href="InsurerMicroservice.uml#_5jcLYHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57SDu3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57SDvHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57SDvXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57SDvnetEfCrKuVL4Yb6uQ" defaultValue="new Date()" name="sentAt">
+      <modelElement href="InsurerMicroservice.uml#_5jcLYXetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57SDv3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57SDwHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57SDwXetEfCrKuVL4Yb6uQ" name="Date">
+        <modelElement href="InsurerMicroservice.uml#_5gj2gXetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57SDwnetEfCrKuVL4Yb6uQ" defaultValue="&quot;sent&quot;" name="status">
+      <modelElement href="InsurerMicroservice.uml#_5jcLY3etEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57SDw3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57SDxHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57SDxXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57SDxnetEfCrKuVL4Yb6uQ" defaultValue="0" name="retryCount">
+      <modelElement href="InsurerMicroservice.uml#_5jcycXetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57SDx3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57SDyHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57SDyXetEfCrKuVL4Yb6uQ" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_59CXIHetEfCrKuVL4Yb6uQ" name="TaxRate">
+    <modelElement href="InsurerMicroservice.uml#_5NqvsHetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_59CXIXetEfCrKuVL4Yb6uQ" position="-831.0,88.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_59CXInetEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="InsurerMicroservice.uml#_5Nr90HetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_59CXI3etEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="InsurerMicroservice.uml#_5NtzAHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_59CXJHetEfCrKuVL4Yb6uQ" label="+"/>
+    <attributes xmi:id="_59CXJXetEfCrKuVL4Yb6uQ" name="id">
+      <modelElement href="InsurerMicroservice.uml#_5jSaYnetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_59CXJnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5jTBcHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_59CXJ3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_59CXKHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_59CXKXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_59CXKnetEfCrKuVL4Yb6uQ" name="policyType">
+      <modelElement href="InsurerMicroservice.uml#_5jTBcnetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_59CXK3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_59CXLHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_59CXLXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_59CXLnetEfCrKuVL4Yb6uQ" name="gstRate">
+      <modelElement href="InsurerMicroservice.uml#_5jUPkHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_59CXL3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_59CXMHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_59CXMXetEfCrKuVL4Yb6uQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_59CXMnetEfCrKuVL4Yb6uQ" name="applicability">
+      <modelElement href="InsurerMicroservice.uml#_5jUPkXetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_59CXM3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_59CXNHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_59CXNXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_59CXNnetEfCrKuVL4Yb6uQ" name="updatedAt">
+      <modelElement href="InsurerMicroservice.uml#_5jUPknetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_59CXN3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_59CXOHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_59CXOXetEfCrKuVL4Yb6uQ" name="Date">
+        <modelElement href="InsurerMicroservice.uml#_5gj2gXetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_56nVQHetEfCrKuVL4Yb6uQ" name="RazorpayTestApplication">
+    <modelElement href="InsurerMicroservice.uml#_5MTdwHetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_56nVQXetEfCrKuVL4Yb6uQ" position="-409.0,255.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_56nVQnetEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="InsurerMicroservice.uml#_5MUr4HetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_56nVQ3etEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="InsurerMicroservice.uml#_5MfrAHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_56nVRHetEfCrKuVL4Yb6uQ" label="+"/>
+    <operations xmi:id="_56nVRXetEfCrKuVL4Yb6uQ" name="main" staticOperation="true">
+      <modelElement href="InsurerMicroservice.uml#_5McnsHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_56nVRnetEfCrKuVL4Yb6uQ" name="StyledElement">
+        <modelElement href="InsurerMicroservice.uml#_5Md10HetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_56nVR3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_56nVSHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_56nVSXetEfCrKuVL4Yb6uQ" name="args">
+        <modelElement href="InsurerMicroservice.uml#_5MdOwHetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_56nVSnetEfCrKuVL4Yb6uQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_56nVS3etEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_58BDcHetEfCrKuVL4Yb6uQ" name="PaymentInitiateRequest">
+    <modelElement href="InsurerMicroservice.uml#_5NaRAHetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_58BDcXetEfCrKuVL4Yb6uQ" position="-382.0,371.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_58BDcnetEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="InsurerMicroservice.uml#_5NctQHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_58BDc3etEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="InsurerMicroservice.uml#_5NeicHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_58BDdHetEfCrKuVL4Yb6uQ" label="+"/>
+    <attributes xmi:id="_58BDdXetEfCrKuVL4Yb6uQ" name="invoiceId">
+      <modelElement href="InsurerMicroservice.uml#_5jOwAXetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58BDdnetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58BDd3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58BDeHetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58BDeXetEfCrKuVL4Yb6uQ" name="customerId">
+      <modelElement href="InsurerMicroservice.uml#_5jOwAnetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58BqgHetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58BqgXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58BqgnetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_58I_QHetEfCrKuVL4Yb6uQ" name="Invoice" associationsOut="_58HxIHetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5OcLwHetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_58I_QXetEfCrKuVL4Yb6uQ" position="-183.0,194.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_58I_QnetEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="InsurerMicroservice.uml#_5OdZ4HetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_58I_Q3etEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="InsurerMicroservice.uml#_5Onx8HetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_58I_RHetEfCrKuVL4Yb6uQ" label="+"/>
+    <attributes xmi:id="_58I_RXetEfCrKuVL4Yb6uQ" name="id">
+      <modelElement href="InsurerMicroservice.uml#_5jenoHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_58I_RnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5jenoXetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_58I_R3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58I_SHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58I_SXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58I_SnetEfCrKuVL4Yb6uQ" name="customerId">
+      <modelElement href="InsurerMicroservice.uml#_5jfOsXetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58I_S3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58I_THetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58I_TXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58I_TnetEfCrKuVL4Yb6uQ" name="insurerId">
+      <modelElement href="InsurerMicroservice.uml#_5jfOsnetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58I_T3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58I_UHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58I_UXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58I_UnetEfCrKuVL4Yb6uQ" name="amount">
+      <modelElement href="InsurerMicroservice.uml#_5jfOs3etEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58I_U3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58I_VHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58I_VXetEfCrKuVL4Yb6uQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58I_VnetEfCrKuVL4Yb6uQ" defaultValue="&quot;unpaid&quot;" name="status">
+      <modelElement href="InsurerMicroservice.uml#_5jf1wHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58I_V3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58I_WHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58I_WXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58I_WnetEfCrKuVL4Yb6uQ" name="validUpto">
+      <modelElement href="InsurerMicroservice.uml#_5jf1wnetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58I_W3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58I_XHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58I_XXetEfCrKuVL4Yb6uQ" name="Date">
+        <modelElement href="InsurerMicroservice.uml#_5gj2gXetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58I_XnetEfCrKuVL4Yb6uQ" name="razorpayOrderId">
+      <modelElement href="InsurerMicroservice.uml#_5jf1w3etEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58I_X3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58I_YHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58I_YXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58I_YnetEfCrKuVL4Yb6uQ" defaultValue="new ArrayList&lt;>()" name="taxDetailsList">
+      <modelElement href="InsurerMicroservice.uml#_5jgc0HetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58I_Y3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58I_ZHetEfCrKuVL4Yb6uQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_58I_ZXetEfCrKuVL4Yb6uQ" name="TaxDetails">
+        <modelElement href="InsurerMicroservice.uml#_5OhrUHetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58I_ZnetEfCrKuVL4Yb6uQ" defaultValue="new Date()" name="createdAt">
+      <modelElement href="InsurerMicroservice.uml#_5jgc03etEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58I_Z3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58I_aHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58I_aXetEfCrKuVL4Yb6uQ" name="Date">
+        <modelElement href="InsurerMicroservice.uml#_5gj2gXetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58I_anetEfCrKuVL4Yb6uQ" name="policyIds">
+      <modelElement href="InsurerMicroservice.uml#_5j2bEHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58I_a3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58I_bHetEfCrKuVL4Yb6uQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_58I_bXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58I_bnetEfCrKuVL4Yb6uQ" name="paymentLink">
+      <modelElement href="InsurerMicroservice.uml#_5j3CIHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58I_b3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58I_cHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58I_cXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_58I_cnetEfCrKuVL4Yb6uQ" name="months">
+      <modelElement href="InsurerMicroservice.uml#_5j3pMHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_58I_c3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_58I_dHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_58I_dXetEfCrKuVL4Yb6uQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5-hk4HetEfCrKuVL4Yb6uQ" name="RazorpayException">
+    <modelElement href="InsurerMicroservice.uml#_5hAicHetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_5-hk4XetEfCrKuVL4Yb6uQ" position="-446.0,-319.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_5-hk4netEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="InsurerMicroservice.uml#_5hBwkHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_5-hk43etEfCrKuVL4Yb6uQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_56vREHetEfCrKuVL4Yb6uQ" name="PolicySummary">
+    <modelElement href="InsurerMicroservice.uml#_5MqDEHetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_56vREXetEfCrKuVL4Yb6uQ" position="-196.0,66.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_56vREnetEfCrKuVL4Yb6uQ" label="+"/>
+    <attributes xmi:id="_56vRE3etEfCrKuVL4Yb6uQ" name="id">
+      <modelElement href="InsurerMicroservice.uml#_5jOI8XetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_56vRFHetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_56vRFXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_56vRFnetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_56vRF3etEfCrKuVL4Yb6uQ" name="name">
+      <modelElement href="InsurerMicroservice.uml#_5jOwAHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_56vRGHetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_56vRGXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_56vRGnetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_56vRG3etEfCrKuVL4Yb6uQ" name="PolicySummary">
+      <modelElement href="InsurerMicroservice.uml#_5MttcHetEfCrKuVL4Yb6uQ"/>
+      <keywords xmi:id="_56vRHHetEfCrKuVL4Yb6uQ" keyword="create"/>
+      <visibility xmi:id="_56vRHXetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_56vRHnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_56vRH3etEfCrKuVL4Yb6uQ">
+        <modelElement href="InsurerMicroservice.uml#_5Mu7kXetEfCrKuVL4Yb6uQ"/>
+        <type xmi:id="_56vRIHetEfCrKuVL4Yb6uQ" name="PolicySummary">
+          <modelElement href="InsurerMicroservice.uml#_5MqDEHetEfCrKuVL4Yb6uQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_56vRIXetEfCrKuVL4Yb6uQ" name="id">
+        <modelElement href="InsurerMicroservice.uml#_5MttcXetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_56vRInetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_56vRI3etEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_56vRJHetEfCrKuVL4Yb6uQ" name="name">
+        <modelElement href="InsurerMicroservice.uml#_5MuUgHetEfCrKuVL4Yb6uQ"/>
+        <cardinality xmi:id="_56vRJXetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+        <type xmi:id="_56vRJnetEfCrKuVL4Yb6uQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5_QksHetEfCrKuVL4Yb6uQ" name="Exception">
+    <modelElement href="InsurerMicroservice.uml#_5i6m8HetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_5_QksXetEfCrKuVL4Yb6uQ" position="-142.0,-2.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_5_QksnetEfCrKuVL4Yb6uQ" name="Reference">
+      <modelElement href="InsurerMicroservice.uml#_5i7OAHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_5_Qks3etEfCrKuVL4Yb6uQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_57gtIHetEfCrKuVL4Yb6uQ" name="Customer" associationsOut="_57gGEHetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5Oxi8HetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_57gtIXetEfCrKuVL4Yb6uQ" position="75.0,204.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_57gtInetEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="InsurerMicroservice.uml#_5OzYIHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_57gtI3etEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="InsurerMicroservice.uml#_5O77AHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_57gtJHetEfCrKuVL4Yb6uQ" label="+"/>
+    <attributes xmi:id="_57gtJXetEfCrKuVL4Yb6uQ" name="id">
+      <modelElement href="InsurerMicroservice.uml#_5j76oHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_57gtJnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5j9IwHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_57gtJ3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57gtKHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57gtKXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57gtKnetEfCrKuVL4Yb6uQ" name="name">
+      <modelElement href="InsurerMicroservice.uml#_5j9v0XetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57gtK3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57gtLHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57gtLXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57gtLnetEfCrKuVL4Yb6uQ" name="email">
+      <modelElement href="InsurerMicroservice.uml#_5j-98HetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57gtL3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57gtMHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57gtMXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57gtMnetEfCrKuVL4Yb6uQ" name="phone">
+      <modelElement href="InsurerMicroservice.uml#_5j_lAHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57gtM3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57gtNHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57gtNXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57gtNnetEfCrKuVL4Yb6uQ" name="address">
+      <modelElement href="InsurerMicroservice.uml#_5kAMEHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57gtN3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57gtOHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57gtOXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57gtOnetEfCrKuVL4Yb6uQ" name="password">
+      <modelElement href="InsurerMicroservice.uml#_5kAzIHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57gtO3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57gtPHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57gtPXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57gtPnetEfCrKuVL4Yb6uQ" name="aadhaarNumber">
+      <modelElement href="InsurerMicroservice.uml#_5kBaMHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57gtP3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57gtQHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57gtQXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57gtQnetEfCrKuVL4Yb6uQ" name="autoPayEnabled">
+      <modelElement href="InsurerMicroservice.uml#_5kCBQHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57gtQ3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57gtRHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57gtRXetEfCrKuVL4Yb6uQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57gtRnetEfCrKuVL4Yb6uQ" name="policyIds">
+      <modelElement href="InsurerMicroservice.uml#_5kCBQXetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57gtR3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57gtSHetEfCrKuVL4Yb6uQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_57gtSXetEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57gtSnetEfCrKuVL4Yb6uQ" name="paymentHistory">
+      <modelElement href="InsurerMicroservice.uml#_5kCoUHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57gtS3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57gtTHetEfCrKuVL4Yb6uQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_57gtTXetEfCrKuVL4Yb6uQ" name="PaymentHistoryEntry">
+        <modelElement href="InsurerMicroservice.uml#_5O10YHetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57gtTnetEfCrKuVL4Yb6uQ" name="createdAt">
+      <modelElement href="InsurerMicroservice.uml#_5kDPYXetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57gtT3etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57gtUHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57gtUXetEfCrKuVL4Yb6uQ" name="Date">
+        <modelElement href="InsurerMicroservice.uml#_5gj2gXetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5-1G4HetEfCrKuVL4Yb6uQ" name="InsurerControllerTest" associationsOut="_5-lPQHetEfCrKuVL4Yb6uQ _5-yqoHetEfCrKuVL4Yb6uQ _5-0f0HetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5QI04HetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_5-1G4XetEfCrKuVL4Yb6uQ" position="280.0,-304.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_5-1G4netEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="InsurerMicroservice.uml#_5QOUcHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_5-1G43etEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="InsurerMicroservice.uml#_5Q97UHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_5-1G5HetEfCrKuVL4Yb6uQ" label="+"/>
+    <attributes xmi:id="_5-1G5XetEfCrKuVL4Yb6uQ" name="mockMvc">
+      <modelElement href="InsurerMicroservice.uml#_5kPcoHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1G5netEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5kQDsHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1G53etEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5-1G6HetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5-1G6XetEfCrKuVL4Yb6uQ" name="MockMvc">
+        <modelElement href="InsurerMicroservice.uml#_5hcnUHetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5-1G6netEfCrKuVL4Yb6uQ" name="billingService">
+      <modelElement href="InsurerMicroservice.uml#_5kQDsnetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1G63etEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5kQDs3etEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1G7HetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5-1G7XetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5-1G7netEfCrKuVL4Yb6uQ" name="InsurerService">
+        <modelElement href="InsurerMicroservice.uml#_5PFE8HetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5-1G73etEfCrKuVL4Yb6uQ" name="objectMapper">
+      <modelElement href="InsurerMicroservice.uml#_5kQDtXetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1G8HetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5kQqwHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1G8XetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_5-1G8netEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5-1G83etEfCrKuVL4Yb6uQ" name="ObjectMapper">
+        <modelElement href="InsurerMicroservice.uml#_5hVSkHetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_5-1G9HetEfCrKuVL4Yb6uQ" name="testCreateInvoice_Success">
+      <modelElement href="InsurerMicroservice.uml#_5QQJoHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1G9XetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5QR-0HetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1G9netEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1G93etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1G-HetEfCrKuVL4Yb6uQ" name="testCreateInvoice_RazorpayException">
+      <modelElement href="InsurerMicroservice.uml#_5QSl4HetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1G-XetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5QUbEHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1G-netEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1G-3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1G_HetEfCrKuVL4Yb6uQ" name="testCreateInvoice_RuntimeException">
+      <modelElement href="InsurerMicroservice.uml#_5QVCIHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1G_XetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5QWQQHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1G_netEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1G_3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1HAHetEfCrKuVL4Yb6uQ" name="testInitiatePayment_Success">
+      <modelElement href="InsurerMicroservice.uml#_5QXeYHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1HAXetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5QYsgHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1HAnetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1HA3etEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1HBHetEfCrKuVL4Yb6uQ" name="testInitiatePayment_RazorpayException">
+      <modelElement href="InsurerMicroservice.uml#_5QZTkHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1HBXetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5QbIwHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1HBnetEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1t8HetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1t8XetEfCrKuVL4Yb6uQ" name="testInitiatePayment_RuntimeException">
+      <modelElement href="InsurerMicroservice.uml#_5Qbv0HetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1t8netEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5QdlAHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1t83etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1t9HetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1t9XetEfCrKuVL4Yb6uQ" name="testHandleWebhook_PaymentCaptured_Success">
+      <modelElement href="InsurerMicroservice.uml#_5QdlAnetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1t9netEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5QfaMHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1t93etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1t-HetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1t-XetEfCrKuVL4Yb6uQ" name="testHandleWebhook_UnknownEvent">
+      <modelElement href="InsurerMicroservice.uml#_5QgoUHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1t-netEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5Qh2cHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1t-3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1t_HetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1t_XetEfCrKuVL4Yb6uQ" name="testGetUnpaidCustomers_Success">
+      <modelElement href="InsurerMicroservice.uml#_5QidgHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1t_netEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5QkSsHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1t_3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1uAHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1uAXetEfCrKuVL4Yb6uQ" name="testGetUnpaidFailedInvoicesForCustomer">
+      <modelElement href="InsurerMicroservice.uml#_5Qk5wHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1uAnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5Qmu8HetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1uA3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1uBHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1uBXetEfCrKuVL4Yb6uQ" name="testGetUnpaidPoliciesForCustomer">
+      <modelElement href="InsurerMicroservice.uml#_5QnWAHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1uBnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5QpLMHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1uB3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1uCHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1uCXetEfCrKuVL4Yb6uQ" name="testPayByCash_Success">
+      <modelElement href="InsurerMicroservice.uml#_5QpyQHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1uCnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5QrAYHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1uC3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1uDHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1uDXetEfCrKuVL4Yb6uQ" name="testPayByCash_RuntimeException">
+      <modelElement href="InsurerMicroservice.uml#_5QrncXetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1uDnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5QsOgHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1uD3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1uEHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1uEXetEfCrKuVL4Yb6uQ" name="testGetAllPaymentHistory">
+      <modelElement href="InsurerMicroservice.uml#_5Qs1kXetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1uEnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5QuDsHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1uE3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1uFHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1uFXetEfCrKuVL4Yb6uQ" name="testGetCustomerById_Found">
+      <modelElement href="InsurerMicroservice.uml#_5QuqwHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1uFnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5QuqwXetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1uF3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1uGHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1uGXetEfCrKuVL4Yb6uQ" name="testGetCustomerById_NotFound">
+      <modelElement href="InsurerMicroservice.uml#_5Qv44XetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1uGnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5Qwf8HetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1uG3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1uHHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1uHXetEfCrKuVL4Yb6uQ" name="testGetInvoiceById_Found">
+      <modelElement href="InsurerMicroservice.uml#_5Qwf8netEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1uHnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5QxuEHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1uH3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1uIHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1uIXetEfCrKuVL4Yb6uQ" name="testGetInvoiceById_NotFound">
+      <modelElement href="InsurerMicroservice.uml#_5QyVIHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1uInetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5QzjQHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1uI3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1uJHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1uJXetEfCrKuVL4Yb6uQ" name="testGetPoliciesByIds">
+      <modelElement href="InsurerMicroservice.uml#_5Q0KUHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1uJnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5Q0xYHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1uJ3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1uKHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1uKXetEfCrKuVL4Yb6uQ" name="testGetAllInvoiceHistory">
+      <modelElement href="InsurerMicroservice.uml#_5Q1YcHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1uKnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5Q1_gHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1uK3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1uLHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1uLXetEfCrKuVL4Yb6uQ" name="testSearchCustomersByName">
+      <modelElement href="InsurerMicroservice.uml#_5Q2mkHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1uLnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5Q30sHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1uL3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1uMHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1uMXetEfCrKuVL4Yb6uQ" name="testPayByCashMultiple_Success">
+      <modelElement href="InsurerMicroservice.uml#_5Q4bwHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1uMnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5Q5C0HetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1uM3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1uNHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1uNXetEfCrKuVL4Yb6uQ" name="testPayByCashMultiple_BadRequest_NoInvoiceIds">
+      <modelElement href="InsurerMicroservice.uml#_5Q5p4XetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1uNnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5Q64AHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1uN3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1uOHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5-1uOXetEfCrKuVL4Yb6uQ" name="testPayByCashMultiple_RuntimeException">
+      <modelElement href="InsurerMicroservice.uml#_5Q64AnetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5-1uOnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5Q8tMHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5-1uO3etEfCrKuVL4Yb6uQ" label="+"/>
+      <cardinality xmi:id="_5-1uPHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_57rsQHetEfCrKuVL4Yb6uQ" name="PaymentHistoryEntry" associationsIn="_57gGEHetEfCrKuVL4Yb6uQ">
+    <modelElement href="InsurerMicroservice.uml#_5O10YHetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_57sTUHetEfCrKuVL4Yb6uQ" position="299.0,302.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_57sTUXetEfCrKuVL4Yb6uQ" keyword="static"/>
+    <stereotypes xmi:id="_57sTUnetEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="InsurerMicroservice.uml#_5O5ewHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_57sTU3etEfCrKuVL4Yb6uQ" label="+"/>
+    <attributes xmi:id="_57sTVHetEfCrKuVL4Yb6uQ" name="policyId">
+      <modelElement href="InsurerMicroservice.uml#_5kD2cHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57sTVXetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57sTVnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57sTV3etEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57sTWHetEfCrKuVL4Yb6uQ" name="status">
+      <modelElement href="InsurerMicroservice.uml#_5kD2cXetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57sTWXetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57sTWnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57sTW3etEfCrKuVL4Yb6uQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57sTXHetEfCrKuVL4Yb6uQ" name="lastPaidDate">
+      <modelElement href="InsurerMicroservice.uml#_5kEdgHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57sTXXetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57sTXnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57sTX3etEfCrKuVL4Yb6uQ" name="Date">
+        <modelElement href="InsurerMicroservice.uml#_5gj2gXetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_57sTYHetEfCrKuVL4Yb6uQ" name="validUpto">
+      <modelElement href="InsurerMicroservice.uml#_5kFroHetEfCrKuVL4Yb6uQ"/>
+      <visibility xmi:id="_57sTYXetEfCrKuVL4Yb6uQ" label="-"/>
+      <cardinality xmi:id="_57sTYnetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+      <type xmi:id="_57sTY3etEfCrKuVL4Yb6uQ" name="Date">
+        <modelElement href="InsurerMicroservice.uml#_5gj2gXetEfCrKuVL4Yb6uQ"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5_UPEHetEfCrKuVL4Yb6uQ" name="RazorpayTestApplicationTests">
+    <modelElement href="InsurerMicroservice.uml#_5MBJ4HetEfCrKuVL4Yb6uQ"/>
+    <visualProperties xmi:id="_5_UPEXetEfCrKuVL4Yb6uQ" position="21.0,-23.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_5_UPEnetEfCrKuVL4Yb6uQ" name="LegacyStyledElement">
+      <modelElement href="InsurerMicroservice.uml#_5MMwEHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_5_UPE3etEfCrKuVL4Yb6uQ" name="Annotations">
+      <modelElement href="InsurerMicroservice.uml#_5MS2sHetEfCrKuVL4Yb6uQ"/>
+    </stereotypes>
+    <visibility xmi:id="_5_UPFHetEfCrKuVL4Yb6uQ" label="~"/>
+    <operations xmi:id="_5_UPFXetEfCrKuVL4Yb6uQ" name="contextLoads">
+      <modelElement href="InsurerMicroservice.uml#_5MOlQHetEfCrKuVL4Yb6uQ"/>
+      <stereotypes xmi:id="_5_UPFnetEfCrKuVL4Yb6uQ" name="Annotations">
+        <modelElement href="InsurerMicroservice.uml#_5MRBgHetEfCrKuVL4Yb6uQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5_UPF3etEfCrKuVL4Yb6uQ" label="~"/>
+      <cardinality xmi:id="_5_UPGHetEfCrKuVL4Yb6uQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
