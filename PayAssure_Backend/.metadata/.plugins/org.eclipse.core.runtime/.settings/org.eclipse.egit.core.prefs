@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\Users\\shivaprasad.p\\git\\repository3\\.git;D\:\\StripeProject\\.git;C\:\\Users\\shivaprasad.p\\git\\Capstonerepository\\.git;C\:\\Users\\shivaprasad.p\\git\\repository2\\.git;C\:\\Users\\shivaprasad.p\\git\\repository4\\.git;
-GitRepositoriesView.GitDirectories.relative=C\:\\Users\\shivaprasad.p\\git\\repository3\\.git;.git;C\:\\Users\\shivaprasad.p\\git\\Capstonerepository\\.git;C\:\\Users\\shivaprasad.p\\git\\repository2\\.git;C\:\\Users\\shivaprasad.p\\git\\repository4\\.git;
+GitRepositoriesView.GitDirectories=C\:\\Users\\shivaprasad.p\\git\\repository3\\.git;C\:\\Users\\shivaprasad.p\\git\\Capstonerepository\\.git;D\:\\CapstonePayAssure\\PayAssure_Backend\\.git;C\:\\Users\\shivaprasad.p\\git\\repository2\\.git;D\:\\CapstonePayAssure\\.git;C\:\\Users\\shivaprasad.p\\git\\repository4\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\Users\\shivaprasad.p\\git\\repository3\\.git;C\:\\Users\\shivaprasad.p\\git\\Capstonerepository\\.git;.git;C\:\\Users\\shivaprasad.p\\git\\repository2\\.git;D\:\\CapstonePayAssure\\.git;C\:\\Users\\shivaprasad.p\\git\\repository4\\.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
