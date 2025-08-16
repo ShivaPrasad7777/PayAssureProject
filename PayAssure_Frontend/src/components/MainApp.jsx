@@ -1,4 +1,181 @@
-// src/components/MainApp.jsx
+// // src/components/MainApp.jsx
+// import React, { useEffect, useState } from "react";
+// import { useLocation, useNavigate } from "react-router-dom";
+// import axios from "axios";
+// import { createTheme, useTheme } from "@mui/material/styles";
+// import { AppProvider } from "@toolpad/core/AppProvider";
+// import { DashboardLayout } from "@toolpad/core/DashboardLayout";
+// import AppTitle from "./utils/AppTitle";
+// import RoleConfig from "./utils/RoleConfig";
+
+// const API_ENDPOINT = "your-api-base-url"; // Set your base API url
+// const endpoints = {
+//   LoginMicroservice: "login",
+// };
+
+// const getApiEndpoint = (role) => {
+//   switch (role) {
+//     case "admin":
+//       return `${API_ENDPOINT}/${endpoints.LoginMicroservice}/Admin`;
+//     case "customer":
+//       return `${API_ENDPOINT}/${endpoints.LoginMicroservice}/Customer`;
+//     case "insurer":
+//       return `${API_ENDPOINT}/${endpoints.LoginMicroservice}/Insurer`;
+//     default:
+//       return "";
+//   }
+// };
+
+// export default function MainApp({ mode, setMode }) {
+//   const location = useLocation();
+//   const navigate = useNavigate();
+//   const userFromLogin = location.state;
+//   const [user, setUser] = useState(userFromLogin || null);
+//   const role = (user?.role || "customer").toLowerCase();
+//   const { navigation, routes } = RoleConfig[role] || { navigation: [], routes: {} };
+
+//   // --- Clean path extraction
+//   const getCleanedPathname = (pathname) => {
+//     let sub = "";
+//     if (pathname.startsWith("/app")) {
+//       sub = pathname.slice(4);
+//     } else {
+//       sub = pathname;
+//     }
+//     if (sub.startsWith("/")) sub = sub.slice(1);
+//     return sub || "dashboard";
+//   };
+//   const [pathname, setPathname] = useState(() => getCleanedPathname(location.pathname));
+
+//   useEffect(() => {
+//     setPathname(getCleanedPathname(location.pathname));
+//   }, [location.pathname]);
+
+//   // --- Fetch user info if missing
+//   useEffect(() => {
+//     const id = user?.id || userFromLogin?.id;
+//     if (role && id && !user?.name) {
+//       const endpoint = getApiEndpoint(role);
+//       if (endpoint) {
+//         axios
+//           .get(`${endpoint}/${id}`)
+//           .then((res) => {
+//             setUser({ ...res.data, role });
+//           })
+//           .catch((error) => {
+//             console.error("Error fetching user data:", error);
+//             setUser({ id, role });
+//           });
+//       }
+//     }
+//   }, [role, user?.id, userFromLogin]);
+
+//   // --- Router handler
+//   const router = {
+//     pathname,
+//     searchParams: new URLSearchParams(),
+//     navigate: (path) => {
+//       const segment = path.replace(/^\/+/, "");
+//       setPathname(segment);
+//       navigate(`/app/${segment}`, { state: user });
+//     },
+//   };
+
+//   // --- Determine which component to render
+//   const ComponentToRender = routes[pathname] || (() => <div>Not Found</div>);
+
+//   const handleLogout = () => {
+//     navigate("/", { replace: true });
+//   };
+
+//   // --- Theme setup
+//   const mainTheme = createTheme({
+//     palette: {
+//       mode,
+//       background: {
+//         default: mode === "dark" ? "#121212" : "#f5f5f5",
+//         paper: mode === "dark" ? "#1d1d1d" : "#fff",
+//       },
+//       primary: {
+//         main: mode === "dark" ? "#90caf9" : "#1565c0",
+//       },
+//     },
+//   });
+
+//   const theme = useTheme();
+//   const headerGradient =
+//     mode === "dark"
+//       ? `linear-gradient(90deg, ${theme.palette.primary.dark} 0%, ${
+//           theme.palette.secondary?.dark || "#343b47"
+//         } 100%)`
+//       : `linear-gradient(90deg, ${theme.palette.primary.light} 0%, ${
+//           theme.palette.secondary?.light || "#e3f2fd"
+//         } 100%)`;
+
+//   return (
+//     <AppProvider navigation={navigation} router={router} theme={mainTheme}>
+//       <DashboardLayout
+//         slots={{
+//           appTitle: () => (
+//             <AppTitle user={user} onLogout={handleLogout} mode={mode} setMode={setMode} />
+//           ),
+//         }}
+//         sx={{
+//           ".MuiAppBar-root": {
+//             background: headerGradient,
+//           },
+//           "& .MuiStack-root > .MuiStack-root": {
+//             width: "100%",
+//           },
+//           "& .MuiToolbar-root": {
+//             background: "transparent !important",
+//             minHeight: 64,
+//           },
+//           "& .MuiToolbar-root .MuiIconButton-root": {
+//             background: "transparent !important",
+//             "&:hover": { bgcolor: "#23272f" },
+//             borderRadius: "50%",
+//             width: 40,
+//             height: 40,
+//           },
+//           // --- Styles for the Sidenav (Drawer) with the violet color ---
+//           "& .MuiDrawer-paper": {
+//             backgroundColor: "#673AB7", // Violet color
+//             color: "#fff",
+//             boxShadow: "2px 0 6px rgba(0, 0, 0, 0.1)",
+//           },
+//           // Styles for list items
+//           "& .MuiListItemButton-root": {
+//             "&:hover": {
+//               backgroundColor: "rgba(255, 255, 255, 0.1)",
+//             },
+//           },
+//           // Styles for the active (selected) navigation item
+//           "& .Mui-selected": {
+//             backgroundColor: "#7B1FA2", // A slightly darker violet for the selected item
+//             color: "#fff",
+//             "& .MuiListItemIcon-root, & .MuiListItemText-primary": {
+//               color: "#fff",
+//             },
+//             "&:hover": {
+//               backgroundColor: "#7B1FA2",
+//             },
+//           },
+//           // Ensure icons and text have the correct color
+//           "& .MuiListItemText-primary, & .MuiListItemIcon-root": {
+//             color: "#fff",
+//           },
+//         }}
+//       >
+//         <ComponentToRender customerId={user?.id} pathname={pathname} user={user} />
+//       </DashboardLayout>
+//     </AppProvider>
+//   );
+// }
+
+
+
+// // src/components/MainApp.jsx
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";

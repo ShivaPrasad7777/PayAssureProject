@@ -44,6 +44,8 @@ public interface CustomerService {
 	 void recordAutopayPayment(String customerId, String subscriptionId, String razorpayOrderId,
 			String razorpayPaymentId, List<String> policyIds, List<String> policyNames);
 
+	 List<Invoice> getInvoiceHistory(String customerId);
+
 
 
 }

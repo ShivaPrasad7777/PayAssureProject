@@ -9,4 +9,5 @@ public interface InvoiceRepository extends MongoRepository<Invoice, String> {
     List<Invoice> findByCustomerIdAndStatus(String customerId, String status);
     Optional<Invoice> findByRazorpayOrderId(String razorpayOrderId);
 	List<Invoice> findByCustomerIdAndStatusIn(String customerId, List<String> statuses);
+	List<Invoice> findByCustomerIdOrderByCreatedAtDesc(String customerId);
 }

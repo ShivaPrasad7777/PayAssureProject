@@ -253,6 +253,16 @@ public class CustomerController {
                     .body(Map.of("message", "Internal server error"));
         }
     }
+    
+ // Add import org.springframework.data.domain.Page;
+ // Add import org.springframework.data.domain.Pageable;
+
+ @GetMapping("/invoices/history/{customerId}")
+ public ResponseEntity<List<Invoice>> getInvoiceHistory(@PathVariable String customerId) {
+     List<Invoice> invoices = customerService.getInvoiceHistory(customerId);
+     return ResponseEntity.ok(invoices);
+ }
+
 
  }
 

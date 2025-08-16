@@ -744,6 +744,15 @@ public class CustomerServiceImpl implements CustomerService {
 			log.error("Error sending payment status notification", e);
 		}
 	}
+	
+	@Override
+	public List<Invoice> getInvoiceHistory(String customerId) {
+	    // Validate customer existence if needed
+
+	    // Fetch invoices by customer id using repository
+	    return invoiceRepository.findByCustomerIdOrderByCreatedAtDesc(customerId);
+	}
+
 
 }
 

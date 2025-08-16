@@ -21,6 +21,7 @@ import PaymentsIcon from "@mui/icons-material/Payments"; // More specific for pa
 import CreditCardIcon from "@mui/icons-material/CreditCard"; // For autopay
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined"; // For send mail
 import MoneyIcon from "@mui/icons-material/Money"; // For cash payments
+import CustomerInvoiceHistory from "../customers/CustomerInvoiceHistory";
 
 const RoleConfig = {
   admin: {
@@ -53,12 +54,14 @@ const RoleConfig = {
     navigation: [
       { segment: "dashboard", title: "Dashboard", icon: <DashboardIcon /> },
       { segment: "invoice-list", title: "Unpaid Invoices", icon: <ReceiptIcon /> },
-      { segment: "payment-history", title: "My Payments", icon: <PaymentsIcon /> }, // Changed icon & title
+      { segment: "invoice-history", title: "Invoice History", icon: <PaymentsIcon /> },
+      { segment: "payment-history", title: "Payment History", icon: <PaymentsIcon /> }, // Changed icon & title
       { segment: "autopay", title: "Autopay Settings", icon: <CreditCardIcon /> }, // Changed icon & title
     ],
     routes: {
       dashboard: CustomerDashboard,
       "invoice-list": CustomerInvoiceList,
+      "invoice-history" :CustomerInvoiceHistory,
       "payment-history": CustomerPaymentHistory,
       "autopay": CustomerPolicies,
     },
