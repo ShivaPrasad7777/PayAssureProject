@@ -681,3 +681,86 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 
 !ENTRY org.eclipse.lsp4e 1 0 2025-08-16 11:32:52.563
 !MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 09:34:57.731
+!MESSAGE [Info]	[fetchCompletions] Request 3fed681c-1b23-40dc-b361-2c66c34985e8 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 1060.2294000089169ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 09:34:57.875
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 09:35:26.465
+!MESSAGE [Info]	[fetchCompletions] Request c1b57ec5-8775-46f1-be99-faa47840aea4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 368.8662000000477ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 09:35:26.569
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 09:51:18.517
+!MESSAGE [Info]	[fetchCompletions] Request 948786b2-02ef-4237-82f7-7074a40a85cf at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 941.9291999936104ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 09:51:18.579
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 12:19:43.734
+!MESSAGE [Info]	[fetchCompletions] Request a9becf34-fc8a-4134-8526-f845c149fda0 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 1368.9997999966145ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 12:19:43.736
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 12:19:47.788
+!MESSAGE [Info]	[fetchCompletions] Request 4994a6c0-962e-4557-9285-72a57badad20 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 429.2524000108242ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 12:19:47.864
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 12:19:48.196
+!MESSAGE [Info]	[fetchCompletions] Request 653085ee-ba50-4d1e-8565-0cd776da3427 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 289.65139999985695ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 12:19:48.235
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 12:20:38.902
+!MESSAGE [Info]	[fetchCompletions] Request e1f55e7d-4951-4dc7-a43e-e3fe8824cb2c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 533.9290000200272ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 12:20:38.980
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 12:20:39.613
+!MESSAGE [Info]	[fetchCompletions] Request 739fd9f7-5ce4-436c-99a1-f4cffd527f4c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 512.343800008297ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 12:20:39.881
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 12:20:40.461
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 12:20:40.462
+!MESSAGE [Info]	[fetchCompletions] Request fe9a6363-6630-414b-97f2-946968edd081 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 536.773600012064ms
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-17 12:25:43.300
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:425)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 12:25:52.872
+!MESSAGE [Info]	[fetchCompletions] Request ae3b759c-8530-4399-a377-3daccc9d767e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 904.8783999979496ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 12:25:52.969
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 12:25:53.276
+!MESSAGE [Info]	[fetchCompletions] Request 0bb358af-1320-406a-a70a-39ec41271388 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 288.353100001812ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-17 12:25:53.332
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]

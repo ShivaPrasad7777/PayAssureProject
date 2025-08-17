@@ -47,8 +47,6 @@ public class OtpService {
             customer.getOtpExpiry() != null &&
             customer.getOtpExpiry().after(new Date()) &&
             customer.getOtp().equals(otp)) {
-            // OTP correct and not expired
-            // You might want to clear OTP after use:
             customer.setOtp(null);
             customer.setOtpExpiry(null);
             customerRepository.save(customer);

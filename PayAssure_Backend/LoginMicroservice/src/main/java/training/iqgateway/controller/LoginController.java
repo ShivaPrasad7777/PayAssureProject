@@ -57,8 +57,7 @@ public class LoginController {
                     "customer", 
                     customer.getCreatedAt()
                 );
-                // Add customer-specific fields if needed
-                System.out.println("Testing the git");
+         
             } else {
                 return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
             }
@@ -83,8 +82,6 @@ public class LoginController {
             Customer customer = customerRepository.findByEmail(email);
             customer.setPassword(newPassword); // Hash password in real apps!
             customerRepository.save(customer);
-            System.out.println("Hi");
-            System.out.println("hi");
             return ResponseEntity.ok("Password reset successful");
         } else {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Invalid OTP or expired");
