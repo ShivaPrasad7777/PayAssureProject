@@ -128,7 +128,7 @@ export default function Login() {
       setMode("reset");
     } catch (err) {
       setError(
-        err.response?.data?.message || "Failed to send OTP. Please try again."
+        err.response?.data?.message || "Mail is not registered, Failed to send OTP."
       );
     }
     setLoading(false);

@@ -10,6 +10,8 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="totalAmount"/>
+			<item value="createInvoice"/>
 			<item value="PaymentLink"/>
 			<item value="link"/>
 			<item value="linl"/>
@@ -23,8 +25,6 @@
 			<item value="sendPaymentStatusNotification"/>
 			<item value="sendPay"/>
 			<item value="sendPayme"/>
-			<item value="sendAutopayNo"/>
-			<item value="send"/>
 		</list>
 		<list key="replacehistory">
 		</list>

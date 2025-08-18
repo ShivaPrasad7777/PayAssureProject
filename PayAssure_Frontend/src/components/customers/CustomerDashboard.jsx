@@ -31,16 +31,16 @@ import WarningAmberIcon from "@mui/icons-material/WarningAmber";
 const API_BASE_URL = "http://localhost:9999/api/customer";
 
 const IMAGE_URLS = {
-  home: "https://picsum.photos/id/237/400/200",
-  auto: "https://picsum.photos/id/111/400/200",
+  home: "https://media.istockphoto.com/id/998987128/photo/business-man-hand-hold-the-house-model-saving-small-house.jpg?s=612x612&w=0&k=20&c=rVq_U_j2tsvnC3GlvW2Hn0yRVRu3aAGIN18Q3GCr868=",
+  auto: "https://media.istockphoto.com/id/1073427244/photo/red-umbrella-surrounded-by-black-umbrellas-car-insurance-concept.jpg?s=612x612&w=0&k=20&c=ed_2YnZ79zJHqZWyjCLUuf4GC30sVStirnrM7ZyV9bw=",
   business: "https://t3.ftcdn.net/jpg/03/17/69/76/240_F_317697675_Ssv013BM6gzkNm6kbKW5lrGhRGBNym3G.jpg",
   health: "https://t4.ftcdn.net/jpg/06/08/10/93/240_F_608109395_ff7tEORZ5k2WFdW4OChW76jwlpriHbfN.jpg",
   travel: "https://t3.ftcdn.net/jpg/02/50/93/16/240_F_250931621_TL9tVSMkd6NRPlTiLVRw5DJhUzvtvWyF.jpg",
-  life: "https://picsum.photos/id/1025/400/200",
+  life: "https://media.istockphoto.com/id/2022259946/photo/family-insurance-and-safety-concept-wooden-figure-with-umbrella-icon-for-protecting-and-care.jpg?s=612x612&w=0&k=20&c=6Twlragwss_ugBTD32Kse0XlVLR9v6VMnVgFM1X0ug4=",
   default: "https://picsum.photos/400/200?random=1",
-  summaryPolicies: "https://imgs.search.brave.com/kb8jKp7rpMx0bJzmC0e1lFZLJ2F_WP6F_bQA-4ivaeg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA1LzI2Lzg5LzA2/LzM2MF9GXzUyNjg5/MDYwMV83QTB5cEZq/SnR6NXFTdVdXQ0pI/NWtib29TSVVOTjRG/Ri5qcGc",
-  summaryPayments: "https://imgs.search.brave.com/SEf7CfO_yim-JHPf-K8rFlVUC1M-aVYewoRmcGQHOys/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTcy/MjY3Mzk4L3Bob3Rv/L21vbmV5LWJhZy5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/TDg1QktiSkFpbk43/TGY5b0NsbEFNZ2NO/clAyWEphTWJPdC02/eE1jT0V3ND0",
-  summaryInvoices: "https://imgs.search.brave.com/ma-9fDkYIKg5bPJJwkn0mfq2arU4A_049ve_dBSMU08/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1LzQ0LzgyLzM5/LzM2MF9GXzU0NDgy/MzkxOF9SNTZSYWJ2/ZFlGU1A4ZVRHWGMx/SjhwRE10WDZmQ0N6/Qi5qcGc",
+  summaryPolicies: "https://media.istockphoto.com/id/1224215102/photo/risk-life-health-insurance-protection-umbrella-family.jpg?s=612x612&w=0&k=20&c=YoBa5cOpk8veYT_fNp-_173quyAVTRpYffqr_56Qhrg=",
+  summaryPayments: "https://media.istockphoto.com/id/1158779061/photo/mobile-payment-with-wallet-app-and-wireless-nfc-technology-man-paying-and-shopping-with.jpg?s=612x612&w=0&k=20&c=1W7jYgQEXQ_fdcTiWr9JYv-cyou9VncnU8-vYyPYsxg=",
+  summaryInvoices: "https://imgs.search.brave.com/dCe1Pilh4v_ses5GAC0CxhYCq8_RNJBSuBbBPbVu6GY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzEyLzY3LzUxLzkz/LzM2MF9GXzEyNjc1/MTkzMjZfTDR6cldk/RmxjaXJabk12dHV2/aUlzWW1pRjhHMHFv/ZmMuanBn",
 };
 
 const SUMMARY_CARD_WIDTH = 340;
