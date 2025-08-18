@@ -6,26 +6,30 @@
   "email": "pattedashivaprasad@gmail.com",
   "phone": "+919390679463",
   "address": "123 Gandhi Nagar, Ahmedabad",
-  "password": "321",
-  "autoPayEnabled": true,
+  "password": "Shiva@1401",
+  "autoPayEnabled": false,
   "policyIds": [
     "687f2a890ad9a21eee3bb482",
-    "687f2a890ad9a21eee3bb483"
+    "687f2a890ad9a21eee3bb483",
+    "688211ddf8685eb14f5e7d20",
+    "6892e76c9514bbe95ac7e08d",
+    "6892e76c9514bbe95ac7e08e",
+    "6892e76c9514bbe95ac7e08f"
   ],
   "paymentHistory": [
     {
       "policyId": "687f2a890ad9a21eee3bb482",
-      "status": "paidByAutopayActive",
+      "status": "paidByAutopayInActive",
       "lastPaidDate": {
-        "$date": "2025-08-08T07:08:55.768Z"
+        "$date": "2025-08-14T10:14:29.634Z"
       },
       "validUpto": {
-        "$date": "2025-05-08T07:08:55.768Z"
+        "$date": "2025-09-14T10:14:29.634Z"
       }
     },
     {
       "policyId": "687f2a890ad9a21eee3bb483",
-      "status": "paidByAutopayActive",
+      "status": "paidByAutopayInActive",
       "lastPaidDate": {
         "$date": "2025-08-06T06:11:54.769Z"
       },
@@ -35,7 +39,7 @@
     },
     {
       "policyId": "688211ddf8685eb14f5e7d20",
-      "status": "pending invoice",
+      "status": "paidByAutopayInActive",
       "validUpto": {
         "$date": "2025-09-30T00:00:00.000Z"
       }
@@ -44,7 +48,7 @@
   "createdAt": {
     "$date": "2025-07-22T09:00:00.000Z"
   },
-  "_class": "com.example.model.Customer"
+  "_class": "training.iqgateway.entity.Customer"
 },
 {
   "_id": {
@@ -62,33 +66,36 @@
   "paymentHistory": [
     {
       "policyId": "687f2a890ad9a21eee3bb482",
-      "status": "paidByCash",
+      "status": "paid",
       "lastPaidDate": {
-        "$date": "2025-08-09T02:53:41.031Z"
+        "$date": "2025-08-15T15:04:35.808Z"
       },
       "validUpto": {
-        "$date": "2026-02-09T02:53:41.031Z"
-      }
+        "$date": "2025-09-15T15:04:35.808Z"
+      },
+      "razorpaySubscriptionId": ""
     },
     {
       "policyId": "688211ddf8685eb14f5e7d20",
       "status": "pending invoice",
       "validUpto": {
         "$date": "2025-09-30T00:00:00.000Z"
-      }
+      },
+      "razorpaySubscriptionId": ""
     },
     {
       "policyId": "687f2a890ad9a21eee3bb483",
       "status": "pending invoice",
       "validUpto": {
         "$date": "2025-09-30T00:00:00.000Z"
-      }
+      },
+      "razorpaySubscriptionId": ""
     }
   ],
   "createdAt": {
     "$date": "2025-07-22T10:00:00.000Z"
   },
-  "_class": "com.example.model.Customer"
+  "_class": "training.iqgateway.entity.Customer"
 },
 {
   "_id": {
@@ -147,21 +154,19 @@
   "paymentHistory": [
     {
       "policyId": "687f2a890ad9a21eee3bb482",
-      "status": "paidByAutopayInActive",
+      "status": "pending invoice",
       "lastPaidDate": {
         "$date": "2025-08-04T06:40:22.025Z"
       },
       "validUpto": {
-        "$date": "2025-08-10T13:44:26.843Z"
-      },
-      "razorpaySubscriptionId": "sub_R1CXneyxxGnHcS"
+        "$date": "2025-09-18T14:58:55.465Z"
+      }
     }
   ],
   "createdAt": {
     "$date": "2025-07-25T00:00:00.000Z"
   },
-  "razorpayCustomerId": "cust_QylKtQSHwpHiBf",
-  "_class": "training.iqgateway.entity.Customer"
+  "_class": "com.example.model.Customer"
 },
 {
   "_id": {
@@ -171,7 +176,7 @@
   "email": "pattedashivaprasad01@gmail.com",
   "phone": "5551234567",
   "address": "321 Pine Road, Villageton",
-  "password": "121212",
+  "password": "Shiva@1401",
   "autoPayEnabled": false,
   "policyIds": [
     "687f2a890ad9a21eee3bb483",
@@ -187,8 +192,7 @@
       },
       "validUpto": {
         "$date": "2025-09-09T03:24:41.851Z"
-      },
-      "razorpaySubscriptionId": "sub_R3KRNoOrrOWJQ3"
+      }
     },
     {
       "policyId": "687f2a890ad9a21eee3bb482",
@@ -198,26 +202,23 @@
       },
       "validUpto": {
         "$date": "2025-09-09T03:24:41.851Z"
-      },
-      "razorpaySubscriptionId": "sub_R3KaAnZmxY0gN5"
+      }
     },
     {
       "policyId": "688211ddf8685eb14f5e7d20",
-      "status": "paidByCash",
+      "status": "pending invoice",
       "lastPaidDate": {
         "$date": "2025-08-04T07:13:53.388Z"
       },
       "validUpto": {
-        "$date": "2025-04-02T13:44:26.843Z"
-      },
-      "razorpaySubscriptionId": ""
+        "$date": "2025-09-16T06:27:03.464Z"
+      }
     }
   ],
   "createdAt": {
     "$date": "2025-07-25T00:00:00.000Z"
   },
-  "razorpayCustomerId": "cust_R1vedRIblqmCT7",
-  "_class": "training.iqgateway.entity.Customer"
+  "_class": "com.example.model.Customer"
 },
 {
   "_id": {
@@ -227,7 +228,7 @@
   "email": "r325143@gmail.com",
   "phone": "7993850090",
   "address": "654 Maple Lane, Suburbia",
-  "password": "123",
+  "password": "Shiva@1401",
   "autoPayEnabled": false,
   "policyIds": [
     "688211ddf8685eb14f5e7d20"
@@ -237,10 +238,10 @@
       "policyId": "688211ddf8685eb14f5e7d20",
       "status": "paidByCash",
       "lastPaidDate": {
-        "$date": "2025-08-04T07:11:09.998Z"
+        "$date": "2025-08-17T13:43:34.755Z"
       },
       "validUpto": {
-        "$date": "2025-08-07T13:44:26.843Z"
+        "$date": "2025-09-17T13:43:34.755Z"
       }
     }
   ],
@@ -289,4 +290,455 @@
     "$date": "2025-07-25T00:00:00.000Z"
   },
   "_class": "com.example.model.Customer"
+},
+{
+  "_id": {
+    "$oid": "68a2294a9f2f25ac846f2fbc"
+  },
+  "_class": "training.iqgateway.entity.Customer",
+  "name": "Anand Kumar",
+  "email": "anandkumar@example.com",
+  "phone": "+919800000001",
+  "address": "123, MG Road, Bangalore",
+  "password": "anand123!A",
+  "autoPayEnabled": false,
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "paymentHistory": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "status": "unpaid",
+      "lastPaidDate": {
+        "$date": "2025-07-01T00:00:00.000Z"
+      },
+      "validUpto": {
+        "$date": "2025-07-31T00:00:00.000Z"
+      },
+      "razorpaySubscriptionId": "sub_AnandKumar_001"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-10T00:00:00.000Z"
+  },
+  "razorpayCustomerId": "cust_AnandKumar001"
+},
+{
+  "_id": {
+    "$oid": "68a2294a9f2f25ac846f2fbd"
+  },
+  "_class": "training.iqgateway.entity.Customer",
+  "name": "Priya Reddy",
+  "email": "priyareddy@example.com",
+  "phone": "+919800000002",
+  "address": "45, Anna Nagar, Chennai",
+  "password": "priyaR!2025",
+  "autoPayEnabled": true,
+  "policyIds": [
+    "687f2a890ad9a21eee3bb483"
+  ],
+  "paymentHistory": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb483",
+      "status": "unpaid",
+      "lastPaidDate": {
+        "$date": "2025-07-15T00:00:00.000Z"
+      },
+      "validUpto": {
+        "$date": "2025-08-01T00:00:00.000Z"
+      },
+      "razorpaySubscriptionId": "sub_PriyaReddy_002"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-11T00:00:00.000Z"
+  },
+  "razorpayCustomerId": "cust_PriyaReddy002"
+},
+{
+  "_id": {
+    "$oid": "68a2294a9f2f25ac846f2fbe"
+  },
+  "_class": "training.iqgateway.entity.Customer",
+  "name": "Raghavendra Iyer",
+  "email": "raghavendra.iyer@example.com",
+  "phone": "+919800000003",
+  "address": "78, T Nagar, Chennai",
+  "password": "Raghav2025!",
+  "autoPayEnabled": false,
+  "policyIds": [
+    "688211ddf8685eb14f5e7d20"
+  ],
+  "paymentHistory": [
+    {
+      "policyId": "688211ddf8685eb14f5e7d20",
+      "status": "unpaid",
+      "lastPaidDate": {
+        "$date": "2025-07-05T00:00:00.000Z"
+      },
+      "validUpto": {
+        "$date": "2025-07-30T00:00:00.000Z"
+      },
+      "razorpaySubscriptionId": "sub_RaghavendraIyer_003"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-12T00:00:00.000Z"
+  },
+  "razorpayCustomerId": "cust_RaghavendraIyer003"
+},
+{
+  "_id": {
+    "$oid": "68a2294a9f2f25ac846f2fbf"
+  },
+  "_class": "training.iqgateway.entity.Customer",
+  "name": "Deepa Nair",
+  "email": "deepa.nair@example.com",
+  "phone": "+919800000004",
+  "address": "56, Kochi",
+  "password": "DeepaN@2025",
+  "autoPayEnabled": true,
+  "policyIds": [
+    "6892e76c9514bbe95ac7e08d"
+  ],
+  "paymentHistory": [
+    {
+      "policyId": "6892e76c9514bbe95ac7e08d",
+      "status": "unpaid",
+      "lastPaidDate": {
+        "$date": "2025-07-10T00:00:00.000Z"
+      },
+      "validUpto": {
+        "$date": "2025-07-31T00:00:00.000Z"
+      },
+      "razorpaySubscriptionId": "sub_DeepaNair_004"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-13T00:00:00.000Z"
+  },
+  "razorpayCustomerId": "cust_DeepaNair004"
+},
+{
+  "_id": {
+    "$oid": "68a2294a9f2f25ac846f2fc0"
+  },
+  "_class": "training.iqgateway.entity.Customer",
+  "name": "Vishal Menon",
+  "email": "vishalmenon@example.com",
+  "phone": "+919800000005",
+  "address": "34, Trivandrum",
+  "password": "VishalM!25",
+  "autoPayEnabled": false,
+  "policyIds": [
+    "6892e76c9514bbe95ac7e08e"
+  ],
+  "paymentHistory": [
+    {
+      "policyId": "6892e76c9514bbe95ac7e08e",
+      "status": "unpaid",
+      "lastPaidDate": {
+        "$date": "2025-07-12T00:00:00.000Z"
+      },
+      "validUpto": {
+        "$date": "2025-08-02T00:00:00.000Z"
+      },
+      "razorpaySubscriptionId": "sub_VishalMenon_005"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-14T00:00:00.000Z"
+  },
+  "razorpayCustomerId": "cust_VishalMenon005"
+},
+{
+  "_id": {
+    "$oid": "68a2294a9f2f25ac846f2fc1"
+  },
+  "_class": "training.iqgateway.entity.Customer",
+  "name": "Lakshmi Subramanian",
+  "email": "lakshmi.subra@example.com",
+  "phone": "+919800000006",
+  "address": "22, Coimbatore",
+  "password": "LakshmiS@2025",
+  "autoPayEnabled": true,
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482",
+    "687f2a890ad9a21eee3bb483"
+  ],
+  "paymentHistory": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "status": "unpaid",
+      "lastPaidDate": {
+        "$date": "2025-07-03T00:00:00.000Z"
+      },
+      "validUpto": {
+        "$date": "2025-07-28T00:00:00.000Z"
+      },
+      "razorpaySubscriptionId": "sub_Lakshmi_001"
+    },
+    {
+      "policyId": "687f2a890ad9a21eee3bb483",
+      "status": "unpaid",
+      "lastPaidDate": {
+        "$date": "2025-07-04T00:00:00.000Z"
+      },
+      "validUpto": {
+        "$date": "2025-07-29T00:00:00.000Z"
+      },
+      "razorpaySubscriptionId": "sub_Lakshmi_002"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-15T00:00:00.000Z"
+  },
+  "razorpayCustomerId": "cust_LakshmiSubramanian006"
+},
+{
+  "_id": {
+    "$oid": "68a2294a9f2f25ac846f2fc2"
+  },
+  "_class": "training.iqgateway.entity.Customer",
+  "name": "Rajeshwari Krishnan",
+  "email": "rajeshwari.k@example.com",
+  "phone": "+919800000007",
+  "address": "18, Mysore",
+  "password": "Rajesh1025!",
+  "autoPayEnabled": false,
+  "policyIds": [
+    "688211ddf8685eb14f5e7d20",
+    "6892e76c9514bbe95ac7e08d"
+  ],
+  "paymentHistory": [
+    {
+      "policyId": "688211ddf8685eb14f5e7d20",
+      "status": "unpaid",
+      "lastPaidDate": {
+        "$date": "2025-07-11T00:00:00.000Z"
+      },
+      "validUpto": {
+        "$date": "2025-07-31T00:00:00.000Z"
+      },
+      "razorpaySubscriptionId": "sub_Rajeshwari_001"
+    },
+    {
+      "policyId": "6892e76c9514bbe95ac7e08d",
+      "status": "unpaid",
+      "lastPaidDate": {
+        "$date": "2025-07-10T00:00:00.000Z"
+      },
+      "validUpto": {
+        "$date": "2025-07-30T00:00:00.000Z"
+      },
+      "razorpaySubscriptionId": "sub_Rajeshwari_002"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-16T00:00:00.000Z"
+  },
+  "razorpayCustomerId": "cust_Rajeshwari007"
+},
+{
+  "_id": {
+    "$oid": "68a2294a9f2f25ac846f2fc3"
+  },
+  "_class": "training.iqgateway.entity.Customer",
+  "name": "Harish Kumar",
+  "email": "harishk@example.com",
+  "phone": "+919800000008",
+  "address": "89, Bangalore",
+  "password": "HarishK2025!",
+  "autoPayEnabled": true,
+  "policyIds": [
+    "6892e76c9514bbe95ac7e08f"
+  ],
+  "paymentHistory": [
+    {
+      "policyId": "6892e76c9514bbe95ac7e08f",
+      "status": "unpaid",
+      "lastPaidDate": {
+        "$date": "2025-07-02T00:00:00.000Z"
+      },
+      "validUpto": {
+        "$date": "2025-07-29T00:00:00.000Z"
+      },
+      "razorpaySubscriptionId": "sub_Harish_001"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-17T00:00:00.000Z"
+  },
+  "razorpayCustomerId": "cust_HarishK008"
+},
+{
+  "_id": {
+    "$oid": "68a2294a9f2f25ac846f2fc4"
+  },
+  "_class": "training.iqgateway.entity.Customer",
+  "name": "Anitha Menon",
+  "email": "anitha.menon@example.com",
+  "phone": "+919800000009",
+  "address": "25, Kochi",
+  "password": "AnithaM123!",
+  "autoPayEnabled": false,
+  "policyIds": [
+    "687f2a890ad9a21eee3bb482"
+  ],
+  "paymentHistory": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb482",
+      "status": "unpaid",
+      "lastPaidDate": {
+        "$date": "2025-07-06T00:00:00.000Z"
+      },
+      "validUpto": {
+        "$date": "2025-07-31T00:00:00.000Z"
+      },
+      "razorpaySubscriptionId": "sub_Anitha_001"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-18T00:00:00.000Z"
+  },
+  "razorpayCustomerId": "cust_AnithaM009"
+},
+{
+  "_id": {
+    "$oid": "68a2294a9f2f25ac846f2fc5"
+  },
+  "_class": "training.iqgateway.entity.Customer",
+  "name": "Suresh Rao",
+  "email": "suresh.rao@example.com",
+  "phone": "+919800000010",
+  "address": "14, Hyderabad",
+  "password": "SureshR2025*",
+  "autoPayEnabled": true,
+  "policyIds": [
+    "687f2a890ad9a21eee3bb483"
+  ],
+  "paymentHistory": [
+    {
+      "policyId": "687f2a890ad9a21eee3bb483",
+      "status": "unpaid",
+      "lastPaidDate": {
+        "$date": "2025-07-07T00:00:00.000Z"
+      },
+      "validUpto": {
+        "$date": "2025-07-30T00:00:00.000Z"
+      },
+      "razorpaySubscriptionId": "sub_Suresh_001"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-19T00:00:00.000Z"
+  },
+  "razorpayCustomerId": "cust_SureshR010"
+},
+{
+  "_id": {
+    "$oid": "68a2294a9f2f25ac846f2fc6"
+  },
+  "_class": "training.iqgateway.entity.Customer",
+  "name": "Meena Iyer",
+  "email": "meena.iyer@example.com",
+  "phone": "+919800000011",
+  "address": "40, Chennai",
+  "password": "MeenaI2025!",
+  "autoPayEnabled": false,
+  "policyIds": [
+    "6892e76c9514bbe95ac7e08e"
+  ],
+  "paymentHistory": [
+    {
+      "policyId": "6892e76c9514bbe95ac7e08e",
+      "status": "unpaid",
+      "lastPaidDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "validUpto": {
+        "$date": "2025-07-31T00:00:00.000Z"
+      },
+      "razorpaySubscriptionId": "sub_Meena_001"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-20T00:00:00.000Z"
+  },
+  "razorpayCustomerId": "cust_MeenaI011"
+},
+{
+  "_id": {
+    "$oid": "68a2294a9f2f25ac846f2fc7"
+  },
+  "_class": "training.iqgateway.entity.Customer",
+  "name": "Venkatesh Rao",
+  "email": "venkatesh.rao@gmail.com",
+  "phone": "+919800000012",
+  "address": "60, Hyderabad",
+  "password": "VenkateshR2025#",
+  "autoPayEnabled": true,
+  "policyIds": [
+    "688211ddf8685eb14f5e7d20",
+    "6892e76c9514bbe95ac7e08d"
+  ],
+  "paymentHistory": [
+    {
+      "policyId": "688211ddf8685eb14f5e7d20",
+      "status": "unpaid",
+      "lastPaidDate": {
+        "$date": "2025-07-09T00:00:00.000Z"
+      },
+      "validUpto": {
+        "$date": "2025-08-20T00:00:00.000Z"
+      },
+      "razorpaySubscriptionId": "sub_Venkatesh_001"
+    },
+    {
+      "policyId": "6892e76c9514bbe95ac7e08d",
+      "status": "unpaid",
+      "lastPaidDate": {
+        "$date": "2025-07-08T00:00:00.000Z"
+      },
+      "validUpto": {
+        "$date": "2025-07-30T00:00:00.000Z"
+      },
+      "razorpaySubscriptionId": "sub_Venkatesh_002"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-21T00:00:00.000Z"
+  },
+  "razorpayCustomerId": "cust_VenkateshR012"
+},
+{
+  "_id": {
+    "$oid": "68a2294a9f2f25ac846f2fc8"
+  },
+  "name": "Bhavana Reddy",
+  "email": "shivv14012002@gmail.com",
+  "phone": "+919800000013",
+  "address": "50, Chennai",
+  "password": "BhavanaR2025!",
+  "autoPayEnabled": false,
+  "policyIds": [
+    "6892e76c9514bbe95ac7e08f"
+  ],
+  "paymentHistory": [
+    {
+      "policyId": "6892e76c9514bbe95ac7e08f",
+      "status": "paid",
+      "lastPaidDate": {
+        "$date": "2025-08-17T19:17:22.347Z"
+      },
+      "validUpto": {
+        "$date": "2025-09-17T19:17:22.347Z"
+      },
+      "razorpaySubscriptionId": ""
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-22T00:00:00.000Z"
+  },
+  "_class": "training.iqgateway.entity.Customer"
 }]
